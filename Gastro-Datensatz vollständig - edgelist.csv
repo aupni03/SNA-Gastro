@@ -1,0 +1,1658 @@
+from,to,relationship,time,end,,
+janhar,Rjan,3,2022,x,,janhar Rjan 3
+sveelv,janhar,2,2007,2014,,sveelv janhar 2
+janhar,Rgästehausklauserfort,3,2006,2007,,janhar Rgästehausklauserfort 3
+janhar,Raqua,3,2007,2014,,janhar Raqua 3
+janhar,Ratelier,3,2014,2021,,janhar Ratelier 3
+klaerf,janhar,2,2006,2007,,klaerf janhar 2
+harwoh,Rschwarzwaldstube,3,1980,2017,,harwoh Rschwarzwaldstube 3
+tormic,Rschwarzwaldstube,3,2017,x,,tormic Rschwarzwaldstube 3
+Rtantris,harwoh,4,1977,1978,,Rtantris harwoh 4
+eckwit,harwoh,1,1977,1978,,eckwit harwoh 1
+eckwit,Rtantris,3,1971,1978,,eckwit Rtantris 3
+pauboc,eckwit,1,NA,NA,,pauboc eckwit 1
+clalum,Rrestaurantbareiss,3,1992,x,,clalum Rrestaurantbareiss 3
+Rtantris,clalum,4,1987,1987,,Rtantris clalum 4
+heiwin,clalum,1,1987,1987,,heiwin clalum 1
+heiwin,Rtantris,3,1978,1991,,heiwin Rtantris 3
+eckwit,clalum,1,1988,1988,,eckwit clalum 1
+johkin,marmül,1,1994,1998,,johkin marmül 1
+marmül,Rrutz,3,2004,x,,marmül Rrutz 3
+cleram,Rwaldhotelsonnora,3,2011,x,,cleram Rwaldhotelsonnora 3
+cleram,Rwaldhotelsonnora,5,2021,x,,cleram Rwaldhotelsonnora 5
+kevfeh,Rthetablekevinfehling,3,2015,x,,kevfeh Rthetablekevinfehling 3
+kevfeh,Rthetablekevinfehling,5,2015,x,,kevfeh Rthetablekevinfehling 5
+Rschwarzwaldstube,kevfeh,4,2003,2004,,Rschwarzwaldstube kevfeh 4
+harwoh,kevfeh,1,2003,2004,,harwoh kevfeh 1
+chrbau,Rvictorsfinediningbychristianbau,3,1998,x,,chrbau Rvictorsfinediningbychristianbau 3
+chrbau,Rvictorsfinediningbychristianbau,5,1998,x,,chrbau Rvictorsfinediningbychristianbau 5
+harwoh,chrbau,1,1993,1997,,harwoh chrbau 1
+Rschwarzwaldstube,chrbau,4,1993,1997,,Rschwarzwaldstube chrbau 4
+thosch,Rschanzrestaurant,3,2011,x,,thosch Rschanzrestaurant 3
+Rgästehausklauserfort,thosch,4,2003,2005,,Rgästehausklauserfort thosch 4
+klaerf,thosch,1,2003,2005,,klaerf thosch 1
+thosch,Rschanzrestaurant,5,2011,x,,thosch Rschanzrestaurant 5
+Rschwarzwaldstube,thosch,4,1999,2003,,Rschwarzwaldstube thosch 4
+harwoh,thosch,1,1999,2003,,harwoh thosch 1
+thosch,Rwaldhotelsonnora,3,2005,2011,,thosch Rwaldhotelsonnora 3
+helthi,Rwaldhotelsonnora,3,1978,2017,,helthi Rwaldhotelsonnora 3
+helthi,Rwaldhotelsonnora,5,1978,2017,,helthi Rwaldhotelsonnora 5
+thosch,helthi,2,2005,2011,,thosch helthi 2
+chrjür,Rrestaurantüberfahrtchristianjürgens,3,2008,2023,,chrjür Rrestaurantüberfahrtchristianjürgens 3
+benchu,Rtantris,3,2021,x,,benchu Rtantris 3
+Rtantris,chrjür,4,1990,1991,,Rtantris chrjür 4
+eckwit,chrjür,1,1993,1997,,eckwit chrjür 1
+heiwin,chrjür,1,1990,1992,,heiwin chrjür 1
+sveelv,Raqua,3,1998,x,,sveelv Raqua 3
+chrjür,dansch,2,2004,2009,,chrjür dansch 2
+dansch,Rrestaurantüberfahrtchristianjürgens,3,2008,2009,,dansch Rrestaurantüberfahrtchristianjürgens 3
+dansch,Rlajordan,3,2014,x,,dansch Rlajordan 3
+julsto,Rlakeside,3,2020,x,,julsto Rlakeside 3
+julsto,Raloisdallmayrfinedining,6,NA,NA,,julsto Raloisdallmayrfinedining 6
+julsto,Rrestaurantbareiss,3,NA,NA,,julsto Rrestaurantbareiss 3
+clalum,julsto,2,NA,NA,,clalum julsto 2
+julsto,Raqua,6,2012,2014,,julsto Raqua 6
+sveelv,julsto,2,2012,2014,,sveelv julsto 2
+julsto,Ratelier,6,2014,2018,,julsto Ratelier 6
+janhar,julsto,2,2014,2018,,janhar julsto 2
+silnic,bengal,2,2010,NA,,silnic bengal 2
+bengal,Rvotum,3,2021,x,,bengal Rvotum 3
+Rsein,thoben,3,2017,x,,Rsein thoben 3
+Rsein,thoben,5,2017,x,,Rsein thoben 5
+rosost,Raloisdallmayrfinedining,3,2023,x,,rosost Raloisdallmayrfinedining 3
+johkin,rosost,1,2015,2015,,johkin rosost 1
+Rschwarzwaldstube,rosost,4,2019,2021,,Rschwarzwaldstube rosost 4
+rosost,tormic,1,2019,2021,,rosost tormic 1
+fremor,Rcoeurdartichaut,3,2019,x,,fremor Rcoeurdartichaut 3
+fremor,Rcoeurdartichaut,5,2019,x,,fremor Rcoeurdartichaut 5
+fremor,Rvendome ,6,2013,2014,,fremor Rvendome  6
+joawis,fremor,2,2013,2014,,joawis fremor 2
+thokel,Rgourmetrestaurantdichter,3,2018,x,,thokel Rgourmetrestaurantdichter 3
+thokel,Rtantris,6,1994,2000,,thokel Rtantris 6
+hanhaa,thokel,2,1994,2000,,hanhaa thokel 2
+hanhaa,Rtantris,3,1991,2020,,hanhaa Rtantris 3
+eckwit,hanhaa,2,1982,1987,,eckwit hanhaa 2
+nicnus,Rmühle,3,2021,x,,nicnus Rmühle 3
+chrjür,nicnus,2,NA,NA,,chrjür nicnus 2
+nicnus,Rrestaurantüberfahrtchristianjürgens,6,NA,NA,,nicnus Rrestaurantüberfahrtchristianjürgens 6
+yannoa,Rvictorsfinediningbychristianbau,6,NA,NA,,yannoa Rvictorsfinediningbychristianbau 6
+yannoa,Rvendome ,6,NA,NA,,yannoa Rvendome  6
+yannoa,Rgästehausklauserfort,6,NA,NA,,yannoa Rgästehausklauserfort 6
+chrbau,yannoa,2,NA,NA,,chrbau yannoa 2
+klaerf,yannoa,2,NA,NA,,klaerf yannoa 2
+joawis,yannoa,2,NA,NA,,joawis yannoa 2
+yannoa,Rpurs,3,NA,NA,,yannoa Rpurs 3
+chrgrü,Raugust,3,1989,x,,chrgrü Raugust 3
+chrgrü,Raugust,5,1989,x,,chrgrü Raugust 5
+joawis,Rvendome ,3,2000,x,,joawis Rvendome  3
+Rschwarzwaldstube,joawis,4,1980,1983,,Rschwarzwaldstube joawis 4
+harwoh,joawis,1,1980,1983,,harwoh joawis 1
+renfra,Rcodadessertdining,3,2016,x,,renfra Rcodadessertdining 3
+renfra,Rcodadessertdining,5,2016,x,,renfra Rcodadessertdining 5
+joager,Rfacil,6,2006,2015,,joager Rfacil 6
+joager,Rfacil,3,2015,x,,joager Rfacil 3
+sebfra,Rhorvath,3,2010,x,,sebfra Rhorvath 3
+sebfra,Rhorvath,5,2014,x,,sebfra Rhorvath 5
+retbrä,Rlorenzadlonesszimmer,3,2022,x,,retbrä Rlorenzadlonesszimmer 3
+timrau,Rtimraue,5,2010,x,,timrau Rtimraue 5
+timrau,Rtimraue,3,2010,x,,timrau Rtimraue 3
+manulr,Röschnoir,3,2019,x,,manulr Röschnoir 3
+tormic,manulr,2,2018,2019,,tormic manulr 2
+manulr,Rschwarzwaldstube,6,2018,2019,,manulr Rschwarzwaldstube 6
+Rhaerlin,manulr,4,2016,2018,,Rhaerlin manulr 4
+chrrüf,manulr,1,2016,2018,,chrrüf manulr 1
+jocbus,Rgustav,3,2015,x,,jocbus Rgustav 3
+andkro,jocbus,2,2011,2015,,andkro jocbus 2
+andkro,Rlafleur,3,2015,x,,andkro Rlafleur 3
+dirlut,Rmeiereidirkluther,3,2006,x,,dirlut Rmeiereidirkluther 3
+dirlut,Rmeiereidirkluther,5,2014,x,,dirlut Rmeiereidirkluther 5
+edisig,Ressenz,3,2021,x,,edisig Ressenz 3
+Rgutlärchenhof,edisig,4,2002,2005,,Rgutlärchenhof edisig 4
+edisig,Rhugos,6,2005,2007,,edisig Rhugos 6
+ebelan,edisig,2,2005,2007,,ebelan edisig 2
+heiwin,edisig,2,2007,2008,,heiwin edisig 2
+edisig,Rlesdeux,6,2013,2019,,edisig Rlesdeux 6
+edisig,Rlesdeux,3,2019,2020,,edisig Rlesdeux 3
+thoimb,R100200kitchen,3,2018,x,,thoimb R100200kitchen 3
+thoimb,R100200kitchen,5,2018,x,,thoimb R100200kitchen 5
+thoimb,Rvictorsfinediningbychristianbau,6,NA,NA,,thoimb Rvictorsfinediningbychristianbau 6
+chrbau,thoimb,2,NA,NA,,chrbau thoimb 2
+matfer,Rbianc,3,2017,x,,matfer Rbianc 3
+chrrüf,Rhaerlin,3,2002,x,,chrrüf Rhaerlin 3
+chrrüf,Rschwarzwaldstube,6,1996,1997,,chrrüf Rschwarzwaldstube 6
+harwoh,chrrüf,2,1996,1997,,harwoh chrrüf 2
+chrrüf,Rrestaurantbareiss,6,1997,1998,,chrrüf Rrestaurantbareiss 6
+clalum,chrrüf,2,1997,1998,,clalum chrrüf 2
+tonhoh,Rjante,3,2015,x,,tonhoh Rjante 3
+tonhoh,Rjante,5,2015,x,,tonhoh Rjante 5
+tonhoh,Rlorenzadlonesszimmer,6,NA,NA,,tonhoh Rlorenzadlonesszimmer 6
+erimen,Rlemoissonnier,6,NA,NA,,erimen Rlemoissonnier 6
+erimen,Rlemoissonnier,3,2008,x,,erimen Rlemoissonnier 3
+dangot,Roxklee,3,2010,x,,dangot Roxklee 3
+dangot,Roxklee,5,2010,x,,dangot Roxklee 5
+dirhob,Rophelia,3,2010,x,,dirhob Rophelia 3
+Rschwarzwaldstube,dirhob,6,2007,2010,,Rschwarzwaldstube dirhob 6
+harwoh,dirhob,2,2007,2010,,harwoh dirhob 2
+heiwin,chrrai,2,NA,NA,,heiwin chrrai 2
+chrrai,Rlucedoro,3,2017,x,,chrrai Rlucedoro 3
+dompau,Ropusv,3,2020,x,,dompau Ropusv 3
+dompau,Ropusv,6,2013,2020,,dompau Ropusv 6
+dompau,Rlepavillon,6,NA,NA,,dompau Rlepavillon 6
+antgsc,Ratelier,3,2021,x,,antgsc Ratelier 3
+antgsc,Rrestaurantbareiss,6,NA,NA,,antgsc Rrestaurantbareiss 6
+clalum,antgsc,2,NA,NA,,clalum antgsc 2
+antgsc,Racquarello,6,NA,NA,,antgsc Racquarello 6
+margam,antgsc,2,NA,NA,,margam antgsc 2
+chrjür,antgsc,1,2015,2015,,chrjür antgsc 1
+harwoh,antgsc,1,2015,2015,,harwoh antgsc 1
+Rschwarzwaldstube,antgsc,4,2015,2015,,Rschwarzwaldstube antgsc 4
+Rrestaurantüberfahrtchristianjürgens,antgsc,4,2015,2015,,Rrestaurantüberfahrtchristianjürgens antgsc 4
+bobbrä,Resszimmer,3,2013,x,,bobbrä Resszimmer 3
+eckwit,bobbrä,2,1991,1992,,eckwit bobbrä 2
+benchm,Rtantris,3,2020,x,,benchm Rtantris 3
+tohnak,Rtohruinderschreiberei,3,2021,x,,tohnak Rtohruinderschreiberei 3
+tohnak,Rtohruinderschreiberei,5,2021,x,,tohnak Rtohruinderschreiberei 5
+tohnak,Rvendome ,3,2008,2010,,tohnak Rvendome  3
+joawis,tohnak,2,2008,2010,,joawis tohnak 2
+chrbin,Rsteinheuersrestaurantzuraltenpost,3,2015,x,,chrbin Rsteinheuersrestaurantzuraltenpost 3
+chrbin,Rsteinheuersrestaurantzuraltenpost,6,2008,2015,,chrbin Rsteinheuersrestaurantzuraltenpost 6
+sebobe,Rfalco,6,NA,NA,,sebobe Rfalco 6
+petsch,sebobe,2,NA,NA,,petsch sebobe 2
+sebobe,Rzweisinnmeiersfinedining,6,2016,NA,,sebobe Rzweisinnmeiersfinedining 6
+stemei,sebobe,2,2016,NA,,stemei sebobe 2
+sebobe,Robendorferseisvogel,3,2021,x,,sebobe Robendorferseisvogel 3
+sebobe,Robendorferseisvogel,5,2022,x,,sebobe Robendorferseisvogel 5
+yveoll,Ressigbrätlein,3,1997,x,,yveoll Ressigbrätlein 3
+felsch,Retz,3,2021,x,,felsch Retz 3
+felsch,Retz,5,2021,x,,felsch Retz 5
+marher,Rlepavillon,3,1991,x,,marher Rlepavillon 3
+Rlepavillon,marher,4,1982,NA,,Rlepavillon marher 4
+pethag,Rammolitethelighthouserestaurant,3,2012,x,,pethag Rammolitethelighthouserestaurant 3
+pethag,Rschwarzwaldstube,6,1997,NA,,pethag Rschwarzwaldstube 6
+harwoh,pethag,2,1997,NA,,harwoh pethag 2
+pethag,Rchevalblanc,6,NA,NA,,pethag Rchevalblanc 6
+silfab,Resplanade,3,2017,x,,silfab Resplanade 3
+silfab,Rweinundtafelhaus,6,2007,2008,,silfab Rweinundtafelhaus 6
+aleoos,silfab,2,2007,2008,,aleoos silfab 2
+silfab,Rwaldhotelsonnora,6,2008,2010,,silfab Rwaldhotelsonnora 6
+helthi,silfab,2,2008,2010,,helthi silfab 2
+heiwin,silfab,2,2010,2011,,heiwin silfab 2
+silfab,Rgästehausklauserfort,6,2011,2017,,silfab Rgästehausklauserfort 6
+klaerf,silfab,2,2011,2017,,klaerf silfab 2
+klaerf,Rgästehausklauserfort,3,2002,x,,klaerf Rgästehausklauserfort 3
+klaerf,Rgästehausklauserfort,5,2002,x,,klaerf Rgästehausklauserfort 5
+klaerf,Rrestaurantbareiss,6,1992,1993,,klaerf Rrestaurantbareiss 6
+clalum,klaerf,2,1992,1993,,clalum klaerf 2
+klaerf,Rschwarzwaldstube,6,1993,1994,,klaerf Rschwarzwaldstube 6
+harwoh,klaerf,2,1993,1994,,harwoh klaerf 2
+sebsan,Rlouisrestaurant,3,2023,x,,sebsan Rlouisrestaurant 3
+sebsan,Rlecerf,6,NA,NA,,sebsan Rlecerf 6
+borrom,sebsan,2,NA,NA,,borrom sebsan 2
+sebsan,Rrüsselslandhaus,6,2022,2023,,sebsan Rrüsselslandhaus 6
+harrüs,sebsan,2,2022,2023,,harrüs sebsan 2
+stegsc,Rspeisemeisterei,3,2016,x,,stegsc Rspeisemeisterei 3
+douste,Rhirschen,3,1998,x,,douste Rhirschen 3
+douste,Rhirschen,5,2008,x,,douste Rhirschen 5
+Rhirschen,douste,4,NA,NA,,Rhirschen douste 4
+harwoh,douste,2,NA,NA,,harwoh douste 2
+douste,Rschwarzwaldstube,6,NA,NA,,douste Rschwarzwaldstube 6
+janber,Rsölringhof,3,2013,x,,janber Rsölringhof 3
+johkin,janber,2,2013,2022,,johkin janber 2
+johkin,Rsölringhof,3,2000,,,johkin Rsölringhof 3
+johkin,Rsölringhof,5,2000,2022,,johkin Rsölringhof 5
+frakel,johkin,2,1983,1984,,frakel johkin 2
+johkin,Rhugos,6,1986,1987,,johkin Rhugos 6
+janber,Rsölringhof,6,2009,2013,,janber Rsölringhof 6
+pauboc,frakel,1,NA,NA,,pauboc frakel 1
+chrsch,Rcourtier,3,2016,x,,chrsch Rcourtier 3
+harwoh,chrsch,2,1998,2000,,harwoh chrsch 2
+chrsch,Rschwarzwaldstube,6,1998,2000,,chrsch Rschwarzwaldstube 6
+aleher,Raurabyalexanderherrmanntobiasbätz,3,1996,x,,aleher Raurabyalexanderherrmanntobiasbätz 3
+aleher,Raurabyalexanderherrmanntobiasbätz,5,NA,NA,,aleher Raurabyalexanderherrmanntobiasbätz 5
+tobbät,Raurabyalexanderherrmanntobiasbätz,3,2009,x,,tobbät Raurabyalexanderherrmanntobiasbätz 3
+tobbät,Raurabyalexanderherrmanntobiasbätz,6,2008,x,,tobbät Raurabyalexanderherrmanntobiasbätz 6
+aleher,tobbät,2,2008,x,,aleher tobbät 2
+borrom,Rlecerf,3,2016,x,,borrom Rlecerf 3
+borrom,Rrestaurantbareiss,6,NA,NA,,borrom Rrestaurantbareiss 6
+clalum,borrom,2,NA,NA,,clalum borrom 2
+zsofod,Raloisdallmayrfinedining,6,NA,NA,,zsofod Raloisdallmayrfinedining 6
+zsofod,Rsolodu,3,2022,x,,zsofod Rsolodu 3
+dansch2,Rmasters,3,2020,x,,dansch2 Rmasters 3
+jasgro,Rdieburg,3,2017,x,,jasgro Rdieburg 3
+Röschnoir,jasgro,4,2008,2011,,Röschnoir jasgro 4
+benkri,Rpinkpepper,3,2022,x,,benkri Rpinkpepper 3
+benkri,Rpinkpepper,5,2022,x,,benkri Rpinkpepper 5
+benkri,Rrestaurantüberfahrtchristianjürgens,6,2012,2014,,benkri Rrestaurantüberfahrtchristianjürgens 6
+chrjür,benkri,2,2012,2014,,chrjür benkri 2
+markaz,Rdasgarboimlöwen,3,2017,x,,markaz Rdasgarboimlöwen 3
+chrwei,Rclararestaurantimkaisersaal,3,2021,x,,chrwei Rclararestaurantimkaisersaal 3
+Rlandhausscherrer,chrwei,4,NA,NA,,Rlandhausscherrer chrwei 4
+heiweh,chrwei,1,NA,NA,,heiweh chrwei 1
+chrwei,Rkai3,6,2021,2021,,chrwei Rkai3 6
+felgab,chrwei,2,2021,2021,,felgab chrwei 2
+jürket,Rkettnerskamota,3,NA,NA,,jürket Rkettnerskamota 3
+jürket,Rkettnerskamota,5,NA,NA,,jürket Rkettnerskamota 5
+jürket,Rvictorsfinediningbychristianbau,6,NA,NA,,jürket Rvictorsfinediningbychristianbau 6
+chrbau,jürket,2,NA,NA,,chrbau jürket 2
+jürket,Resplanade,6,NA,NA,,jürket Resplanade 6
+silfab,jürket,2,NA,NA,,silfab jürket 2
+patlöh,Rbidlabu,3,2022,x,,patlöh Rbidlabu 3
+patlöh,Rbidlabu,6,2018,2022,,patlöh Rbidlabu 6
+patlöh,Rschwarzeradler,6,2013,2018,,patlöh Rschwarzeradler 6
+patlöh,Rweinsinn,6,2018,2018,,patlöh Rweinsinn 6
+jocbus,patlöh,2,2018,2018,,jocbus patlöh 2
+manwim,Rgourmetrestaurantimkarner,3,2022,x,,manwim Rgourmetrestaurantimkarner 3
+henwei,Rcolombirestaurant,3,2022,x,,henwei Rcolombirestaurant 3
+henwei,Rletable,3,2019,2020,,henwei Rletable 3
+henwei,Rdasmaximilians,3,2020,2022,,henwei Rdasmaximilians 3
+sveusi,Rcolombirestaurant,3,2022,x,,sveusi Rcolombirestaurant 3
+sveusi,Rcolombirestaurant,6,2019,2022,,sveusi Rcolombirestaurant 6
+sveusi,Rrestaurantbareiss,6,NA,NA,,sveusi Rrestaurantbareiss 6
+clalum,sveusi,2,NA,NA,,clalum sveusi 2
+frecam,Reichhalde,3,NA,NA,,frecam Reichhalde 3
+marfau,Rwolfshöhle,3,2022,x,,marfau Rwolfshöhle 3
+marfau,Rtantris,6,1997,NA,,marfau Rtantris 6
+hanhaa,marfau,2,1997,NA,,hanhaa marfau 2
+frakel,marfau,2,2021,2021,,frakel marfau 2
+kevbür,Rhaebel,3,2021,x,,kevbür Rhaebel 3
+kevbür,Rlesdeux,6,NA,NA,,kevbür Rlesdeux 6
+kevbür,Rhaebel,6,2020,2021,,kevbür Rhaebel 6
+davwei,Rverbene,3,NA,NA,,davwei Rverbene 3
+Rzurtant,julkom,4,2008,NA,,Rzurtant julkom 4
+julkom,Rsahilatherestaurant,3,2022,x,,julkom Rsahilatherestaurant 3
+julkom,Rsahilatherestaurant,5,2022,x,,julkom Rsahilatherestaurant 5
+julkom,Rschlossloersfeld,3,2016,2018,,julkom Rschlossloersfeld 3
+klasch,Rkuultivo,3,NA,NA,,klasch Rkuultivo 3
+klasch,Riko,6,NA,NA,,klasch Riko 6
+tomels,klasch,2,NA,NA,,tomels klasch 2
+tomels,Riko,5,NA,NA,,tomels Riko 5
+tomels,Riko,3,NA,NA,,tomels Riko 3
+denfei,Rmarburgeresszimmer,3,2022,x,,denfei Rmarburgeresszimmer 3
+joawis,denfei,2,1998,1999,,joawis denfei 2
+chrbau,denfei,2,2001,2001,,chrbau denfei 2
+harbor,Rborst,3,NA,NA,,harbor Rborst 3
+maxbor,Rborst,3,NA,NA,,maxbor Rborst 3
+harbor,Rborst,5,NA,NA,,harbor Rborst 5
+maxbor,Rschwarzwaldstube,6,NA,NA,,maxbor Rschwarzwaldstube 6
+maxbor,Rgästehausklauserfort,6,NA,NA,,maxbor Rgästehausklauserfort 6
+klaerf,maxbor,2,NA,NA,,klaerf maxbor 2
+tormic,maxbor,2,NA,NA,,tormic maxbor 2
+danbod,Rbrothers,3,2022,x,,danbod Rbrothers 3
+danbod,Rfalconera,6,2012,2013,,danbod Rfalconera 6
+johwuh,danbod,2,2012,2013,,johwuh danbod 2
+danbod,Rgästehausklauserfort,6,2013,2014,,danbod Rgästehausklauserfort 6
+klaerf,danbod,2,2013,2014,,klaerf danbod 2
+danbod,Ratelier,6,2014,2017,,danbod Ratelier 6
+janhar,danbod,2,2014,2017,,janhar danbod 2
+danbod,Rschwarzwaldstube,6,2017,2019,,danbod Rschwarzwaldstube 6
+tormic,danbod,2,2017,2019,,tormic danbod 2
+danbod,Rtantris,3,2021,2022,,danbod Rtantris 3
+maxhub,Rmuralfarmhouse,3,2023,x,,maxhub Rmuralfarmhouse 3
+laukux,Rbok,3,2022,x,,laukux Rbok 3
+laukux,Rjellyfish,6,2014,2019,,laukux Rjellyfish 6
+stefät,laukux,2,2019,2019,,stefät laukux 2
+karspi,Rspitzner,3,NA,NA,,karspi Rspitzner 3
+renste,Rtisane,3,2022,x,,renste Rtisane 3
+renste,Rschwarzeradler,6,2016,2019,,renste Rschwarzeradler 6
+domwac,Rwachterfoodbar,3,2022,x,,domwac Rwachterfoodbar 3
+domwac,Rwachterfoodbar,5,2022,x,,domwac Rwachterfoodbar 5
+julrei,Resszimmerimoberschwäbischenhof,3,NA,x,,julrei Resszimmerimoberschwäbischenhof 3
+julrei,Resszimmerimoberschwäbischenhof,5,NA,x,,julrei Resszimmerimoberschwäbischenhof 5
+julrei,Rschwarzwaldstube,6,NA,NA,,julrei Rschwarzwaldstube 6
+tormic,julrei,2,NA,NA,,tormic julrei 2
+julrei,Rsölringhof,6,NA,NA,,julrei Rsölringhof 6
+johkin,julrei,2,NA,NA,,johkin julrei 2
+janber,julrei,2,NA,NA,,janber julrei 2
+danmäs,Rhegeleins,3,2019,x,,danmäs Rhegeleins 3
+gersch,Rbagatelle,3,2020,x,,gersch Rbagatelle 3
+gersch,Rbodendorfs,6,2011,2014,,gersch Rbodendorfs 6
+holbod,gersch,2,2011,2014,,holbod gersch 2
+gersch,Rvictorsfinediningbychristianbau,6,2014,2020,,gersch Rvictorsfinediningbychristianbau 6
+chrbau,gersch,2,2014,2020,,chrbau gersch 2
+alimei,Rbibraud,3,2014,x,,alimei Rbibraud 3
+alimei,Rbibraud,5,2014,x,,alimei Rbibraud 5
+alimei,Raqua,6,NA,NA,,alimei Raqua 6
+sveelv,alimei,2,NA,NA,,sveelv alimei 2
+benpfe,Rintense,3,2017,x,,benpfe Rintense 3
+benpfe,Rgästehausklauserfort,6,NA,NA,,benpfe Rgästehausklauserfort 6
+klaerf,benpfe,2,NA,NA,,klaerf benpfe 2
+maraku,Rmarkos,3,2021,x,,maraku Rmarkos 3
+maraku,Rmarkos,5,2021,x,,maraku Rmarkos 5
+,,,,,,  
+,,,,,,  
+domale,Rgasthofalex,3,2021,x,,domale Rgasthofalex 3
+Rvictorsfinedinigbychristianbau,domale,4,2015,2017,,Rvictorsfinedinigbychristianbau domale 4
+chrbau,domale,1,2015,2017,,chrbau domale 1
+Rlecerf,domale,4,2018,2020,,Rlecerf domale 4
+nikber,Rbonvivant,3,2021,x,,nikber Rbonvivant 3
+andsch,Rlabecasse,3,NA,x,,andsch Rlabecasse 3
+maxkre,Rsanktbenedikt,3,2011,x,,maxkre Rsanktbenedikt 3
+Rimschiffchen,maxkre,4,NA,x,,Rimschiffchen maxkre 4
+jeabou,maxkre,1,NA,x,,jeabou maxkre 1
+Rvictorsfinedinigbychristianbau,maxkre,4,NA,x,,Rvictorsfinedinigbychristianbau maxkre 4
+chrbau,maxkre,1,NA,x,,chrbau maxkre 1
+chrmar,Rschattbuch,3,NA,x,,chrmar Rschattbuch 3
+maxspe,Rschwabenstube,3,2017,x,,maxspe Rschwabenstube 3
+Rsoulfood,miclau,3,2012,x,,Rsoulfood miclau 3
+Rsoulfood,chrheß,3,2012,x,,Rsoulfood chrheß 3
+benmit,Ralteliebe,3,2019,x,,benmit Ralteliebe 3
+simlan,Rsartory,3,2016,x,,simlan Rsartory 3
+Rbodendorfs,simlan,6,2004,2004,,Rbodendorfs simlan 6
+holbod,simlan,2,2004,2004,,holbod simlan 2
+steber,Rlejardindefrance,3,1998,x,,steber Rlejardindefrance 3
+malkuh,Rmalteshiddenkitchen,3,2018,x,,malkuh Rmalteshiddenkitchen 3
+stedis,Rgasthauszumraben,5,2005,x,,stedis Rgasthauszumraben 5
+stedis,Rgasthauszumraben,3,2005,x,,stedis Rgasthauszumraben 3
+Rgasthauszumraben,malkuh,6,NA,NA,,Rgasthauszumraben malkuh 6
+Rlepavillon,malkuh,4,2011,2013,,Rlepavillon malkuh 4
+marher,malkuh,1,2011,2013,,marher malkuh 1
+Rrestaurantüberfahrtchristianjürgens,malkuh,6,NA,NA,,Rrestaurantüberfahrtchristianjürgens malkuh 6
+flosto,Rschwarzwaldstube,6,2006,2008,,flosto Rschwarzwaldstube 6
+flosto,R1789,3,2020,x,,flosto R1789 3
+Rschwarzwaldstube,jörsac,4,1977,1982,,Rschwarzwaldstube jörsac 4
+harwoh,jörsac,1,1977,1982,,harwoh jörsac 1
+jörsac,Raubergine,6,1986,1988,,jörsac Raubergine 6
+jörsac,Rschlossberg,3,1993,x,,jörsac Rschlossberg 3
+harwoh,nicsac,1,NA,NA,,
+Rschwarzwaldstube,nicsac,4,NA,NA,,
+nicsac,Rlandhausfeckl,6,NA,NA,,
+nicsac,Rschlossberg,3,NA,NA,,nicsac Rschlossberg 3
+frafec,nicsac,2,NA,NA,,frafec nicsac 2
+Rvendome,nicsac,6,NA,NA,,Rvendome nicsac 6
+joawis,nicsac,2,NA,NA,,joawis nicsac 2
+ulrhei,Rpur,3,2020,NA,,ulrhei Rpur 3
+andsau,Rbandolsurmer,3,2018,NA,,andsau Rbandolsurmer 3
+Rrutz,andsau,6,2004,2010,,Rrutz andsau 6
+marcmue,andsau,2,2004,2010,,marcmue andsau 2
+stepgar,Rbieberbau,5,NA,NA,,stepgar Rbieberbau 5
+jeamat,Rbieberbau,3,NA,NA,,jeamat Rbieberbau 3
+stezei,Rbricole,3,NA,NA,,stezei Rbricole 3
+nichah,Rcookiescream,3,2023,x ,,nichah Rcookiescream 3
+yansto,Rcordo,3,2018,x ,,yansto Rcordo 3
+Rhaerlin,yansto,6,NA,NA,,Rhaerlin yansto 6
+chrrüf,yansto,2,NA,NA,,chrrüf yansto 2
+Raqua,yansto,6,NA,NA,,Raqua yansto 6
+sveelv,yansto,2,NA,NA,,sveelv yansto 2
+dylwat,Rernst,3,NA,NA,,dylwat Rernst 3
+bjosaw,Rfaelt,3,2020,x ,,bjosaw Rfaelt 3
+Rrutz,bjosaw,6,NA,NA,,Rrutz bjosaw 6
+marcmue,bjosaw,2,NA,NA,,marcmue bjosaw 2
+Rfacil,bjosaw,6,NA,NA,,Rfacil bjosaw 6
+mickem,bjosaw,2,NA,NA,,mickem bjosaw 2
+joager,bjosaw,2,NA,NA,,joager bjosaw 2
+Rgutshausstolpe,bjosaw,6,NA,NA,,Rgutshausstolpe bjosaw 6
+chrsom,bjosaw,2,NA,NA,,chrsom bjosaw 2
+Rgolvet,bjosaw,6,NA,NA,,Rgolvet bjosaw 6
+jonzoe,bjosaw,2,NA,NA,,jonzoe bjosaw 2
+janrze,Rfaelt,3,2023,x ,,janrze Rfaelt 3
+Rcookiescream,janrze,6,2019,NA,,Rcookiescream janrze 6
+nichah,janrze,2,2019,NA,,nichah janrze 2
+jonzoe,Rgolvet,3,2018,x ,,jonzoe Rgolvet 3
+Rfacil,jonzoe,4,2013,2015,,Rfacil jonzoe 4
+mickem,jonzoe,1,2013,2015,,mickem jonzoe 1
+ebelan,Rhugos,3,2015,x,,ebelan Rhugos 3
+Rlorenzadlonesszimmer,ebelan,4,NA,NA,,Rlorenzadlonesszimmer ebelan 4
+Rirmaladouce,fracon,3,NA,NA,,Rirmaladouce fracon 3
+micschä,Rnobelhartundschmutzig,3,NA,NA,,micschä Rnobelhartundschmutzig 3
+micschä,Rrestaurantvillamerton,6,NA,NA,,micschä Rrestaurantvillamerton 6
+micschä,phigia,3,NA,NA,,micschä phigia 3
+galmos,Rprism,3,NA,NA,,galmos Rprism 3
+fracon,Rrichard,3,NA,NA,,fracon Rrichard 3
+saskur,Rskykitchen,3,NA,NA,,saskur Rskykitchen 3
+Rlorenzadlonesszimmer,saskur,6,NA,NA,,Rlorenzadlonesszimmer saskur 6
+Rvendome,saskur,6,NA,NA,,Rvendome saskur 6
+joawis,saskur,2,NA,NA,,joawis saskur 2
+Rtuluslotrek,maxstr,3,2015,x,,Rtuluslotrek maxstr 3
+benmae,Rmaerz,5,2010,x,,benmae Rmaerz 5
+clihae,Rhämmerlesrestaurantbarrique,3,1993,x,,clihae Rhämmerlesrestaurantbarrique 3
+raihal,Rhalbedelsgasthaus,3,NA,NA,,raihal Rhalbedelsgasthaus 3
+chrstu,Ryunico,3,2011,x,,chrstu Ryunico 3
+marren,Rsterneck,3,2012,x,,marren Rsterneck 3
+Rmaintowerrestaurantundlounge,marren,6,2002,2005,,Rmaintowerrestaurantundlounge marren 6
+marweg,marren,2,2002,2005,,marweg marren 2
+davrin,Rox,3,2019,x,,davrin Rox 3
+flokuc,Rkuchersgourmet,3,NA,NA,,flokuc Rkuchersgourmet 3
+dankle,Rkook36,3,NA,NA,,dankle Rkook36 3
+steneu,Rschwarzerhahn,3,2000,x,,steneu Rschwarzerhahn 3
+feljar,Rschwarzerhahn,3,NA,x,,feljar Rschwarzerhahn 3
+bjölei,Rbjörnsox,5,2018,x,,bjölei Rbjörnsox 5
+jandie,Rjandiekjobstrestaurant,3,2019,x,,jandie Rjandiekjobstrestaurant 3
+Rvictorsfinedinigbychristianbau,jandie,6,2016,2016,,Rvictorsfinedinigbychristianbau jandie 6
+chrbau,jandie,2,2016,2016,,chrbau jandie 2
+Rthetablekevinfehling,jandie,6,2017,2018,,Rthetablekevinfehling jandie 6
+kevfeh,jandie,2,2017,2018,,kevfeh jandie 2
+matsto,Rostseelounge,3,2022,x,,matsto Rostseelounge 3
+matsto,Rvendome,6,NA,NA,,matsto Rvendome 6
+joawis,matsto,2,NA,NA,,joawis matsto 2
+matsto,Rgourmetrestaurantderbutt,6,2012,NA,,matsto Rgourmetrestaurantderbutt 6
+andmün,matsto,2,2012,NA,,andmün matsto 2
+matsto,Rdiebrasserie,6,2017,NA,,matsto Rdiebrasserie 6
+vjepav,matsto,2,2017,NA,,vjepav matsto 2
+andbei,Rostseelounge,3,2022,x,,andbei Rostseelounge 3
+andbei,Rdiebrasserie,6,2012,2019,,andbei Rdiebrasserie 6
+vjepav,andbei,2,2012,2019,,vjepav andbei 2
+ronsie,Rfriedrichfranz,3,2008,x,,ronsie Rfriedrichfranz 3
+bjöfrei,Rgoldeneranker,3,1997,x,,bjöfrei Rgoldeneranker 3
+Rente,bjöfrei,6,1995,NA,,Rente bjöfrei 6
+mickam,bjöfrei,2,1995,NA,,mickam bjöfrei 2
+fraros,Rrosin,3,1991,x,,fraros Rrosin 3
+dirgram,Rgrammonsrestaurant,3,NA,NA,,dirgram Rgrammonsrestaurant 3
+micdyl,Rthestage,3,2021,x,,micdyl Rthestage 3
+Rschlossloersfeld,micdyl,6,NA,NA,,Rschlossloersfeld micdyl 6
+geomim,micdyl,2,NA,NA,,geomim micdyl 2
+stemieß,Relements,3,NA,NA,,stemieß Relements 3
+marblo,Rgenussatelier,3,2014,x,,marblo Rgenussatelier 3
+Rvictorsfinedinigbychristianbau,marblo,6,2013,NA,,Rvictorsfinedinigbychristianbau marblo 6
+chrbau,marblo,2,2013,NA,,chrbau marblo 2
+stefhum,Rhummelsgourmetstube,5,2006,x,,stefhum Rhummelsgourmetstube 5
+Rroterhahn,stefhum,4,1997,NA,,Rroterhahn stefhum 4
+maxsch,stefhum,1,1997,NA,,maxsch stefhum 1
+stefhum,Rlandhausfeckl,6,2000,NA,,stefhum Rlandhausfeckl 6
+frafec,stefhum,2,2000,NA,,frafec stefhum 2
+stefhum,Rfalconera,6,2002,NA,,stefhum Rfalconera 6
+johwuh,stefhum,2,2002,NA,,johwuh stefhum 2
+svenoe,Rmodbysvennöthel,3,NA,NA,,svenoe Rmodbysvennöthel 3
+dandal,R1876danieldalben,3,NA,NA,,dandal R1876danieldalben 3
+marfoe,Ragatas,3,2021,x,,marfoe Ragatas 3
+marfoe,Ranthonyskitchen,6,NA,NA,,marfoe Ranthonyskitchen 6
+antsar,marfoe,2,NA,NA,,antsar marfoe 2
+voldrk,Rdrkosch,3,2016,x,,voldrk Rdrkosch 3
+voldrk,Rcolombirestaurant,6,1990,1994,,voldrk Rcolombirestaurant 6
+henwei,voldrk,2,1990,1994,,henwei voldrk 2
+sveusi,voldrk,2,1990,1994,,sveusi voldrk 2
+voldrk,Rtantris,6,1995,1996,,voldrk Rtantris 6
+benchm,voldrk,2,1995,1996,,benchm voldrk 2
+jeabou,Rimschiffchen,5,1987,x,,jeabou Rimschiffchen 5
+dancer,Rleflair,3,NA,NA,,dancer Rleflair 3
+yosnag,Rnagaya,5,2003,x,,yosnag Rnagaya 5
+phiwol,Rphoenix,3,2016,x,,phiwol Rphoenix 3
+Rwielandshöhe,phiwol,4,1995,1997,,Rwielandshöhe phiwol 4
+vinkli,phiwol,1,1995,1997,,vinkli phiwol 1
+phiwol,Rwaldhotelsonnora,6,1999,2000,,phiwol Rwaldhotelsonnora 6
+phiwol,Rrestaurantbareiss,6,1997,1999,,phiwol Rrestaurantbareiss 6
+phiwol,clalum,2,1997,1999,,phiwol clalum 2
+yosnag,Ryoshibynagaya,5,2016,x,,yosnag Ryoshibynagaya 5
+brwaw,Rtraube,3,NA,NA,,brwaw Rtraube 3
+frafec,Rlandhausfeckl,5,2000,x,,frafec Rlandhausfeckl 5
+frafec,Rtantris,6,1978,1979,,frafec Rtantris 6
+benchm,frafec,2,1978,1979,,benchm frafec 2
+johfra,Rjean,3,NA,NA,,johfra Rjean 3
+thomer,Rmerklesrestaurant,3,NA,NA,,thomer Rmerklesrestaurant 3
+alewul,Rvendome,6,NA,NA,,alewul Rvendome 6
+alewul,Rtroyka,3,2020,x,,alewul Rtroyka 3
+markok,Rtroyka,3,2020,x,,markok Rtroyka 3
+tobwey,Rhannappel,3,NA,NA,,tobwey Rhannappel 3
+nelmue,Rschote,5,2009,x,,nelmue Rschote 5
+nelmue,Rorangerie,6,NA,NA,,nelmue Rorangerie 6
+lutnie,nelmue,2,NA,NA,,lutnie nelmue 2
+ralkne,Rerbprinz,3,NA,NA,,ralkne Rerbprinz 3
+filczm,Rbembergshäuschen,3,2018,x,,filczm Rbembergshäuschen 3
+filczm,Rvendome,6,NA,NA,,filczm Rvendome 6
+joawis,filczm,2,NA,NA,,joawis filczm 2
+filczm,Roxklee,6,NA,NA,,filczm Roxklee 6
+dangot,filczm,2,NA,NA,,dangot filczm 2
+dansch,Ralteschuleklassenzimmer,5,NA,NA,,dansch Ralteschuleklassenzimmer 5
+kaylur,Rgourmetrestaurantnicoburkhardt,6,2019,2020,,kaylur Rgourmetrestaurantnicoburkhardt 6
+nicbur,kaylur,2,2019,2020,,nicbur kaylur 2
+kaylur,Roettingersrestaurant,3,2023,x,,kaylur Roettingersrestaurant 3
+quibru,Rdasgrace,3,2020,x,,quibru Rdasgrace 3
+quibru,Rkai3,6,NA,NA,,quibru Rkai3 6
+felgab,quibru,2,NA,NA,,felgab quibru 2
+rendit,Raltwyk,3,NA,NA,,rendit Raltwyk 3
+eriarn,Rphilippsoldan,3,2015,x,,eriarn Rphilippsoldan 3
+benrus,Rcarmelogreco,5,2010,x,,benrus Rcarmelogreco 5
+cargre,Rcarmelogreco,3,2017,x,,cargre Rcarmelogreco 3
+valmat,Rernosbistro,3,NA,NA,,valmat Rernosbistro 3
+marweg,Rmaintowerrestaurantundlounge,3,NA,NA,,marweg Rmaintowerrestaurantundlounge 3
+masoae,Rmasajapanesecuisine,3,NA,NA,,masoae Rmasajapanesecuisine 3
+phigia,Rrestaurantvillamerton,3,NA,NA,,phigia Rrestaurantvillamerton 3
+ricsaw,Rsevenswans,3,2018,x,,ricsaw Rsevenswans 3
+ricsaw,Rrestaurantvillamerton,6,NA,NA,,ricsaw Rrestaurantvillamerton 6
+phigia,ricsaw,2,NA,NA,,phigia ricsaw 2
+danple,Rweinsinn,3,NA,NA,,danple Rweinsinn 3
+micschl,Rmichaelsleitenberg,3,NA,NA,,micschl Rmichaelsleitenberg 3
+danrau,Rgenießerstube,3,2007,x,,danrau Rgenießerstube 3
+chrste,Rchristianandfriendstastekitchen,3,NA,NA,,chrste Rchristianandfriendstastekitchen 3
+edmsch,Rwernersrestaurant,3,NA,NA,,edmsch Rwernersrestaurant 3
+nicwied,Reckert,3,2014,x,,nicwied Reckert 3
+micque,Rmühlenhelle,3,2007,x,,micque Rmühlenhelle 3
+chrbau,Rspeiseberg,3,2024,x,,chrbau Rspeiseberg 3
+dangeo,Rratsstuben,3,NA,NA,,dangeo Rratsstuben 3
+stefät,Rjellyfish,5,2019,x,,stefät Rjellyfish 5
+stefät,Rfavoriterestaurant,6,NA,NA,,stefät Rfavoriterestaurant 6
+tobsch,stefät,2,NA,NA,,tobsch stefät 2
+,,,,,,  
+heiweh,Rlandhausscherrer,3,1981,x,,heiweh Rlandhausscherrer 3
+heiweh,Rlandhausscherrer,5,1981,x,,heiweh Rlandhausscherrer 5
+wahnou,Rpiment,3,2000,x,,wahnou Rpiment 3
+wahnou,Rpiment,5,2000,x,,wahnou Rpiment 5
+wahnou,Rschwarzwaldstube,6,1991,1992,,wahnou Rschwarzwaldstube 6
+mauost,Rzeik,3,2018,x,,mauost Rzeik 3
+mauost,Rzeik,5,2018,x,,mauost Rzeik 5
+thowoh,Rhandwerk,3,2016,x,,thowoh Rhandwerk 3
+thowoh,Rhandwerk,5,2016,x,,thowoh Rhandwerk 5
+robräd,Roben,3,2017,x,,robräd Roben 3
+robräd,Roben,5,2017,x,,robräd Roben 5
+petnie,Rlavalleeverte,3,2018,x,,petnie Rlavalleeverte 3
+petnie,Rhirschen,6,NA,NA,,petnie Rhirschen 6
+conkai,Rletable,3,2020,x,,conkai Rletable 3
+flovog,Rcamersschlossrestaurant,3,2015,x,,flovog Rcamersschlossrestaurant 3
+flovog,Rvictorsfinediningbychristianbau,6,2009,2010,,flovog Rvictorsfinediningbychristianbau 6
+flovog,Raloisdallmayrfinedining,6,2010,2011,,flovog Raloisdallmayrfinedining 6
+chrfle,Rchevalblanc,3,2018,x,,chrfle Rchevalblanc 3
+Igoyak,Rtawayamafine,3,2022,x,,Igoyak Rtawayamafine 3
+Rpavoimburghotelfalkenstein,Igoyak,4,NA,NA,,Rpavoimburghotelfalkenstein Igoyak 4
+Igoyak,Rsilberdistel,6,NA,NA,,Igoyak Rsilberdistel 6
+joamal,Rmalathounis,3,1993,x,,joamal Rmalathounis 3
+joamal,Rmalathounis,5,1993,x,,joamal Rmalathounis 5
+thobell,Rschlossloersfeld,3,1992,x,,thobell Rschlossloersfeld 3
+thobell,Rschlossloersfeld,5,1992,x,,thobell Rschlossloersfeld 5
+dirsch,Rweinschänkeschlossgroenesteyn,3,2018,x,,dirsch Rweinschänkeschlossgroenesteyn 3
+dirsch,Rweinschänkeschlossgroenesteyn,5,2018,x,,dirsch Rweinschänkeschlossgroenesteyn 5
+dirsch,Rtantris,6,2000,2004,,dirsch Rtantris 6
+dirsch,Rvendome,6,2005,2006,,dirsch Rvendome 6
+joawis,dirsch,2,2005,2006,,joawis
+chrgra,Rchristiansrestaurantgasthofgrainer,3,1990,x,,chrgra Rchristiansrestaurantgasthofgrainer 3
+chrgra,Rchristiansrestaurantgasthofgrainer,5,1990,x,,chrgra Rchristiansrestaurantgasthofgrainer 5
+Rchristiansrestaurantgasthofgrainer,chrgra,4,NA,1982,,Rchristiansrestaurantgasthofgrainer chrgra 4
+chrgra,Rrestaurantbareiss,6,1985,1988,,chrgra Rrestaurantbareiss 6
+mansch,Rschwarzgourmet,3,2017,x,,mansch Rschwarzgourmet 3
+mansch,Rschwarzgourmet,5,2017,x,,mansch Rschwarzgourmet 5
+mansch,Rtantris,6,1980,1981,,mansch Rtantris 6
+mansch,Rrestaurantbareiss,3,1982,1989,,mansch Rrestaurantbareiss 3
+fredes,Rlaudensacksgourmetrestaurant,3,2009,x,,fredes Rlaudensacksgourmetrestaurant 3
+fredes,Rcolombirestaurant,6,NA,NA,,fredes Rcolombirestaurant 6
+frasey,Rgotthardts,3,NA,x,,frasey Rgotthardts 3
+miksch,Rschillersmanufaktur,3,2004,x,,miksch Rschillersmanufaktur 3
+miksch,Rschillersmanufaktur,5,2004,x,,miksch Rschillersmanufaktur 5
+robcar,Ralfredo,3,1973,x,,robcar Ralfredo 3
+robcar,Ralfredo,5,1973,x,,robcar Ralfredo 5
+eriwer,Rastrein,3,2019,x,,eriwer Rastrein 3
+eriwer,Rastrein,5,2019,x,,eriwer Rastrein 5
+marrad,Rlacuisinerademacher,3,2019,x,,marrad Rlacuisinerademacher 3
+marrad,Rlacuisinerademacher,5,2019,x,,marrad Rlacuisinerademacher 5
+marrad,Rwaldhotelsonnora,6,NA,NA,,marrad Rwaldhotelsonnora 6
+leohof,Rlasociete,3,2021,x,,leohof Rlasociete 3
+leohof,Rsölringhof,6,NA,NA,,leohof Rsölringhof 6
+leohof,Raqua,6,NA,NA,,leohof Raqua 6
+tobbec,Rmaibeck,3,2013,x,,tobbec Rmaibeck 3
+tobbec,Rmaibeck,5,2013,x,,tobbec Rmaibeck 5
+janmai,Rmaibeck,3,2013,x,,janmai Rmaibeck 3
+janmai,Rmaibeck,5,2013,x,,janmai Rmaibeck 5
+maxlor,Rmaximilianlorenz,3,2018,x,,maxlor Rmaximilianlorenz 3
+maxlor,Rmaximilianlorenz,5,2018,x,,maxlor Rmaximilianlorenz 5
+Rzurpost,maxlor,4,NA,NA,,Rzurpost maxlor 4
+chrwil,maxlor,1,NA,NA,,chrwil maxlor 1
+sonbau,Rneobiota,3,2018,x,,sonbau Rneobiota 3
+sonbau,Rneobiota,5,2018,x,,sonbau Rneobiota 5
+erische,Rneobiota,3,2018,x,,erische Rneobiota 3
+erische,Rneobiota,5,2018,x,,erische Rneobiota 5
+sonbau,Rgutlärchenhof,6,2008,2017,,sonbau Rgutlärchenhof 6
+sonbau,Rgutlärchenhof,3,2014,2017,,sonbau Rgutlärchenhof 3
+Rhalbedelsgasthaus,sonbau,4,2004,2007,,Rhalbedelsgasthaus sonbau 4
+erische,Rvendome,6,2010,2013,,erische Rvendome 6
+erische,Rlasociete,6,2013,2013,,erische Rlasociete 6
+erische,Rgästehausklauserfort,6,2013,2014,,erische Rgästehausklauserfort 6
+erische,Rgutlärchenhof,6,2014,2017,,erische Rgutlärchenhof 6
+erische,Rgutlärchenhof,3,2015,2017,,erische Rgutlärchenhof 3
+enrsab,Rpottkind,3,2018,x,,enrsab Rpottkind 3
+enrsab,Rpottkind,5,2018,x,,enrsab Rpottkind 5
+mirgau,Rtaku,3,NA,NA,,mirgau Rtaku 3
+tholös,Rzurtant,3,2014,x,,tholös Rzurtant 3
+tholös,Rzurtant,5,2014,x,,tholös Rzurtant 5
+andwid,Rursprung,3,2017,x,,andwid Rursprung 3
+andwid,Rursprung,5,2017,x,,andwid Rursprung 5
+Roettingersrestaurant,andwid,4,NA,2010,,Roettingersrestaurant andwid 4
+andwid,Ratelier,6,2011,2013,,andwid Ratelier 6
+stebra,Rleosbystephanbrandl,3,2017,x,,stebra Rleosbystephanbrandl 3
+stebra,Rimschiffchen,3,1999,2001,,stebra Rimschiffchen 3
+raizei,Richweißeinhausamsee,3,2005,x,,raizei Richweißeinhausamsee 3
+jochel,Rstorchen,3,NA,NA,,jochel Rstorchen 3
+jochel,Rstorchen,5,NA,NA,,jochel Rstorchen 5
+frihel,Rstorchen,3,NA,NA,,frihel Rstorchen 3
+frihel,Rstorchen,5,NA,NA,,frihel Rstorchen 5
+danfeh,Radler,3,2006,x,,danfeh Radler 3
+danfeh,Rlandhausfeckl,6,2004,2005,,danfeh Rlandhausfeckl 6
+rolpie,Rseoküchenhandwerk,3,NA,x,,rolpie Rseoküchenhandwerk 3
+hanhäg,Rgasthofzumbad,3,2007,x,,hanhäg Rgasthofzumbad 3
+hanhäg,Rlandhausfeckl,6,2003,2005,,hanhäg Rlandhausfeckl 6
+margri,Rkeidenzellerhof,3,NA,x,,margri Rkeidenzellerhof 3
+lisang,Rfrieda,3,2018,x,,lisang Rfrieda 3
+lisang,Rfrieda,5,2018,x,,lisang Rfrieda 5
+andrei,Rfrieda,3,2018,x,,andrei Rfrieda 3
+andrei,Rfrieda,5,2018,x,,andrei Rfrieda 5
+Rfalco,lisang,4,2008,NA,,Rfalco lisang 4
+detsch,Rstadtpfeiffer,3,2001,x,,detsch Rstadtpfeiffer 3
+alehoh,R360°,3,2016,x,,alehoh R360° 3
+alehoh,R360°,5,2016,x,,alehoh R360° 5
+tonneu,Rvillino,3,2017,x,,tonneu Rvillino 3
+roypet,Rwullenwever,3,1990,x,,roypet Rwullenwever 3
+roypet,Rwullenwever,5,1990,x,,roypet Rwullenwever 5
+roypet,Rlandhausscherrer,6,NA,NA,,roypet Rlandhausscherrer 6
+heiweh,roypet,2,NA,NA,,heiweh roypet 2
+tobsch,Rfavoriterestaurant,3,2020,x,,tobsch Rfavoriterestaurant 3
+tobsch,Rrestaurantvillamerton,6,NA,NA,,tobsch Rrestaurantvillamerton 6
+tobsch,Rlafleur,6,NA,NA,,tobsch Rlafleur 6
+phiste,Rsteinstraube,3,2019,x,,phiste Rsteinstraube 3
+phiste,Rsteinstraube,5,2019,x,,phiste Rsteinstraube 5
+phiste,Rente,6,NA,NA,,phiste Rente 6
+phiste,Rfavoriterestaurant,6,NA,NA,,phiste Rfavoriterestaurant 6
+phiste,Rwaldhotelsonnora,6,NA,NA,,phiste Rwaldhotelsonnora 6
+erischu,Rdoblers,3,2023,x,,erischu Rdoblers 3
+antsar,Ranthonyskitchen,3,2015,x,,antsar Ranthonyskitchen 3
+antsar,Ranthonyskitchen,5,2015,x,,antsar Ranthonyskitchen 5
+antsar,Rsteinheuersrestaurantzuraltenpost,6,NA,NA,,antsar Rsteinheuersrestaurantzuraltenpost 6
+marphi,Rcasala,3,2008,x,,marphi Rcasala 3
+marphi,Rschwarzwaldstube,6,2002,2004,,marphi Rschwarzwaldstube 6
+marphi,Rwielandshöhe,6,2004,2008,,marphi Rwielandshöhe 6
+andhil,Rdasmarktrestaurant,3,2010,x,,andhil Rdasmarktrestaurant 3
+andhil,Rdasmarktrestaurant,5,2010,x,,andhil Rdasmarktrestaurant 5
+margam,Racquarello,3,1994,x,,margam Racquarello 3
+margam,Racquarello,5,1994,x,,margam Racquarello 5
+margam,Rtantris,6,1980,1986,,margam Rtantris 6
+flober,Rgabelspiel,3,2016,x,,flober Rgabelspiel 3
+flober,Rgabelspiel,5,2016,x,,flober Rgabelspiel 5
+flober,Rtantris,6,NA,NA,,flober Rtantris 6
+natleb,Rlesdeux,3,2020,x,,natleb Rlesdeux 3
+natleb,Ratelier,6,NA,NA,,natleb Ratelier 6
+natleb,Rmeiereidirkluther,6,NA,NA,,natleb Rmeiereidirkluther 6
+martau,Rmountainhubgourmet,3,2023,x,,martau Rmountainhubgourmet 3
+martau,Rschwarzwaldstube,6,NA,NA,,martau Rschwarzwaldstube 6
+martau,Rjellyfish,6,2018,2019,,martau Rjellyfish 6
+martau,Rweinsinn,6,2019,2020,,martau Rweinsinn 6
+joslei,Rmural,3,2018,x,,joslei Rmural 3
+Rsölringhof,joslei,4,2014,2017,,Rsölringhof joslei 4
+joslei,Ratelier,6,2017,2018,,joslei Ratelier 6
+domkäp,Rshowroom,3,2017,x,,domkäp Rshowroom 3
+tobbac,Rshowroom,3,2022,x,,tobbac Rshowroom 3
+jürwol,Rsparklingbistro,3,2015,x,,jürwol Rsparklingbistro 3
+jürwol,Rsparklingbistro,5,2015,x,,jürwol Rsparklingbistro 5
+benchm,Rtantrisdna,3,2021,x,,benchm Rtantrisdna 3
+sigsch,Rwerneckhofsigischelling,3,2021,x,,sigsch Rwerneckhofsigischelling 3
+sigsch,Rwerneckhofsigischelling,5,2021,x,,sigsch Rwerneckhofsigischelling 5
+sigsch,Rtantris,6,2006,2021,,sigsch Rtantris 6
+harrüs,Rrüsselslandhaus,3,1992,x,,harrüs Rrüsselslandhaus 3
+harrüs,Rrüsselslandhaus,5,1992,x,,harrüs Rrüsselslandhaus 5
+claurr,Raltebaiz,3,2018,x,,claurr Raltebaiz 3
+claurr,Rwielandshöhe,6,1992,1994,,claurr Rwielandshöhe 6
+claurr,Rspeisemeisterei,6,1994,1995,,claurr Rspeisemeisterei 6
+claurr,Rfünf,6,2015,2018,,claurr Rfünf 6
+claurr,Raltebaiz,5,2018,x,,claurr Raltebaiz 5
+chrdet,Rletemple,3,1992,x,,chrdet Rletemple 3
+chrdet,Rletemple,5,1992,x,,chrdet Rletemple 5
+olisch,Rletemple,3,1992,x,,olisch Rletemple 3
+olisch,Rletemple,5,1992,x,,olisch Rletemple 5
+chrdet,Rwaldhotelsonnora,6,NA,NA,,chrdet Rwaldhotelsonnora 6
+olisch,Rwaldhotelsonnora,6,NA,NA,,olisch Rwaldhotelsonnora 6
+tobschl,Rburgnideggenbrockelschlimbach,3,2017,x,,tobschl Rburgnideggenbrockelschlimbach 3
+herbro,Rburgnideggenbrockelschlimbach,3,2017,x,,herbro Rburgnideggenbrockelschlimbach 3
+thogil,Rclostermannslegourmet,3,2018,x,,thogil Rclostermannslegourmet 3
+matach,Rbuchnerwelchenberg1658,3,2014,x,,matach Rbuchnerwelchenberg1658 3
+markeb,Rseesteg,3,2012,x,,markeb Rseesteg 3
+markeb,Rsterneck,6,1995,2012,,markeb Rsterneck 6
+joakai,Rwirtshausmeyerskeller,3,1984,x,,joakai Rwirtshausmeyerskeller 3
+joakai,Rwirtshausmeyerskeller,5,1984,x,,joakai Rwirtshausmeyerskeller 5
+fabden,Rentenstuben,3,2014,x,,fabden Rentenstuben 3
+fabden,Rentenstuben,5,2014,x,,fabden Rentenstuben 5
+fabden,Rlorenzadlonesszimmer,6,2001,2003,,fabden Rlorenzadlonesszimmer 6
+fabden,Rwaldhotelsonnora,6,2010,2011,,fabden Rwaldhotelsonnora 6
+fabden,Rkochundkellner,6,2011,2014,,fabden Rkochundkellner 6
+felbru,Rkochundkellner,3,NA,x,,felbru Rkochundkellner 3
+vadkar,Rveles,3,2021,x,,vadkar Rveles 3
+vadkar,Rveles,5,2021,x,,vadkar Rveles 5
+valrot,Rwaidwerk,3,2018,x,,valrot Rwaidwerk 3
+valrot,Rsölringhof,6,NA,NA,,valrot Rsölringhof 6
+stemei,Rzweisinnmeiersfinedining,3,2016,x,,stemei Rzweisinnmeiersfinedining 3
+stemei,Rzweisinnmeiersfinedining,5,2016,x,,stemei Rzweisinnmeiersfinedining 5
+stemei,Rgutlärchenhof,6,2008,2010,,stemei Rgutlärchenhof 6
+stemei,Rlammrosswag,6,2014,2016,,stemei Rlammrosswag 6
+petstr,Ressatelierstrauss,3,2011,x,,petstr Ressatelierstrauss 3
+chrwil,Rzurpost,3,2003,x,,chrwil Rzurpost 3
+chrwil,Rzurpost,5,2003,x,,chrwil Rzurpost 5
+alewil,Rzurpost,3,2003,x,,alewil Rzurpost 3
+alewil,Rzurpost,5,2003,x,,alewil Rzurpost 5
+flowag,Rsilberdistel,3,2018,x,,flowag Rsilberdistel 3
+johwuh,Rfalconera,3,2002,x,,johwuh Rfalconera 3
+larkei,Rfriedrich,3,2020,x,,larkei Rfriedrich 3
+larkei,Rderzauberlehrling,6,2008,2009,,larkei Rderzauberlehrling 6
+ranjon,Rkesselhaus,3,2018,x,,ranjon Rkesselhaus 3
+elmsim,Rbalthasar,3,1996,x,,elmsim Rbalthasar 3
+elmsim,Rbalthasar,5,1996,x,,elmsim Rbalthasar 5
+micamm,Rgasthausjakob,3,2016,x,,micamm Rgasthausjakob 3
+micamm,Rgasthausjakob,5,2016,x,,micamm Rgasthausjakob 5
+Rchristiansrestaurantgasthofgrainer,micamm,4,2006,2012,,Rchristiansrestaurantgasthofgrainer micamm 4
+Rlandhausfeckl,micamm,4,2012,2015,,Rlandhausfeckl micamm 4
+simsch,Rpavoimburghotelfalkenstein,3,2017,x,,simsch Rpavoimburghotelfalkenstein 3
+simsch,Rophelia,6,2012,2014,,simsch Rophelia 6
+vjepav,Rdiebrasserie,3,2014,x,,vjepav Rdiebrasserie 3
+vjepav,Rdiebrasserie,5,2014,x,,vjepav Rdiebrasserie 5
+alehub,Rhuberwirt,3,2006,x,,alehub Rhuberwirt 3
+alehub,Rhuberwirt,5,2017,x,,alehub Rhuberwirt 5
+alehub,Rrestaurantbareiss,6,1997,2000,,alehub Rrestaurantbareiss 6
+alehub,Rtantris,6,2002,2006,,alehub Rtantris 6
+davsch,Rkochzimmerindergaststättezurratswaage,3,2016,x,,davsch Rkochzimmerindergaststättezurratswaage 3
+,,,,,,  
+torsch,Rnagaya,6,2014,2017,,torsch Rnagaya 6
+torsch,Rgutlärchenhof,3,2017,x,,torsch Rgutlärchenhof 3
+holber,torsch,1,NA,NA,,holber torsch 1
+marlan,Rateliersanssouci,3,2021,x,,marlan Rateliersanssouci 3
+steher,marlan,1,NA,NA,,steher marlan 1
+antsch,Raska,5,2019,x,,antsch Raska 5
+joswei,Rrestaurantbareiss,6,NA,NA,,joswei Rrestaurantbareiss 6
+joswei,Rstorstad,6,2015,,,joswei Rstorstad 6
+joswei,Rstorstad,3,2016,x,,joswei Rstorstad 3
+antsch,Rstorstad,5,2014,x,,antsch Rstorstad 5
+Rlandhausfeckl,antsch,4,NA,2004,,Rlandhausfeckl antsch 4
+frafec,antsch,1,NA,2004,,frafec antsch 1
+antsch,atssug,2,2019,NA,,antsch atssug 2
+atssug,Raska,3,2019,x,,atssug Raska 3
+antsch,maxsch,1,NA,NA,,antsch maxsch 1
+maxsch,Rroterhahn,3,2020,x,,maxsch Rroterhahn 3
+Rstorstad,maxsch,4,2014,2017,,Rstorstad maxsch 4
+antsch,Rstorstad,3,2014,x,,antsch Rstorstad 3
+iribet,Rreuter,3,2007,x,,iribet Rreuter 3
+Rreuter,iribet,4,NA,2007,,Rreuter iribet 4
+holstr,andmün,1,NA,NA,,holstr andmün 1
+jeabou,andmün,2,NA,NA,,jeabou andmün 2
+andmün,Rimschiffchen,6,NA,x,,andmün Rimschiffchen 6
+andmün,Rgutshausstolpe,3,2007,2014,,andmün Rgutshausstolpe 3
+andmün,Rderbutt,3,2018,x,,andmün Rderbutt 3
+andmün,thohei,2,NA,NA,,andmün thohei 2
+thohei,Rderbutt,6,NA,NA,,thohei Rderbutt 6
+aloneu,Rtantris,6,NA,2012,,aloneu Rtantris 6
+aloneu,Rhaubentaucher,5,2017,x,,aloneu Rhaubentaucher 5
+aloneu,Rhaubentaucher,3,2017,x,,aloneu Rhaubentaucher 3
+ralhau,Rfreustil,5,2013,x,,ralhau Rfreustil 5
+ralhau,Rfreustil,3,2013,x,,ralhau Rfreustil 3
+raipil,Rgenussapotheke,3,NA,NA,,raipil Rgenussapotheke 3
+rolstr,Rgourmetrestaurantfinediningrs,5,1990,x,,rolstr Rgourmetrestaurantfinediningrs 5
+marwai,Rgourmetrestaurantfinediningrs,3,NA,NA,,marwai Rgourmetrestaurantfinediningrs 3
+harwoh,rolstr,2,NA,NA,,harwoh rolstr 2
+heiwin,rolstr,2,NA,NA,,heiwin rolstr 2
+alekun,Rkunzgourmet,3,1992,x,,alekun Rkunzgourmet 3
+alekun,Rkunzgourmet,5,2003,x,,alekun Rkunzgourmet 5
+patjen,Rkunzgourmet,3,NA,NA,,patjen Rkunzgourmet 3
+alekun,patjen,2,NA,NA,,alekun patjen 2
+gunehi,Rdiva,3,2008,x,,gunehi Rdiva 3
+gunehi,Rschwarzerhahn,5,1997,1998,,gunehi Rschwarzerhahn 5
+mansch,Rschwarzerhahn,3,1989,2003,,mansch Rschwarzerhahn 3
+mansch,gunehi,2,1997,1998,,mansch gunehi 2
+hanste,Rhirschen,5,1980,2008,,hanste Rhirschen 5
+hanste,gunehi,2,1998,1999,,hanste gunehi 2
+steher,Rcarrousel,3,1997,x,,steher Rcarrousel 3
+steher,gunehi,2,2000,2001,,steher gunehi 2
+gunehi,Roberländerweinstube,3,2002,2008,,gunehi Roberländerweinstube 3
+robhau,Rjuwel,3,2016,x,,robhau Rjuwel 3
+felweb,Rhofstube,3,2016,x,,felweb Rhofstube 3
+helthi,felweb,2,NA,NA,,helthi felweb 2
+nicbur,Rgourmetrestaurantnicoburkhardt,5,2018,x,,nicbur Rgourmetrestaurantnicoburkhardt 5
+nicbur,Rgourmetrestaurantnicoburkhardt,3,2018,x,,nicbur Rgourmetrestaurantnicoburkhardt 3
+nicbur,Rlorenzadlonesszimmer,6,NA,x,,nicbur Rlorenzadlonesszimmer 6
+heiwin,nicbur,1,NA,NA,,heiwin nicbur 1
+karhau,nicbur,2,2011,2018,,karhau nicbur 2
+joswol,Reisenbahn,5,NA,x,,joswol Reisenbahn 5
+joswol,Reisenbahn,3,NA,x,,joswol Reisenbahn 3
+hanreb,Rreberspflug,5,1996,x,,hanreb Rreberspflug 5
+vinkli,hanreb,2,NA,NA,,vinkli hanreb 2
+berdie,hanreb,2,NA,NA,,berdie hanreb 2
+hanreb,Rwielandshöhe,6,NA,NA,,hanreb Rwielandshöhe 6
+sebkau,Rkaupersrestaurantimkapellenhof,5,2010,x,,sebkau Rkaupersrestaurantimkapellenhof 5
+sebkau,Rkaupersrestaurantimkapellenhof,3,2010,x,,sebkau Rkaupersrestaurantimkapellenhof 3
+juaama,sebkau,2,NA,NA,,juaama sebkau 2
+sebkau,Ramador,6,NA,2009,,sebkau Ramador 6
+phihel,Rjungborn,3,2016,x,,phihel Rjungborn 3
+dansch,phihel,2,2014,2016,,dansch phihel 2
+micphi,Rphilipp,5,1998,x,,micphi Rphilipp 5
+micphi,Rphilipp,3,1998,x,,micphi Rphilipp 3
+frisch,micphi,1,NA,NA,,frisch micphi 1
+gerwin,Rhirsch,5,1985,x,,gerwin Rhirsch 5
+gerwin,Rhirsch,3,1985,x,,gerwin Rhirsch 3
+maxmos,Raubergine,3,2012,x,,maxmos Raubergine 3
+maxmos,Raloisdallmayrfinedining,6,2004,2004,,maxmos Raloisdallmayrfinedining 6
+margam,maxmos,2,2006,2007,,margam maxmos 2
+maxmos,Racquarello,6,2006,2007,,maxmos Racquarello 6
+aledin,Rfünf,6,2014,2016,,aledin Rfünf 6
+aledin,Rfünf,3,2017,x,,aledin Rfünf 3
+andhet,Rdelice,3,2014,x,,andhet Rdelice 3
+andhet,Rdelice,5,2014,x,,andhet Rdelice 5
+berdie,andhet,2,2011,2013,,berdie andhet 2
+fabhel,Rderzauberlehrling,3,2016,x,,fabhel Rderzauberlehrling 3
+wolbec,Rbeckers,5,1997,x,,wolbec Rbeckers 5
+wolbec,Rbeckers,3,1997,x,,wolbec Rbeckers 3
+fabhel,Rbeckers,6,NA,NA,,fabhel Rbeckers 6
+wolbec,fabhel,2,NA,NA,,wolbec fabhel 2
+chrjür,fabhel,2,NA,NA,,chrjür fabhel 2
+fabhel,Rvictorsfinediningbychristianbau,6,NA,NA,,fabhel Rvictorsfinediningbychristianbau 6
+chrbau,fabhel,2,NA,NA,,chrbau fabhel 2
+michup,Rhupperts,3,2014,x,,michup Rhupperts 3
+michup,Rhupperts,5,2014,x,,michup Rhupperts 5
+micoet,Roettingersrestaurant,3,2005,2023,,micoet Roettingersrestaurant 3
+micoet,benben,2,2008,2008,,micoet benben 2
+benben,Rritzigourmet,3,2018,x,,benben Rritzigourmet 3
+benben,Roettingersrestaurant,6,2008,2008,,benben Roettingersrestaurant 6
+ralkne,benben,2,2010,2012,,ralkne benben 2
+benben,Rerbprinz,6,2010,2012,,benben Rerbprinz 6
+holbod,benben,2,2015,2015,,holbod benben 2
+benben,Rbodendorfs,6,2015,2015,,benben Rbodendorfs 6
+vinkli,Rwielandshöhe,3,1991,2022,,vinkli Rwielandshöhe 3
+vinkli,Rwielandshöhe,5,1991,x,,vinkli Rwielandshöhe 5
+jörnet,Rwielandshöhe,3,2012,x,,jörnet Rwielandshöhe 3
+vinkli,jörnet,2,2012,2022,,vinkli jörnet 2
+felgab,Rkai3,3,2017,x,,felgab Rkai3 3
+,,,,,,  
+holbod,Rbodendorfs,3,2001,x,,holbod Rbodendorfs 3
+holbod,Rlandhausscherrer,6,1989,1990,,holbod Rlandhausscherrer 6
+fraber,Rgourmetrestaurantberlinskrone,3,2010,x,,fraber Rgourmetrestaurantberlinskrone 3
+fraber,Rschlossberg,6,2007,2009,,fraber Rschlossberg 6
+thoger,Roswaldsgourmetstube,3,2014,x,,thoger Roswaldsgourmetstube 3
+thoger,Rschlossberg,6,2001,2007,,thoger Rschlossberg 6
+denbrü,Rbodendorfs,3,2020,x,,denbrü Rbodendorfs 3
+holbod,Rbodendorfs,5,2011,x,,holbod Rbodendorfs 5
+fraber,Rgourmetrestaurantberlinskrone,6,2009,2010,,fraber Rgourmetrestaurantberlinskrone 6
+thoger,Rlorenzadlonesszimmer,6,1998,2001,,thoger Rlorenzadlonesszimmer 6
+lutnie,Rorangerie,3,1990,x,,lutnie Rorangerie 3
+tholem,Rorangerie,3,NA,x,,tholem Rorangerie 3
+lutnie,tholem,2,NA,x,,lutnie tholem 2
+holbod,denbrü,2,2020,x,,holbod denbrü 2
+wolbec,Rschwarzwaldstube,6,1994,1995,,wolbec Rschwarzwaldstube 6
+aleoos,Rweinundtafelhaus,5,2002,x,,aleoos Rweinundtafelhaus 5
+heilac,Ranima,5,2016,x,,heilac Ranima 5
+heilac,Rwaldhotelsonnora,6,2013,2013,,heilac Rwaldhotelsonnora 6
+heilac,RopusV,6,2014,2017,,heilac RopusV 6
+dancor,Rschlossfilseck,3,2012,x,,dancor Rschlossfilseck 3
+klabud,Rseestern,3,2018,x,,klabud Rseestern 3
+klabud,Rlandhausscherrer,6,NA,NA,,klabud Rlandhausscherrer 6
+klabud,Rrestaurantbareiss,6,NA,NA,,klabud Rrestaurantbareiss 6
+klabud,Rspeisemeisterei,6,NA,NA,,klabud Rspeisemeisterei 6
+klabud,benwit,2,2022,x,,klabud benwit 2
+benwit,Rseestern,3,2022,x,,benwit Rseestern 3
+benwit,Rwaldhotelsonnora,6,NA,NA,,benwit Rwaldhotelsonnora 6
+benwit,Rzweisinnmeiersfinedining,6,2018,2021,,benwit Rzweisinnmeiersfinedining 6
+benwit,Rsiedepunkt,3,2021,2022,,benwit Rsiedepunkt 3
+benwit,Ranthonyskitchen,3,NA,2018,,benwit Ranthonyskitchen 3
+henfri,Rsiedepunkt,3,2022,x,,henfri Rsiedepunkt 3
+henfri,Rjellyfish,6,2015,2016,,henfri Rjellyfish 6
+tomwic,Rkulmeckbytomwickboldt,5,2011,x,,tomwic Rkulmeckbytomwickboldt 5
+tomwic,Rlandhausfeckl,6,NA,NA,,tomwic Rlandhausfeckl 6
+tomwic,Rtheoroom,3,2017,2019,,tomwic Rtheoroom 3
+andkäh,Rtheoroom,3,2019,x,,andkäh Rtheoroom 3
+andkäh,Rtheoroom,6,NA,2019,,andkäh Rtheoroom 6
+sterug,Rlammrosswag,3,2001,2002,,sterug Rlammrosswag 3
+sterug,Rlammrosswag,5,2002,x,,sterug Rlammrosswag 5
+sasste,Rhausstemberg,6,2003,2004,,sasste Rhausstemberg 6
+sasste,Rhausstemberg,3,2004,x,,sasste Rhausstemberg 3
+chrbau,Rschwarzeradler,3,2017,x,,chrbau Rschwarzeradler 3
+corfis,Rweinstock,3,2021,x,,corfis Rweinstock 3
+corfis,Rrestaurantüberfahrtchristianjürgens,6,2015,2018,,corfis Rrestaurantüberfahrtchristianjürgens 6
+berbac,Rbachofer,5,2003,x,,berbac Rbachofer 5
+berbac,Rwielandshöhe,6,NA,NA,,berbac Rwielandshöhe 6
+cedsch,Rschwitzersgourmetrestaurant,3,2014,x,,cedsch Rschwitzersgourmetrestaurant 3
+cedsch,Rrestaurantbareiss,6,NA,2014,,cedsch Rrestaurantbareiss 6
+erimet,Rgasthofkrone,6,2014,2016,,erimet Rgasthofkrone 6
+erimet,Rgasthofkrone,3,2016,x,,erimet Rgasthofkrone 3
+erimet,Rlandhausfeckl,6,NA,NA,,erimet Rlandhausfeckl 6
+micrei,Rjohanns,3,2013,x,,micrei Rjohanns 3
+jürkoc,Rlaurentius,5,1991,x,,jürkoc Rlaurentius 5
+sebsyr,Rzeitgeist,3,2014,x,,sebsyr Rzeitgeist 3
+holste,Radmiral,3,2014,x,,holste Radmiral 3
+holste,Raltepfarrey,6,2003,2005,,holste Raltepfarrey 6
+holste,Rgutlärchenhof,6,2012,2013,,holste Rgutlärchenhof 6
+thohüb,Ralteüberfahrt,3,2016,x,,thohüb Ralteüberfahrt 3
+thohüb,Rfacil,6,NA,NA,,thohüb Rfacil 6
+robpie,Rpietsch,5,2013,x,,robpie Rpietsch 5
+robpie,Rzeitwerk,5,2019,x,,robpie Rzeitwerk 5
+mickam,Rente,6,2002,2006,,mickam Rente 6
+mickam,Rente,3,2006,x,,mickam Rente 3
+alehop,Rshiraz,3,2020,x,,alehop Rshiraz 3
+alehop,Rrestaurantüberfahrtchristianjürgens,6,NA,NA,,alehop Rrestaurantüberfahrtchristianjürgens 6
+robhof,Rkuno1408,6,2020,2023,,robhof Rkuno1408 6
+robhof,Rkuno1408,3,2023,x,,robhof Rkuno1408 3
+patgri,Rclararestaurantimkaisersaal,6,2020,2022,,patgri Rclararestaurantimkaisersaal 6
+patgri,Rkuno1408,3,2023,x,,patgri Rkuno1408 3
+patgri,robhof,2,2023,x,,patgri robhof 2
+jürkop,Rlandhausköpp,5,1991,x,,jürkop Rlandhausköpp 5
+jürkop,Rmühlenhelle,6,NA,NA,,jürkop Rmühlenhelle 6
+timext,Rapicius,3,2014,x,,timext Rapicius 3
+timext,Rschwarzwaldstube,6,2009,2009,,timext Rschwarzwaldstube 6
+timext,Rthetablekevinfehling,6,2017,2017,,timext Rthetablekevinfehling 6
+timtan,Rthenoname,3,2021,x,,timtan Rthenoname 3
+aljfüt,Rsäpfle,6,2021,2022,,aljfüt Rsäpfle 6
+aljfüt,Rsäpfle,3,2022,2023,,aljfüt Rsäpfle 3
+aljfüt,Rnobelhartundschmutzig,6,2023,x,,aljfüt Rnobelhartundschmutzig 6
+,,,,,,  
+marsau,Rhirschgasselegourmet,3,2007,2023,,marsau Rhirschgasselegourmet 3
+marsau,Rwaldhotelsonnora,6,NA,2007,,marsau Rwaldhotelsonnora 6
+erischw,Rschwingshacklesskulturgourmet,3,1994,1995,,erischw Rschwingshacklesskulturgourmet 3
+erischw,Raubergine,6,2006,2023,,erischw Raubergine 6
+jocfec,Rsanmartino,3,2014,2023,,jocfec Rsanmartino 3
+grerup,Rmarly,3,1999,2023,,grerup Rmarly 3
+grerup,Rmarly,5,1999,2023,,grerup Rmarly 5
+benpfe,Rrestauranturgestein,3,NA,2017,,benpfe Rrestauranturgestein 3
+hedrin,Rrestauranturgestein,3,2017,2023,,hedrin Rrestauranturgestein 3
+hedrin,Rrestauranturgestein,5,2009,x,,hedrin Rrestauranturgestein 5
+henwei,Rlecerf,6,2003,2008,,henwei Rlecerf 6
+guirig,Rrestaurant1797,3,NA,2023,,guirig Rrestaurant1797 3
+maigeh,Raltepfarrey,3,2013,2023,,maigeh Raltepfarrey 3
+maigeh,Rgutshausstolpe,6,2007,2010,,maigeh Rgutshausstolpe 6
+petsch,Rhirschen,6,1992,1993,,petsch Rhirschen 6
+petsch,Rwaldhotelsonnora,6,1994,1995,,petsch Rwaldhotelsonnora 6
+petsch,Rimschiffchen,,1999,,,petsch Rimschiffchen 
+petsch,Rfalco,3,2005,2023,,petsch Rfalco 3
+petsch,Rfalco,5,2005,2023,,petsch Rfalco 5
+,,,,,,  
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+janhar,janhar,,,,,
+Rjan,Rjan,,,,,
+Rgästehausklauserfort,Rgästehausklauserfort,,,,,
+klaerf,klaerf,,,,,
+sveelv,sveelv,,,,,
+Raqua,Raqua,,,,,
+Ratelier,Ratelier,,,,,
+Rschwarzwaldstube,Rschwarzwaldstube,,,,,
+harwoh,harwoh,,,,,
+tormic,tormic,,,,,
+eckwit,eckwit,,,,,
+pauboc,pauboc,,,,,
+heiwin,heiwin,,,,,
+clalum,clalum,,,,,
+Rrestaurantbareiss,Rrestaurantbareiss,,,,,
+johkin,johkin,,,,,
+marmül,marmül,,,,,
+Rrutz,Rrutz,,,,,
+cleram,cleram,,,,,
+Rwaldhotelsonnora,Rwaldhotelsonnora,,,,,
+kevfeh,kevfeh,,,,,
+Rthetablekevinfehling,Rthetablekevinfehling,,,,,
+chrbau,chrbau,,,,,
+Rvictorsfinediningbychristianbau,Rvictorsfinediningbychristianbau,,,,,
+thosch,thosch,,,,,
+Rschanzrestaurant,Rschanzrestaurant,,,,,
+helthi,helthi,,,,,
+chrjür,chrjür,,,,,
+Rrestaurantüberfahrtchristianjürgens,Rrestaurantüberfahrtchristianjürgens,,,,,
+dansch,dansch,,,,,
+Rlajordan,Rlajordan,,,,,
+julsto,julsto,,,,,
+Rlakeside,Rlakeside,,,,,
+Raloisdallmayrfinedining,Raloisdallmayrfinedining,,,,,
+bengal,bengal,,,,,
+silnic,silnic,,,,,
+Rvotum,Rvotum,,,,,
+thoben,thoben,,,,,
+Rsein,Rsein,,,,,
+rosost,rosost,,,,,
+Rcoeurdartichaut,Rcoeurdartichaut,,,,,
+fremor,fremor,,,,,
+thokel,thokel,,,,,
+Rgourmetrestaurantdichter,Rgourmetrestaurantdichter,,,,,
+hanhaa,hanhaa,,,,,
+nicnus,nicnus,,,,,
+Rmühle,Rmühle,,,,,
+yannoa,yannoa,,,,,
+Rpurs,Rpurs,,,,,
+chrgrü,chrgrü,,,,,
+Raugust,Raugust,,,,,
+Rvendome,Rvendome,,,,,
+joawis,joawis,,,,,
+Rcodadessertdining,Rcodadessertdining,,,,,
+renfra,renfra,,,,,
+joager,joager,,,,,
+Rfacil,Rfacil,,,,,
+Rhorvath,Rhorvath,,,,,
+sebfra,sebfra,,,,,
+Rlorenzadlonesszimmer,Rlorenzadlonesszimmer,,,,,
+retbrä,retbrä,,,,,
+timrau,timrau,,,,,
+Rtimraue,Rtimraue,,,,,
+manulr,manulr,,,,,
+Röschnoir,Röschnoir,,,,,
+jocbus,jocbus,,,,,
+Rgustav,Rgustav,,,,,
+andkro,andkro,,,,,
+Rlafleur,Rlafleur,,,,,
+dirlut,dirlut,,,,,
+Rmeiereidirkluther,Rmeiereidirkluther,,,,,
+edisig,edisig,,,,,
+Ressenz,Ressenz,,,,,
+thoimb,thoimb,,,,,
+R100200kitchen,R100200kitchen,,,,,
+matfer,matfer,,,,,
+Rbianc,Rbianc,,,,,
+Rhaerlin,Rhaerlin,,,,,
+chrrüf,chrrüf,,,,,
+Rjante,Rjante,,,,,
+tonhoh,tonhoh,,,,,
+erimen,erimen,,,,,
+Rlemoissonnier,Rlemoissonnier,,,,,
+dangot,dangot,,,,,
+Roxklee,Roxklee,,,,,
+dirhob,dirhob,,,,,
+Rophelia,Rophelia,,,,,
+chrrai,chrrai,,,,,
+Rlucedoro,Rlucedoro,,,,,
+dompau,dompau,,,,,
+Ropusv,Ropusv,,,,,
+antgsc,antgsc,,,,,
+bobbrä,bobbrä,,,,,
+Resszimmer,Resszimmer,,,,,
+Rtantris,Rtantris,,,,,
+benchu,benchu,,,,,
+tohnak,tohnak,,,,,
+Rtohruinderschreiberei,Rtohruinderschreiberei,,,,,
+chrbin,chrbin,,,,,
+Rsteinheuersrestaurantzuraltenpost,Rsteinheuersrestaurantzuraltenpost,,,,,
+sebobe,sebobe,,,,,
+Robendorferseisvogel,Robendorferseisvogel,,,,,
+yveoll,yveoll,,,,,
+Ressigbrätlein,Ressigbrätlein,,,,,
+felsch,felsch,,,,,
+Retz,Retz,,,,,
+Rlepavillon,Rlepavillon,,,,,
+marher,marher,,,,,
+pethag,pethag,,,,,
+Rammolitethelighthouserestaurant,Rammolitethelighthouserestaurant,,,,,
+chrfle,chrfle,,,,,
+silfab,silfab,,,,,
+Resplanade,Resplanade,,,,,
+sebsan,sebsan,,,,,
+Rlouisrestaurant,Rlouisrestaurant,,,,,
+stegsc,stegsc,,,,,
+Rspeisemeisterei,Rspeisemeisterei,,,,,
+douste,douste,,,,,
+Rhirschen,Rhirschen,,,,,
+Rsölringhof,Rsölringhof,,,,,
+janber,janber,,,,,
+frakel,frakel,,,,,
+chrsch,chrsch,,,,,
+Rcourtier,Rcourtier,,,,,
+aleher,aleher,,,,,
+tobbät,tobbät,,,,,
+Raurabyalexanderherrmanntobiasbätz,Raurabyalexanderherrmanntobiasbätz,,,,,
+Rlecerf,Rlecerf,,,,,
+Rthenoname,Rthenoname,,,,,
+timtan,timtan,,,,,
+borrom,borrom,,,,,
+zsofod,zsofod,,,,,
+Rsolodu,Rsolodu,,,,,
+dansch2,dansch2,,,,,
+Rmasters,Rmasters,,,,,
+jasgro,jasgro,,,,,
+Rdieburg,Rdieburg,,,,,
+benkri,benkri,,,,,
+Rpinkpepper,Rpinkpepper,,,,,
+markaz,markaz,,,,,
+Rdasgarboimlöwen,Rdasgarboimlöwen,,,,,
+Rclararestaurantimkaisersaal,Rclararestaurantimkaisersaal,,,,,
+chrwei,chrwei,,,,,
+jürket,jürket,,,,,
+Rkettnerskamota,Rkettnerskamota,,,,,
+patlöh,patlöh,,,,,
+Rbidlabu,Rbidlabu,,,,,
+manwim,manwim,,,,,
+Rgourmetrestaurantimkarner,Rgourmetrestaurantimkarner,,,,,
+henwei,henwei,,,,,
+Rcolombirestaurant,Rcolombirestaurant,,,,,
+sveusi,sveusi,,,,,
+frecam,frecam,,,,,
+Reichhalde,Reichhalde,,,,,
+Rwolfshöhle,Rwolfshöhle,,,,,
+marfau,marfau,,,,,
+kevbür,kevbür,,,,,
+Rhaebel,Rhaebel,,,,,
+davwei,davwei,,,,,
+Rverbene,Rverbene,,,,,
+julkom,julkom,,,,,
+Rsahilatherestaurant,Rsahilatherestaurant,,,,,
+klasch,klasch,,,,,
+Rkuultivo,Rkuultivo,,,,,
+tomels,tomels,,,,,
+Riko,Riko,,,,,
+Rmarburgeresszimmer,Rmarburgeresszimmer,,,,,
+denfei,denfei,,,,,
+harbor,harbor,,,,,
+Rborst,Rborst,,,,,
+maxbor,maxbor,,,,,
+danbod,danbod,,,,,
+Rbrothers,Rbrothers,,,,,
+Rmuralfarmhouse,Rmuralfarmhouse,,,,,
+maxhub,maxhub,,,,,
+Rbok,Rbok,,,,,
+laukux,laukux,,,,,
+karspi,karspi,,,,,
+Rspitzner,Rspitzner,,,,,
+renste,renste,,,,,
+Rtisane,Rtisane,,,,,
+domwac,domwac,,,,,
+Rwachterfoodbar,Rwachterfoodbar,,,,,
+julrei,julrei,,,,,
+Resszimmerimoberschwäbischenhof,Resszimmerimoberschwäbischenhof,,,,,
+danmäs,danmäs,,,,,
+Rhegeleins,Rhegeleins,,,,,
+gersch,gersch,,,,,
+Rbagatelle,Rbagatelle,,,,,
+alimei,alimei,,,,,
+Rbibraud,Rbibraud,,,,,
+benpfe,benpfe,,,,,
+Rintense,Rintense,,,,,
+maraku,maraku,,,,,
+Rmarkos,Rmarkos,,,,,
+domale,domale,,,,,
+Rgasthofalex,Rgasthofalex,,,,,
+nikber,nikber,,,,,
+Rbonvivant,Rbonvivant,,,,,
+andsch,andsch,,,,,
+Rlabecasse,Rlabecasse,,,,,
+Rsanktbenedikt,Rsanktbenedikt,,,,,
+maxkre,maxkre,,,,,
+Rimschiffchen,Rimschiffchen,,,,,
+jeabou,jeabou,,,,,
+Rschattbuch,Rschattbuch,,,,,
+chrmar,chrmar,,,,,
+Rschwabenstube,Rschwabenstube,,,,,
+maxspe,maxspe,,,,,
+Rsoulfood,Rsoulfood,,,,,
+miclau,miclau,,,,,
+chrheß,chrheß,,,,,
+Ralteliebe,Ralteliebe,,,,,
+benmit,benmit,,,,,
+Rsartory,Rsartory,,,,,
+simlan,simlan,,,,,
+Rlejardindefrance,Rlejardindefrance,,,,,
+steber,steber,,,,,
+Rmalteshiddenkitchen,Rmalteshiddenkitchen,,,,,
+malkuh,malkuh,,,,,
+Rgasthauszumraben,Rgasthauszumraben,,,,,
+stedis,stedis,,,,,
+R1789,R1789,,,,,
+flosto,flosto,,,,,
+Rschlossberg,Rschlossberg,,,,,
+jörsac,jörsac,,,,,
+nicsac,nicsac,,,,,
+,,,,,,
+Rpur,Rpur,,,,,
+ulrhei,ulrhei,,,,,
+Rbandolsurmer,Rbandolsurmer,,,,,
+andsau,andsau,,,,,
+Rbieberbau,Rbieberbau,,,,,
+stepgar,stepgar,,,,,
+jeamat,jeamat,,,,,
+Rbricole,Rbricole,,,,,
+stezei,stezei,,,,,
+Rcookiescream,Rcookiescream,,,,,
+nichah,nichah,,,,,
+Rcordo,Rcordo,,,,,
+yansto,yansto,,,,,
+Rernst,Rernst,,,,,
+dylwat,dylwat,,,,,
+Rfaelt,Rfaelt,,,,,
+bjosaw,bjosaw,,,,,
+mickem,mickem,,,,,
+chrsom,chrsom,,,,,
+Rgolvet,Rgolvet,,,,,
+jonzoe,jonzoe,,,,,
+janrze,janrze,,,,,
+Rhugos,Rhugos,,,,,
+ebelan,ebelan,,,,,
+Rirmaladouce,Rirmaladouce,,,,,
+fracon,fracon,,,,,
+Rnobelhartundschmutzig,Rnobelhartundschmutzig,,,,,
+micschä,micschä,,,,,
+Rrestaurantvillamerton,Rrestaurantvillamerton,,,,,
+phigia,phigia,,,,,
+Rprism,Rprism,,,,,
+galmos,galmos,,,,,
+Rrichard,Rrichard,,,,,
+Rskykitchen,Rskykitchen,,,,,
+saskur,saskur,,,,,
+Rtuluslotrek,Rtuluslotrek,,,,,
+maxstr,maxstr,,,,,
+Rmaerz,Rmaerz,,,,,
+benmae,benmae,,,,,
+Rhämmerlesrestaurantbarrique,Rhämmerlesrestaurantbarrique,,,,,
+clihae,clihae,,,,,
+Rhalbedelsgasthaus,Rhalbedelsgasthaus,,,,,
+raihal,raihal,,,,,
+Ryunico,Ryunico,,,,,
+chrstu,chrstu,,,,,
+Rsterneck,Rsterneck,,,,,
+marren,marren,,,,,
+Rmaintowerrestaurantundlounge,Rmaintowerrestaurantundlounge,,,,,
+marweg,marweg,,,,,
+Rox,Rox,,,,,
+davrin,davrin,,,,,
+Rkuchersgourmet,Rkuchersgourmet,,,,,
+flokuc,flokuc,,,,,
+Rkook36,Rkook36,,,,,
+dankle,dankle,,,,,
+steneu,steneu,,,,,
+feljar,feljar,,,,,
+Rbjörnsox,Rbjörnsox,,,,,
+bjölei,bjölei,,,,,
+Rjandiekjobstrestaurant,Rjandiekjobstrestaurant,,,,,
+jandie,jandie,,,,,
+Rostseelounge,Rostseelounge,,,,,
+matsto,matsto,,,,,
+andmün,andmün,,,,,
+andbei,andbei,,,,,
+Rfriedrichfranz,Rfriedrichfranz,,,,,
+ronsie,ronsie,,,,,
+Rgoldeneranker,Rgoldeneranker,,,,,
+bjöfrei,bjöfrei,,,,,
+Rrosin,Rrosin,,,,,
+fraros,fraros,,,,,
+Rgrammonsrestaurant,Rgrammonsrestaurant,,,,,
+dirgram,dirgram,,,,,
+Rthestage,Rthestage,,,,,
+micdyl,micdyl,,,,,
+geomim,geomim,,,,,
+Relements,Relements,,,,,
+stemieß,stemieß,,,,,
+Rgenussatelier,Rgenussatelier,,,,,
+marblo,marblo,,,,,
+Rhummelsgourmetstube,Rhummelsgourmetstube,,,,,
+stefhum,stefhum,,,,,
+Rfalconera,Rfalconera,,,,,
+Rmodbysvennöthel,Rmodbysvennöthel,,,,,
+svenoe,svenoe,,,,,
+R1876danieldalben,R1876danieldalben,,,,,
+dandal,dandal,,,,,
+Ragatas,Ragatas,,,,,
+marfoe,marfoe,,,,,
+Rdrkosch,Rdrkosch,,,,,
+voldrk,voldrk,,,,,
+Rleflair,Rleflair,,,,,
+dancer,dancer,,,,,
+yosnag,yosnag,,,,,
+Rphoenix,Rphoenix,,,,,
+phiwol,phiwol,,,,,
+Ryoshibynagaya,Ryoshibynagaya,,,,,
+Rtraube,Rtraube,,,,,
+brwaw,brwaw,,,,,
+Rjean,Rjean,,,,,
+johfra,johfra,,,,,
+Rmerklesrestaurant,Rmerklesrestaurant,,,,,
+thomer,thomer,,,,,
+Rtroyka,Rtroyka,,,,,
+alewul,alewul,,,,,
+markok,markok,,,,,
+Rhannappel,Rhannappel,,,,,
+tobwey,tobwey,,,,,
+Rschote,Rschote,,,,,
+nelmue,nelmue,,,,,
+Rbembergshäuschen,Rbembergshäuschen,,,,,
+filczm,filczm,,,,,
+Ralteschuleklassenzimmer,Ralteschuleklassenzimmer,,,,,
+kaylur,kaylur,,,,,
+Rdasgrace,Rdasgrace,,,,,
+quibru,quibru,,,,,
+Raltwyk,Raltwyk,,,,,
+rendit,rendit,,,,,
+Rphilippsoldan,Rphilippsoldan,,,,,
+eriarn,eriarn,,,,,
+Rcarmelogreco,Rcarmelogreco,,,,,
+benrus,benrus,,,,,
+cargre,cargre,,,,,
+Rernosbistro,Rernosbistro,,,,,
+valmat,valmat,,,,,
+Rmasajapanesecuisine,Rmasajapanesecuisine,,,,,
+masoae,masoae,,,,,
+Rsevenswans,Rsevenswans,,,,,
+ricsaw,ricsaw,,,,,
+Rweinsinn,Rweinsinn,,,,,
+danple,danple,,,,,
+Rmichaelsleitenberg,Rmichaelsleitenberg,,,,,
+micschl,micschl,,,,,
+Rgenießerstube,Rgenießerstube,,,,,
+danrau,danrau,,,,,
+Rchristianandfriendstastekitchen,Rchristianandfriendstastekitchen,,,,,
+chrste,chrste,,,,,
+Rwernersrestaurant,Rwernersrestaurant,,,,,
+edmsch,edmsch,,,,,
+Reckert,Reckert,,,,,
+nicwied,nicwied,,,,,
+Rmühlenhelle,Rmühlenhelle,,,,,
+micque,micque,,,,,
+Rspeiseberg,Rspeiseberg,,,,,
+Rratsstuben,Rratsstuben,,,,,
+dangeo,dangeo,,,,,
+Rjellyfish,Rjellyfish,,,,,
+stefät,stefät,,,,,
+heiweh,heiweh,,,,,
+Rlandhausscherrer,Rlandhausscherrer,,,,,
+wahnou,wahnou,,,,,
+Rpiment,Rpiment,,,,,
+mauost,mauost,,,,,
+Rzeik,Rzeik,,,,,
+thowoh,thowoh,,,,,
+Rhandwerk,Rhandwerk,,,,,
+robräd,robräd,,,,,
+Roben,Roben,,,,,
+petnie,petnie,,,,,
+Rlavalleeverte,Rlavalleeverte,,,,,
+conkai,conkai,,,,,
+Rletable,Rletable,,,,,
+flovog,flovog,,,,,
+Rcamersschlossrestaurant,Rcamersschlossrestaurant,,,,,
+Rchevalblanc,Rchevalblanc,,,,,
+Igoyak,Igoyak,,,,,
+Rtawayamafine,Rtawayamafine,,,,,
+joamal,joamal,,,,,
+Rmalathounis,Rmalathounis,,,,,
+thobell,thobell,,,,,
+Rschlossloersfeld,Rschlossloersfeld,,,,,
+dirsch,dirsch,,,,,
+Rweinschänkeschlossgroenesteyn,Rweinschänkeschlossgroenesteyn,,,,,
+chrgra,chrgra,,,,,
+Rchristiansrestaurantgasthofgrainer,Rchristiansrestaurantgasthofgrainer,,,,,
+mansch,mansch,,,,,
+Rschwarzgourmet,Rschwarzgourmet,,,,,
+fredes,fredes,,,,,
+Rlaudensacksgourmetrestaurant,Rlaudensacksgourmetrestaurant,,,,,
+frasey,frasey,,,,,
+Rgotthardts,Rgotthardts,,,,,
+miksch,miksch,,,,,
+Rschillersmanufaktur,Rschillersmanufaktur,,,,,
+robcar,robcar,,,,,
+Ralfredo,Ralfredo,,,,,
+eriwer,eriwer,,,,,
+Rastrein,Rastrein,,,,,
+marrad,marrad,,,,,
+Rlacuisinerademacher,Rlacuisinerademacher,,,,,
+leohof,leohof,,,,,
+Rlasociete,Rlasociete,,,,,
+tobbec,tobbec,,,,,
+janmai,janmai,,,,,
+Rmaibeck,Rmaibeck,,,,,
+maxlor,maxlor,,,,,
+Rmaximilianlorenz,Rmaximilianlorenz,,,,,
+sonbau,sonbau,,,,,
+erische,erische,,,,,
+Rneobiota,Rneobiota,,,,,
+enrsab,enrsab,,,,,
+Rpottkind,Rpottkind,,,,,
+mirgau,mirgau,,,,,
+Rtaku,Rtaku,,,,,
+tholös,tholös,,,,,
+Rzurtant,Rzurtant,,,,,
+andwid,andwid,,,,,
+Rursprung,Rursprung,,,,,
+stebra,stebra,,,,,
+Rleosbystephanbrandl,Rleosbystephanbrandl,,,,,
+raizei,raizei,,,,,
+Richweißeinhausamsee,Richweißeinhausamsee,,,,,
+jochel,jochel,,,,,
+frihel,frihel,,,,,
+Rstorchen,Rstorchen,,,,,
+danfeh,danfeh,,,,,
+Radler,Radler,,,,,
+rolpie,rolpie,,,,,
+Rseoküchenhandwerk,Rseoküchenhandwerk,,,,,
+hanhäg,hanhäg,,,,,
+Rgasthofzumbad,Rgasthofzumbad,,,,,
+margri,margri,,,,,
+Rkeidenzellerhof,Rkeidenzellerhof,,,,,
+lisang,lisang,,,,,
+andrei,andrei,,,,,
+Rfrieda,Rfrieda,,,,,
+detsch,detsch,,,,,
+Rstadtpfeiffer,Rstadtpfeiffer,,,,,
+alehoh,alehoh,,,,,
+R360°,R360°,,,,,
+tonneu,tonneu,,,,,
+Rvillino,Rvillino,,,,,
+roypet,roypet,,,,,
+Rwullenwever,Rwullenwever,,,,,
+tobsch,tobsch,,,,,
+Rfavoriterestaurant,Rfavoriterestaurant,,,,,
+phiste,phiste,,,,,
+Rsteinstraube,Rsteinstraube,,,,,
+erischu,erischu,,,,,
+Rdoblers,Rdoblers,,,,,
+antsar,antsar,,,,,
+Ranthonyskitchen,Ranthonyskitchen,,,,,
+marphi,marphi,,,,,
+Rcasala,Rcasala,,,,,
+andhil,andhil,,,,,
+Rdasmarktrestaurant,Rdasmarktrestaurant,,,,,
+margam,margam,,,,,
+Racquarello,Racquarello,,,,,
+flober,flober,,,,,
+Rgabelspiel,Rgabelspiel,,,,,
+natleb,natleb,,,,,
+Rlesdeux,Rlesdeux,,,,,
+martau,martau,,,,,
+Rmountainhubgourmet,Rmountainhubgourmet,,,,,
+joslei,joslei,,,,,
+Rmural,Rmural,,,,,
+domkäp,domkäp,,,,,
+tobbac,tobbac,,,,,
+Rshowroom,Rshowroom,,,,,
+jürwol,jürwol,,,,,
+Rsparklingbistro,Rsparklingbistro,,,,,
+Rtantrisdna,Rtantrisdna,,,,,
+sigsch,sigsch,,,,,
+Rwerneckhofsigischelling,Rwerneckhofsigischelling,,,,,
+harrüs,harrüs,,,,,
+Rrüsselslandhaus,Rrüsselslandhaus,,,,,
+claurr,claurr,,,,,
+Raltebaiz,Raltebaiz,,,,,
+chrdet,chrdet,,,,,
+olisch,olisch,,,,,
+Rletemple,Rletemple,,,,,
+tobschl,tobschl,,,,,
+herbro,herbro,,,,,
+Rburgnideggenbrockelschlimbach,Rburgnideggenbrockelschlimbach,,,,,
+thogil,thogil,,,,,
+Rclostermannslegourmet,Rclostermannslegourmet,,,,,
+matach,matach,,,,,
+Rbuchnerwelchenberg1658,Rbuchnerwelchenberg1658,,,,,
+markeb,markeb,,,,,
+Rseesteg,Rseesteg,,,,,
+joakai,joakai,,,,,
+Rwirtshausmeyerskeller,Rwirtshausmeyerskeller,,,,,
+fabden,fabden,,,,,
+Rentenstuben,Rentenstuben,,,,,
+felbru,felbru,,,,,
+Rkochundkellner,Rkochundkellner,,,,,
+vadkar,vadkar,,,,,
+Rveles,Rveles,,,,,
+valrot,valrot,,,,,
+Rwaidwerk,Rwaidwerk,,,,,
+stemei,stemei,,,,,
+Rzweisinnmeiersfinedining,Rzweisinnmeiersfinedining,,,,,
+petstr,petstr,,,,,
+Ressatelierstrauss,Ressatelierstrauss,,,,,
+chrwil,chrwil,,,,,
+alewil,alewil,,,,,
+Rzurpost,Rzurpost,,,,,
+flowag,flowag,,,,,
+Rsilberdistel,Rsilberdistel,,,,,
+johwuh,johwuh,,,,,
+larkei,larkei,,,,,
+Rfriedrich,Rfriedrich,,,,,
+ranjon,ranjon,,,,,
+Rkesselhaus,Rkesselhaus,,,,,
+elmsim,elmsim,,,,,
+Rbalthasar,Rbalthasar,,,,,
+micamm,micamm,,,,,
+Rgasthausjakob,Rgasthausjakob,,,,,
+simsch,simsch,,,,,
+Rpavoimburghotelfalkenstein,Rpavoimburghotelfalkenstein,,,,,
+vjepav,vjepav,,,,,
+Rdiebrasserie,Rdiebrasserie,,,,,
+alehub,alehub,,,,,
+Rhuberwirt,Rhuberwirt,,,,,
+davsch,davsch,,,,,
+Rkochzimmerindergaststättezurratswaage,Rkochzimmerindergaststättezurratswaage,,,,,
+torsch,torsch,,,,,
+Rnagaya,Rnagaya,,,,,
+Rgutlärchenhof,Rgutlärchenhof,,,,,
+holber,holber,,,,,
+Rateliersanssouci,Rateliersanssouci,,,,,
+marlan,marlan,,,,,
+steher,steher,,,,,
+Rlandhausfeckl,Rlandhausfeckl,,,,,
+frafec,frafec,,,,,
+antsch,antsch,,,,,
+atssug,atssug,,,,,
+Rstorstad,Rstorstad,,,,,
+Rroterhahn,Rroterhahn,,,,,
+maxsch,maxsch,,,,,
+joswei,joswei,,,,,
+Rreuter,Rreuter,,,,,
+iribet,iribet,,,,,
+Rgourmetrestaurantderbutt,Rgourmetrestaurantderbutt,,,,,
+andmün,andmün,,,,,
+thohei,thohei,,,,,
+Rgutshausstolpe,Rgutshausstolpe,,,,,
+holstr,holstr,,,,,
+Rhaubentaucher,Rhaubentaucher,,,,,
+aloneu,aloneu,,,,,
+Rfreustil,Rfreustil,,,,,
+ralhau,ralhau,,,,,
+Rgenussapotheke,Rgenussapotheke,,,,,
+raipil,raipil,,,,,
+Rgourmetrestaurantfinediningrs,Rgourmetrestaurantfinediningrs,,,,,
+marwai,marwai,,,,,
+rolstr,rolstr,,,,,
+Rkunzgourmet,Rkunzgourmet,,,,,
+alekun,alekun,,,,,
+patjen,patjen,,,,,
+Rdiva,Rdiva,,,,,
+gunehi,gunehi,,,,,
+Rschwarzerhahn,Rschwarzerhahn,,,,,
+hanste,hanste,,,,,
+Rcarrousel,Rcarrousel,,,,,
+Roberländerweinstube,Roberländerweinstube,,,,,
+robhau,robhau,,,,,
+Rjuwel,Rjuwel,,,,,
+Rhofstube,Rhofstube,,,,,
+felweb,felweb,,,,,
+Rgourmetrestaurantnicoburkhardt,Rgourmetrestaurantnicoburkhardt,,,,,
+nicbur,nicbur,,,,,
+karhau,karhau,,,,,
+joswol,joswol,,,,,
+Reisenbahn,Reisenbahn,,,,,
+Rreberspflug,Rreberspflug,,,,,
+vinkli,vinkli,,,,,
+hanreb,hanreb,,,,,
+berdie,berdie,,,,,
+sebkau,sebkau,,,,,
+Rkaupersrestaurantimkapellenhof,Rkaupersrestaurantimkapellenhof,,,,,
+juaama,juaama,,,,,
+Ramador,Ramador,,,,,
+Rjungborn,Rjungborn,,,,,
+phihel,phihel,,,,,
+Rphilipp,Rphilipp,,,,,
+micphi,micphi,,,,,
+frisch,frisch,,,,,
+gerwin,gerwin,,,,,
+Rhirsch,Rhirsch,,,,,
+Raubergine,Raubergine,,,,,
+maxmos,maxmos,,,,,
+Rfünf,Rfünf,,,,,
+aledin,aledin,,,,,
+Rdelice,Rdelice,,,,,
+andhet,andhet,,,,,
+Rderzauberlehrling,Rderzauberlehrling,,,,,
+fabhel,fabhel,,,,,
+michup,michup,,,,,
+Rhupperts,Rhupperts,,,,,
+benben,benben,,,,,
+Rritzigourmet,Rritzigourmet,,,,,
+micoet,micoet,,,,,
+Roettingersrestaurant,Roettingersrestaurant,,,,,
+ralkne,ralkne,,,,,
+Rerbprinz,Rerbprinz,,,,,
+jörnet,jörnet,,,,,
+Rwielandshöhe,Rwielandshöhe,,,,,
+felgab,felgab,,,,,
+Rkai3,Rkai3,,,,,
+Rbodendorfs,Rbodendorfs,,,,,
+holbod,holbod,,,,,
+Rgourmetrestaurantberlinskrone,Rgourmetrestaurantberlinskrone,,,,,
+fraber,fraber,,,,,
+Roswaldsgourmetstube,Roswaldsgourmetstube,,,,,
+thoger,thoger,,,,,
+denbrü,denbrü,,,,,
+Rorangerie,Rorangerie,,,,,
+lutnie,lutnie,,,,,
+tholem,tholem,,,,,
+Rbeckers,Rbeckers,,,,,
+wolbec,wolbec,,,,,
+Rweinundtafelhaus,Rweinundtafelhaus,,,,,
+aleoos,aleoos,,,,,
+Ranima,Ranima,,,,,
+heilac,heilac,,,,,
+Rschlossfilseck,Rschlossfilseck,,,,,
+dancor,dancor,,,,,
+Rseestern,Rseestern,,,,,
+klabud,klabud,,,,,
+benwit,benwit,,,,,
+Rsiedepunkt,Rsiedepunkt,,,,,
+henfri,henfri,,,,,
+Rkulmeckbytomwickboldt,Rkulmeckbytomwickboldt,,,,,
+tomwic,tomwic,,,,,
+Rtheoroom,Rtheoroom,,,,,
+andkäh,andkäh,,,,,
+Rlammrosswag,Rlammrosswag,,,,,
+sterug,sterug,,,,,
+Rhausstemberg,Rhausstemberg,,,,,
+sasste,sasste,,,,,
+Rschwarzeradler,Rschwarzeradler,,,,,
+Rweinstock,Rweinstock,,,,,
+corfis,corfis,,,,,
+Rbachofer,Rbachofer,,,,,
+berbac,berbac,,,,,
+Rschwitzersgourmetrestaurant,Rschwitzersgourmetrestaurant,,,,,
+cedsch,cedsch,,,,,
+Rgasthofkrone,Rgasthofkrone,,,,,
+erimet,erimet,,,,,
+Rjohanns,Rjohanns,,,,,
+micrei,micrei,,,,,
+Rlaurentius,Rlaurentius,,,,,
+jürkoc,jürkoc,,,,,
+Rzeitgeist,Rzeitgeist,,,,,
+sebsyr,sebsyr,,,,,
+holste,holste,,,,,
+Radmiral,Radmiral,,,,,
+Ralteüberfahrt,Ralteüberfahrt,,,,,
+thohüb,thohüb,,,,,
+Rpietsch,Rpietsch,,,,,
+Rzeitwerk,Rzeitwerk,,,,,
+robpie,robpie,,,,,
+Rente,Rente,,,,,
+mickam,mickam,,,,,
+Rshiraz,Rshiraz,,,,,
+alehop,alehop,,,,,
+Rkuno1408,Rkuno1408,,,,,
+patgri,patgri,,,,,
+robhof,robhof,,,,,
+Rlandhausköpp,Rlandhausköpp,,,,,
+jürkop,jürkop,,,,,
+Rapicius,Rapicius,,,,,
+timext,timext,,,,,
+Raltepfarrey,Raltepfarrey,,,,,
+Rfalco,Rfalco,,,,,
+maigeh,maigeh,,,,,
+petsch,petsch,,,,,
+Rsäpfle,Rsäpfle,,,,,
+aljfüt,aljfüt,,,,,
+Rhirschgasselegourmet,Rhirschgasselegourmet,,,,,
+Rschwingshacklesskulturgourmet,Rschwingshacklesskulturgourmet,,,,,
+Rsanmartino,Rsanmartino,,,,,
+Rmarly,Rmarly,,,,,
+Rrestauranturgestein,Rrestauranturgestein,,,,,
+Rdasmaximilians,Rdasmaximilians,,,,,
+Rrestaurant1797,Rrestaurant1797,,,,,
+Raska,Raska,,,,,
+marsau,marsau,,,,,
+erischw,erischw,,,,,
+jocfec,jocfec,,,,,
+grerup,grerup,,,,,
+hedrin,hedrin,,,,,
+guirig,guirig,,,,,
