@@ -1,0 +1,710 @@
+id,name,type,sex,michelin_rating,0tio0lity,county,alive
+janhar,Jan Hartwig,chef,2,3,deutsch,0,1
+Rjan,JAN,restaurant,0,3,0,by,0
+Rgästehausklauserfort,GästeHaus Klaus Erfort,restaurant,0,2,0,sl,0
+klaerf,Klaus Erfort,chef,2,2,deutsch,0,1
+sveelv,Sven Elverfeld,chef,2,3,deutsch,0,1
+Raqua,Aqua,restaurant,0,3,0,ni,0
+Ratelier,Atelier,restaurant,0,2,0,by,0
+Rschwarzwaldstube,Schwarzwaldstube,restaurant,0,3,0,bw,0
+harwoh,Harald Wohlfahrt,chef,2,3,deutsch,0,1
+tormic,Torsten Michel,chef,2,3,deutsch,0,1
+eckwit,Eckart Witzigmann,chef,2,3,österreichisch,0,1
+pauboc,Paul Bocuse,chef,2,3,französisch,0,2
+heiwin,Heinz Winkler,chef,2,3,deutsch,0,2
+clalum,Claus-Peter Lumpp,chef,2,3,deutsch,0,1
+Rrestaurantbareiss,Restaurant Bareiss,restaurant,0,3,0,bw,0
+johkin,Johannes King,chef,2,2,deutsch,0,1
+marmül,Marco Müller,chef,2,3,deutsch,0,1
+Rrutz,Rutz,restaurant,0,3,0,be,0
+cleram,Clemens Rambichler,chef,2,3,deutsch,0,1
+Rwaldhotelsonnora,Waldhotel Sonnora,restaurant,0,3,0,rp,0
+kevfeh,Kevin Fehling,chef,2,3,deutsch,0,1
+Rthetablekevinfehling,The Table Kevin Fehling,restaurant,0,3,0,hh,0
+chrbau,Christian Bau,chef,2,3,deutsch,0,1
+Rvictorsfinediningbychristianbau,Victor's Fine Dining by Christian Bau,restaurant,0,3,0,bw,0
+thosch,Thomas Schanz,chef,2,3,deutsch,0,1
+Rschanzrestaurant,schanz. restaurant,restaurant,0,3,0,rp,0
+helthi,Helmut Thieltges,chef,2,3,deutsch,0,2
+chrjür,Christian Jürgens,chef,2,3,deutsch,0,1
+Rrestaurantüberfahrtchristianjürgens,Restaurant Überfahrt Christian Jürgens,restaurant,0,3,0,by,0
+dansch,Daniel Schimkowitsch,chef,2,2,deutsch,0,1
+Rlajordan,L.A. Jordan,restaurant,0,2,0,rp,0
+julsto,Julian Stowasser,chef,2,2,deutsch,0,1
+Rlakeside,Lakeside,restaurant,0,2,0,hh,0
+Raloisdallmayrfinedining,Alois - Dallmayr Fine Dining,restaurant,0,2,0,by,0
+bengal,Benjamin Gallein,chef,2,2,deutsch,0,1
+silnic,Silvio Nickol,chef,2,2,deutsch,0,1
+Rvotum,Votum,restaurant,0,2,0,ni,0
+thoben,Thorsten Bender,chef,2,2,deutsch,0,1
+Rsein,sein,restaurant,0,2,0,bw,0
+rosost,Rosina Ostler,chef,1,2,deutsch,0,1
+Rcoeurdartichaut,Coeur D'Artichaut,restaurant,0,2,0,nw,0
+fremor,Frédéric Morel,chef,2,2,französisch,0,1
+thokel,Thomas Kellermann,chef,2,2,deutsch,0,1
+Rgourmetrestaurantdichter,Gourmetrestaurant Dichter,restaurant,0,2,0,by,0
+hanhaa,Hans Haas,chef,2,2,österreichisch,0,1
+nicnus,Niclas Nussbaumer,chef,2,2,deutsch,0,1
+Rmühle,Mühle,restaurant,0,2,0,bw,0
+yannoa,Yannick Noack,chef,2,2,deutsch,0,1
+Rpurs,PURS,restaurant,0,2,0,rp,0
+chrgrü,Christian Grünwald,chef,2,2,deutsch,0,1
+Raugust,AUGUST,restaurant,0,2,0,by,0
+Rvendome,Vendôme,restaurant,0,2,0,nw,0
+joawis,Joachim Wissler,chef,2,2,deutsch,0,1
+Rcodadessertdining,Coda Dessert Dining,restaurant,0,2,0,be,0
+renfra,René Frank,chef,2,2,deutsch,0,1
+joager,Joachim Gerner,chef,2,2,österreichisch,0,1
+Rfacil,FACIL,restaurant,0,2,0,be,0
+Rhorvath,Horváth,restaurant,0,2,0,be,0
+sebfra,Sebastian Frank,chef,2,2,österreichisch,0,1
+Rlorenzadlonesszimmer,Lorenz Adlon Esszimmer,restaurant,0,2,0,be,0
+retbrä,Reto Brändli,chef,2,2,schweizerisch,0,1
+timrau,Tim Raue,chef,2,2,deutsch,0,1
+Rtimraue,Restaurant Tim Raue,restaurant,0,2,0,be,0
+manulr,Manuel Ulrich,chef,2,2,deutsch,0,1
+Röschnoir,Ösch Noir,restaurant,0,2,0,bw,0
+jocbus,Jochim Busch,chef,2,2,deutsch,0,1
+Rgustav,Gustav,restaurant,0,2,0,he,0
+andkro,Andreas Krolik,chef,2,2,deutsch,0,1
+Rlafleur,Lafleur,restaurant,0,2,0,he,0
+dirlut,Dirk Luther,chef,2,2,deutsch,0,1
+Rmeiereidirkluther,Meierei Dirk Luther,restaurant,0,2,0,sh,0
+edisig,Edip Sigl,chef,2,2,deutsch,0,1
+Ressenz,ES:SENZ,restaurant,0,2,0,by,0
+thoimb,Thomas Imbusch,chef,2,2,deutsch,0,1
+R100200kitchen,100/200 Kitchen,restaurant,0,2,0,hh,0
+matfer,Matteo Ferrantino,chef,2,2,italienisch,0,1
+Rbianc,bianc,restaurant,0,2,0,hh,0
+Rhaerlin,Haerlin,restaurant,0,2,0,hh,0
+chrrüf,Christoph Rüffer,chef,2,2,deutsch,0,1
+Rjante,Jante,restaurant,0,2,0,ni,0
+tonhoh,Tony Hohlfeld,chef,2,2,deutsch,0,1
+erimen,Eric Menton,chef,2,2,französisch,0,1
+Rlemoissonnier,Le Moissonnier,restaurant,0,2,0,nw,0
+dangot,Daniel Gottschlich,chef,2,2,deutsch,0,1
+Roxklee,Ox & Klee,restaurant,0,2,0,nw,0
+dirhob,Dirk Hoberg,chef,2,2,deutsch,0,1
+Rophelia,Ophelia,restaurant,0,2,0,bw,0
+chrrai,Christoph Rainer,chef,2,2,deutsch,0,1
+Rlucedoro,Luce d'Oro,restaurant,0,2,0,by,0
+dompau,Dominik Paul,chef,2,2,deutsch,0,1
+Ropusv,OPUS V,restaurant,0,2,0,bw,0
+antgsc,Anton Gschwendter,chef,2,2,deutsch,0,1
+bobbrä,Bobby Bräuer,chef,2,2,deutsch,0,1
+Resszimmer,EssZimmer,restaurant,0,2,0,by,0
+Rtantris,Tantris,restaurant,0,2,0,by,0
+benchm,Benjamin Chmura,chef,2,2,ka0disch,0,1
+tohnak,Tohru Nakamura,chef,2,2,deutsch,0,1
+Rtohruinderschreiberei,Tohru in der Schreiberei,restaurant,0,2,0,by,0
+chrbin,Christian Binder,chef,2,2,deutsch,0,1
+Rsteinheuersrestaurantzuraltenpost,Steinheuers Restaurant Zur Alten Post,restaurant,0,2,0,rp,0
+sebobe,Sebastian Obendorfer,chef,2,2,deutsch,0,1
+Robendorferseisvogel,Obendorfers Eisvogel,restaurant,0,2,0,by,0
+yveoll,Yves Ollech,chef,2,2,deutsch,0,1
+Ressigbrätlein,Essigbrätlein,restaurant,0,2,0,by,0
+felsch,Felix Schneider,chef,2,2,deutsch,0,1
+Retz,etz,restaurant,0,2,0,by,0
+Rlepavillon,Le Pavillon,restaurant,0,2,0,bw,0
+marher,Martin Herrmann,chef,2,2,deutsch,0,1
+pethag,Peter Hagen-Wiest,chef,2,2,deutsch,0,1
+Rammolitethelighthouserestaurant,ammolite - The Lighthouse Restaurant,restaurant,0,2,0,bw,0
+chrfle,Christian Fleischmann,chef,2,2,deutsch,0,1
+silfab,Silio Del Fabro,chef,2,2,deutsch,0,1
+Resplanade,Esplanade,restaurant,0,2,0,sl,0
+sebsan,Sebastian Sandor,chef,2,2,deutsch,0,1
+Rlouisrestaurant,LOUIS restaurant,restaurant,0,2,0,sl,0
+stegsc,Stefan Gschwendter,chef,2,2,deutsch,0,1
+Rspeisemeisterei,Speisemeisterei,restaurant,0,2,0,bw,0
+douste,Douce Steiner,chef,1,2,deutsch,0,1
+Rhirschen,Hirschen,restaurant,0,2,0,bw,0
+Rsölringhof,Söl'ring Hof,restaurant,0,2,0,sh,0
+janber,Jan-Philipp Berner,chef,2,2,deutsch,0,1
+frakel,Franz Keller,chef,2,1,deutsch,0,1
+chrsch,Christian Scharrer,chef,2,2,deutsch,0,1
+Rcourtier,Courtier,restaurant,0,2,0,sh,0
+aleher,Alexander Herrmann,chef,2,2,deutsch,0,1
+tobbät,Tobias Bätz,chef,2,2,deutsch,0,1
+Raurabyalexanderherrmanntobiasbätz,AURA by Alexander Herrmann & Tobias Bätz,restaurant,0,2,0,by,0
+Rlecerf,Le Cerf,restaurant,0,2,0,bw,0
+Rthenoname,The NOname,restaurant,0,1,0,be,0
+timtan,Tim Tanneberger,chef,2,1,deutsch,0,1
+borrom,Boris Rommel,chef,2,2,deutsch,0,1
+zsofod,Zsolt Fodor,chef,2,1,ungarisch,0,1
+Rsolodu,Solo Du,restaurant,0,1,0,by,0
+dansch2,Danny Schwabe,chef,2,1,deutsch,0,1
+Rmasters,Masters,restaurant,0,1,0,th,0
+jasgro,Jason Grom,chef,2,1,deutsch,0,1
+Rdieburg,die burg,restaurant,0,1,0,bw,0
+benkri,Benjamin Kriegel,chef,2,1,deutsch,0,1
+Rpinkpepper,Pink Pepper,restaurant,0,1,0,nw,0
+markaz,Marcel Kazda,chef,2,1,0,0,1
+Rdasgarboimlöwen,Das garbo im Löwen,restaurant,0,1,0,bw,0
+Rclararestaurantimkaisersaal,Clara - Restaurant im Kaisersaal,restaurant,0,1,0,th,0
+chrwei,Christopher Weigel,chef,2,1,deutsch,0,1
+jürket,Jürgen Kettner,chef,2,1,deutsch,0,1
+Rkettnerskamota,Kettner's Kamota,restaurant,0,1,0,th,0
+patlöh,Patrick Löhl,chef,2,1,deutsch,0,1
+Rbidlabu,bidlabu,restaurant,0,1,0,he,0
+manwim,Manuel Wimmer,chef,2,1,deutsch,0,1
+Rgourmetrestaurantimkarner,Gourmet Restaurant im Karner,restaurant,0,1,0,by,0
+henwei,Henrik Weiser,chef,2,1,deutsch,0,1
+Rcolombirestaurant,Colombi Restaurant,restaurant,0,1,0,bw,0
+sveusi,Sven Usinger,chef,2,1,deutsch,0,1
+frecam,Frederico Campolattano,chef,2,1,italienisch,0,1
+Reichhalde,Eichhalde,restaurant,0,1,0,bw,0
+Rwolfshöhle,Wolfshöhle,restaurant,0,1,0,bw,0
+marfau,Martin Fauster,chef,2,1,deutsch,0,1
+kevbür,Kevin Bürmann,chef,2,1,deutsch,0,1
+Rhaebel,haebel,restaurant,0,1,0,hh,0
+davwei,David Weigang,chef,2,1,deutsch,0,1
+Rverbene,Verbene,restaurant,0,1,0,rp,0
+julkom,Julia Komp,chef,1,1,deutsch,0,1
+Rsahilatherestaurant,Sahila - The Restaurant,restaurant,0,1,0,nw,0
+klasch,Klaus Schunack,chef,2,1,deutsch,0,1
+Rkuultivo,Kuultivo,restaurant,0,1,0,sn,0
+tomels,Tom Elstermeyer,chef,2,1,deutsch,0,1
+Riko,IKO,restaurant,0,1,0,ni,0
+Rmarburgeresszimmer,MARBURGER Esszimmer,restaurant,0,1,0,he,0
+denfei,Denis Feix,chef,2,1,deutsch,0,1
+harbor,Harry Borst,chef,2,1,deutsch,0,1
+Rborst,Borst,restaurant,0,1,0,rp,0
+maxbor,Maximilian Borst,chef,2,1,deutsch,0,1
+danbod,Daniel Bodamer,chef,2,1,deutsch,0,1
+Rbrothers,Brothers,restaurant,0,1,0,by,0
+Rmuralfarmhouse,mural farmhouse - FINE DINE,restaurant,0,1,0,by,0
+maxhub,Maximilian Huber,chef,2,1,deutsch,0,1
+Rbok,BOK Restaurant Brust oder Keule,restaurant,0,1,0,nw,0
+laukux,Laurin Kux,chef,2,1,deutsch,0,1
+karspi,Karl-Nikolas Spitzner,chef,2,1,deutsch,0,1
+Rspitzner,Spitzner,restaurant,0,1,0,nw,0
+renste,René Stein,chef,2,1,deutsch,0,1
+Rtisane,Tisane,restaurant,0,1,0,by,0
+domwac,Dominik Wachter,chef,2,1,deutsch,0,1
+Rwachterfoodbar,Wachter Foodbar,restaurant,0,1,0,by,0
+julrei,Julius Reisch,chef,2,1,deutsch,0,1
+Resszimmerimoberschwäbischenhof,Esszimmer im Oberschwäbischen Hof,restaurant,0,1,0,bw,0
+danmäs,Daniel Mästling,chef,2,1,deutsch,0,1
+Rhegeleins,Hegel Eins,restaurant,0,1,0,bw,0
+gersch,Gerald Schöberl,chef,2,1,deutsch,0,1
+Rbagatelle,Bagatelle,restaurant,0,1,0,rp,0
+alimei,Alina Meissner-Bebrout,chef,1,1,deutsch,0,1
+Rbibraud,bi:braud,restaurant,0,1,0,bw,0
+benpfe,Benjamin Pfeifer,chef,2,1,deutsch,0,1
+Rintense,Intense,restaurant,0,1,0,rp,0
+maraku,Marco Akuzun,chef,2,1,deutsch,0,1
+Rmarkos,MARKOS,restaurant,0,1,0,bw,0
+domale,Domenik Alex,chef,2,1,deutsch,0,1
+Rgasthofalex,Gasthof Alex,restaurant,0,1,0,by,1
+nikber,Nikodemus Berger,chef,2,1,deutsch,0,1
+Rbonvivant,Bonvivant,restaurant,0,1,0,be,1
+andsch,Andreas Schaffrath,chef,2,1,deutsch,0,1
+Rlabecasse,La Bécasse,restaurant,0,1,0,nw,1
+Rsanktbenedikt,Sankt Benedikt,restaurant,0,1,0,nw,1
+maxkre,Maximilian Kreus,chef,2,1,deutsch,0,1
+Rimschiffchen,Im Schiffchen,restaurant,0,1,0,nw,1
+jeabou,Jean-Claude Bourgueil,chef,2,1,französisch,0,1
+Rschattbuch,Schattbuch,restaurant,0,1,0,bw,1
+chrmar,Christian Mar,chef,2,1,0,0,1
+Rschwabenstube,Schwabenstube,restaurant,0,1,0,bw,1
+maxspe,Max Speyer,chef,2,1,0,0,1
+Rsoulfood,SoulFood,restaurant,0,1,0,by,1
+miclau,Michael Laus,chef,2,1,0,0,1
+chrheß,Christine Heß,chef,1,1,0,0,1
+Ralteliebe,Alte Liebe,restaurant,0,1,0,by,1
+benmit,Benjamin Mitschele,chef,2,1,0,0,1
+Rsartory,Sartory,restaurant,0,1,0,by,1
+simlan,Simon Lang,chef,2,1,deutsch,0,1
+Rlejardindefrance,Le Jardin de France im Stahlbad,restaurant,0,1,0,bw,1
+steber,Stéphan Bernhard,chef,2,1,0,0,1
+Rmalteshiddenkitchen,Maltes hidden kitchen,restaurant,0,1,0,bw,1
+malkuh,Malte Kuhn,chef,2,1,deutsch,0,1
+Rgasthauszumraben,Gasthaus zum Raben,restaurant,0,1,0,bw,1
+stedis,Steffen Disch,chef,2,1,deutsch,0,1
+R1789,1789,restaurant,0,1,0,bw,1
+flosto,Florian Stolte,chef,2,1,deutsch,0,1
+Rschlossberg,Schlossberg,restaurant,0,1,0,bw,1
+jörsac,Jörg Sackmann,chef,2,1,deutsch,0,1
+nicsac,Nico Sackmann,chef,2,1,deutsch,0,1
+Rpur,PUR,restaurant,0,1,0,by,1
+ulrhei,Ulrich Heimann,chef,2,1,deutsch,0,1
+Rbandolsurmer,Bandol sur mer,restaurant,0,1,0,be,1
+andsau,Andreas Saul,chef,2,1,deutsch,0,1
+Rbieberbau,Bieberbau,restaurant,0,1,0,be,1
+stepgar,Stephan Garkisch,chef,2,1,0,0,1
+jeamat,Jean Matthieu,chef,2,1,0,0,1
+Rbricole,Bricole,restaurant,0,1,0,be,1
+stezei,Steven Zeidler,chef,2,1,deutsch,0,1
+Rcookiescream,Cookies Cream,restaurant,0,1,0,be,1
+nichah,Nicholas Patrick Hahn,chef,2,1,deutsch,0,1
+Rcordo,Cordo,restaurant,0,1,0,be,1
+yansto,Yannic Stockhausen,chef,2,1,deutsch,0,1
+Rernst,ernst,restaurant,0,1,0,be,1
+dylwat,Dylan Watson-Brawn,chef,2,1,ka0disch,0,1
+Rfaelt,faelt,restaurant,0,1,0,be,1
+bjosaw,Björn Swanson,chef,2,1,deutsch-US-amerikanischer,0,1
+mickem,Michael Kempf,chef,2,2,deutsch,0,1
+chrsom,Christian Somann,chef,2,1,0,0,1
+Rgolvet,GOLVET,restaurant,0,1,0,be,1
+jonzoe,Jonas Zörner,chef,2,1,deutsch,0,1
+janrze,Jan Rzehak,chef,2,1,0,0,1
+Rhugos,Hugos,restaurant,0,1,0,be,1
+ebelan,Eberhard Lange,chef,2,1,deutsch,0,1
+Rirmaladouce,Irma la Douce,restaurant,0,1,0,be,1
+fracon,Francesco Contiero,chef,2,1,italienisch,0,1
+Rnobelhartundschmutzig,Nobelhart & Schmutzig,restaurant,0,1,0,be,1
+micschä,Micha Schäfer,chef,2,1,schweizerisch,0,1
+Rrestaurantvillamerton,Restaurant Villa Merton,restaurant,0,1,0,he,1
+phigia,Philippe Giar,chef,2,1,0,0,1
+Rprism,prism,restaurant,0,1,0,be,1
+galmos,Gal Ben Moshe,chef,2,1,israelisch,0,1
+Rrichard,Richard,restaurant,0,1,0,be,1
+Rskykitchen,SKYKITCHEN,restaurant,0,1,0,be,1
+saskur,Sascha Kurgan,chef,2,1,0,0,1
+Rtuluslotrek,tulus lotrek,restaurant,0,1,0,be,1
+maxstr,Maximilian Strohe,chef,2,1,deutsch,0,1
+Rmaerz,Maerz - Das Restaurant,restaurant,0,1,0,bw,1
+benmae,Benjamin Maerz,chef,2,1,deutsch,0,1
+Rhämmerlesrestaurantbarrique,Hämmerle's Restaurant - Barrique,restaurant,0,1,0,sl,1
+clihae,Cliff Hämmerle,chef,2,1,deutsch,0,1
+Rhalbedelsgasthaus,Halbedel's Gasthaus,restaurant,0,1,0,nw,1
+raihal,Rainer-Maria Halbedel,chef,2,1,deutsch,0,1
+Ryunico,Yunico,restaurant,0,1,0,nw,1
+chrstu,Christian Sturm-Willms,chef,2,1,deutsch,0,1
+Rsterneck,Sterneck,restaurant,0,1,0,ni,1
+marren,Marc Rennhack,chef,2,1,deutsch,0,1
+Rmaintowerrestaurantundlounge,MAIN TOWER Restaurant & Lounge,restaurant,0,1,0,he,1
+marweg,Martin Weghofer,chef,2,1,deutsch,0,1
+Rox,ox,restaurant,0,1,0,he,1
+davrin,David Rink,chef,2,1,deutsch,0,1
+Rkuchersgourmet,Kucher's Gourmet,restaurant,0,1,0,rp,1
+flokuc,Florian Kucher,chef,2,1,0,0,1
+Rkook36,[KOOK] 36,restaurant,0,1,0,by,1
+dankle,Daniel Klein,chef,2,1,deutsch,0,1
+steneu,Stefan Neugebauer,chef,2,1,deutsch,0,1
+feljar,Felix Jarzina,chef,2,1,0,0,1
+Rbjörnsox,BjörnsOx,restaurant,0,1,0,th,1
+bjölei,Björn Leist,chef,2,1,deutsch,0,1
+Rjandiekjobstrestaurant,Jan Diekjobst Restaurant,restaurant,0,1,0,nw,1
+jandie,Jan Diekjobst,chef,2,1,deutsch,0,1
+Rostseelounge,ostseelounge,restaurant,0,1,0,mv,1
+matsto,Matthias Stolze,chef,2,1,deutsch,0,1
+andmün,André Münch,chef,2,1,deutsch,0,1
+andbei,André Beiersdorff,chef,2,1,deutsch,0,1
+Rfriedrichfranz,Friedrich Franz,restaurant,0,1,0,mv,1
+ronsie,Ronny Siewert,chef,2,1,0,0,1
+Rgoldeneranker,Goldener Anker,restaurant,0,1,0,nw,1
+bjöfrei,Björn Freitag,chef,2,1,deutsch,0,1
+Rrosin,Rosin,restaurant,0,1,0,nw,1
+fraros,Frank Rosin,chef,2,2,deutsch,0,1
+Rgrammonsrestaurant,Grammons Restaurant,restaurant,0,1,0,nw,1
+dirgram,Dirk Grammon,chef,2,1,deutsch,0,1
+Rthestage,The Stage,restaurant,0,1,0,nw,1
+micdyl,Michael Dyllong,chef,2,1,deutsch,0,1
+geomim,Georgio Mimisa,chef,2,1,0,0,1
+Relements,elements,restaurant,0,1,0,sn,1
+stemieß,Stephan Mießner,chef,2,1,deutsch,0,1
+Rgenussatelier,Genuss-Atelier,restaurant,0,1,0,sn,1
+marblo,Marcus Blonkowski,chef,2,1,deutsch,0,1
+Rhummelsgourmetstube,Hummels Gourmetstube,restaurant,0,1,0,by,1
+stefhum,Stefan Hummel,chef,2,1,deutsch,0,1
+Rfalconera,falconera,restaurant,0,1,0,bw,1
+Rmodbysvennöthel,Mod by Sven Nöthel,restaurant,0,1,0,nw,1
+svenoe,Sven-Niklas Nöthel,chef,2,1,deutsch,0,1
+R1876danieldalben,1876 Daniel Dal-Ben,restaurant,0,1,0,nw,1
+dandal,Daniel Dal-Ben,chef,2,1,0,0,1
+Ragatas,Agata's,restaurant,0,1,0,nw,1
+marfoe,Marcel Förster,chef,2,1,deutsch,0,1
+Rdrkosch,DR.KOSCH,restaurant,0,1,0,nw,1
+voldrk,Volker Drkosch,chef,2,1,deutsch,0,1
+Rleflair,Le Flair,restaurant,0,1,0,nw,1
+dancer,Dany Cerf,chef,2,1,schweizerisch,0,1
+yosnag,Yoshizumi Nagaya,chef,2,1,japanisch,0,1
+Rphoenix,phoenix,restaurant,0,1,0,nw,1
+phiwol,Philipp Wolter,chef,2,1,deutsch,0,1
+Ryoshibynagaya,Yoshi by Nagaya,restaurant,0,1,0,nw,1
+Rtraube,traube,restaurant,0,1,0,bw,1
+brwaw,brianwawryk,chef,2,1,0,0,1
+Rjean,Jean,restaurant,0,1,0,he,1
+johfra,johannesfrankenbach,chef,2,1,0,0,1
+Rmerklesrestaurant,Merkles Restaurant,restaurant,0,1,0,bw,1
+thomer,thomasmerkle,chef,2,1,0,0,1
+Rtroyka,troyka,restaurant,0,1,0,nw,1
+alewul,alexanderwulf,chef,2,1,deutsch-russisch,0,1
+markok,marcelkokot,chef,2,1,0,0,1
+Rhannappel,hannappel,restaurant,0,1,0,nw,1
+tobwey,tobiasweyer,chef,2,1,0,0,1
+Rschote,schote,restaurant,0,1,0,nw,1
+nelmue,nelsonmueller,chef,2,1,0,0,1
+Rbembergshäuschen,Bembergs Häuschen,restaurant,0,1,0,nw,1
+filczm,Filip Czmok,chef,2,1,0,0,1
+Ralteschuleklassenzimmer,Alte Schule - Klassenzimmer,restaurant,0,1,0,mv,1
+kaylur,Kay Lurz,chef,2,1,deutsch,0,1
+Rdasgrace,Das Grace,restaurant,0,1,0,sh,1
+quibru,Quirin Brundobler,chef,2,1,deutsch,0,1
+Raltwyk,Alt Wyk,restaurant,0,1,0,sh,1
+rendit,René Dittrich,chef,2,1,deutsch,0,1
+Rphilippsoldan,Philipp Soldan,restaurant,0,1,0,he,1
+eriarn,Erik Arnecke,chef,2,1,deutsch,0,1
+Rcarmelogreco,Restaurant Carmelo Greco,restaurant,0,1,0,he,1
+benrus,Benedetto Russo,chef,2,1,italienisch,0,1
+cargre,Carmelo Greco,chef,2,1,italienisch,0,1
+Rernosbistro,Erno's Bistro,restaurant,0,1,0,he,1
+valmat,Valéry Mathis,chef,2,1,0,0,1
+Rmasajapanesecuisine,Masa Japanese Cuisine,restaurant,0,1,0,he,1
+masoae,Masaru Oae,chef,2,1,japanisch,0,1
+Rsevenswans,Seven Swans,restaurant,0,1,0,he,1
+ricsaw,Ricky Saward,chef,2,1,0,0,1
+Rweinsinn,Weinsinn,restaurant,0,1,0,he,1
+danple,Daniel Pletsch,chef,2,1,deutsch,0,1
+Rmichaelsleitenberg,Michael's Leitenberg,restaurant,0,1,0,by,1
+micschl,Michael Schlaipfer,chef,2,1,deutsch,0,1
+Rgenießerstube,Genießer Stube,restaurant,0,1,0,ni,1
+danrau,Daniel Raub,chef,2,1,deutsch,0,1
+Rchristianandfriendstastekitchen,"Christian & Friends, Tastekitchen",restaurant,0,1,0,he,1
+chrste,Christian Steska,chef,2,1,deutsch,0,1
+Rwernersrestaurant,Werners Restaurant,restaurant,0,1,0,bw,1
+edmsch,Edmund Schmidt,chef,2,1,deutsch,0,1
+Reckert,eckert,restaurant,0,1,0,bw,1
+nicwied,Nicolai Wiedmer,chef,2,1,deutsch,0,1
+Rmühlenhelle,Mühlenhelle,restaurant,0,2,0,nw,1
+micque,Michael Quendler,chef,2,1,österreichisch,0,1
+Rspeiseberg,Speiseberg,restaurant,0,1,0,st,1
+Rratsstuben,Ratsstuben,restaurant,0,1,0,nw,1
+dangeo,Daniel Georgiev,chef,2,1,deutsch,0,1
+Rjellyfish,Jellyfish,restaurant,0,1,0,hh,1
+stefät,Stefan Fäth,chef,2,1,deutsch,0,1
+heiweh,Heinz Otto Wehmann,chef,2,1,deutsch,0,1
+Rlandhausscherrer,Landhaus Scherrer,restaurant,0,1,0,hh,0
+wahnou,Wahabi Nouri,chef,2,1,deutsch,0,1
+Rpiment,Piment,restaurant,0,1,0,hh,0
+mauost,Maurizio Oster,chef,2,1,deutsch,0,1
+Rzeik,Zeik,restaurant,0,1,0,hh,0
+thowoh,Thomas Wohlfeld,chef,2,1,deutsch,0,1
+Rhandwerk,Handwerk,restaurant,0,1,0,ni,0
+robräd,Robert Rädel,chef,2,1,deutsch,0,1
+Roben,Oben,restaurant,0,1,0,bw,0
+petnie,Peter Niemann,chef,2,1,deutsch,0,1
+Rlavalleeverte,La Vallée Verte,restaurant,0,1,0,he,0
+conkai,Constantin Kaiser,chef,2,1,deutsch,0,1
+Rletable,L'étable,restaurant,0,1,0,he,0
+flovog,Florian Vogel,chef,2,1,deutsch,0,1
+Rcamersschlossrestaurant,Camers Schlossrestaurant,restaurant,0,1,0,by,0
+Rchevalblanc,Cheval Blanc,restaurant,0,1,0,by,0
+Igoyak,Igor Yakushchenko,chef,2,1,ukrainisch,0,1
+Rtawayamafine,Tawa Yama Fine,restaurant,0,1,0,bw,0
+joamal,Joannis Malathounis,chef,2,1,deutsch,0,1
+Rmalathounis,Malathounis,restaurant,0,1,0,bw,0
+thobell,Thomas Bellefontaine,chef,2,1,0,0,1
+Rschlossloersfeld,Schloss Loersfeld,restaurant,0,1,0,nw,0
+dirsch,Dirk Schröer,chef,2,1,deutsch,0,1
+Rweinschänkeschlossgroenesteyn,Weinschänke Schloss Groenesteyn,restaurant,0,1,0,he,0
+chrgra,Christian Grainer,chef,2,1,deutsch,0,1
+Rchristiansrestaurantgasthofgrainer,Christian's Restaurant - Gasthof Grainer,restaurant,0,1,0,by,0
+mansch,Manfred Schwarz,chef,2,1,deutsch,0,1
+Rschwarzgourmet,Schwarz Gourmet,restaurant,0,1,0,rp,0
+fredes,Frederik Desch,chef,2,1,deutsch,0,1
+Rlaudensacksgourmetrestaurant,Laudensacks Gourmet Restaurant,restaurant,0,1,0,by,0
+frasey,Frank Seyfried,chef,2,1,deutsch,0,1
+Rgotthardts,Gotthardt's,restaurant,0,1,0,rp,0
+miksch,Mike Schiller,chef,2,1,deutsch,0,1
+Rschillersmanufaktur,Schiller's Manufaktur,restaurant,0,1,0,rp,0
+robcar,Roberto Carturan,chef,2,1,italienisch,0,1
+Ralfredo,Alfredo,restaurant,0,1,0,nw,0
+eriwer,Eric Werner,chef,2,1,deutsch,0,1
+Rastrein,Astrein,restaurant,0,1,0,nw,0
+marrad,Marlon Rademacher,chef,2,1,deutsch,0,1
+Rlacuisinerademacher,La Cuisine Rademacher,restaurant,0,1,0,nw,0
+leohof,Leon Hofmockel,chef,2,1,deutsch,0,1
+Rlasociete,La Société,restaurant,0,1,0,nw,0
+tobbec,Tobias Becker,chef,2,1,deutsch,0,1
+janmai,Jan Maier,chef,2,1,deutsch,0,1
+Rmaibeck,Maibeck,restaurant,0,1,0,nw,0
+maxlor,Maximilian Lorenz,chef,2,1,deutsch,0,1
+Rmaximilianlorenz,Restaurant Maximilian Lorenz,restaurant,0,1,0,nw,0
+sonbau,Sonja Baumann,chef,1,1,deutsch,0,1
+erische,Erik Scheffler,chef,2,1,deutsch,0,1
+Rneobiota,NeoBiota,restaurant,0,1,0,nw,0
+enrsab,Enrico Sablotny,chef,2,1,deutsch,0,1
+Rpottkind,Pottkind,restaurant,0,1,0,nw,0
+mirgau,Mirko Gaul,chef,2,1,deutsch,0,1
+Rtaku,Taku,restaurant,0,1,0,nw,0
+tholös,Thomas Lösche,chef,2,1,deutsch,0,1
+Rzurtant,Zur Tant,restaurant,0,1,0,nw,0
+andwid,Andreas Widmann,chef,2,1,deutsch,0,1
+Rursprung,Ursprung,restaurant,0,1,0,bw,0
+stebra,Stephan Brandl,chef,2,1,deutsch,0,1
+Rleosbystephanbrandl,Leos by Stephan Brandl,restaurant,0,1,0,by,0
+raizei,Raik Zeigner,chef,2,1,deutsch,0,1
+Richweißeinhausamsee,Ich weiß ein Haus am See,restaurant,0,1,0,mv,0
+jochel,Jochen Helfesrieder,chef,2,1,deutsch,0,1
+frihel,Fritz Helfesrieder,chef,2,1,deutsch,0,1
+Rstorchen,Storchen,restaurant,0,1,0,bw,0
+danfeh,Daniel Fehrenbacher,chef,2,1,deutsch,0,1
+Radler,Adler,restaurant,0,1,0,bw,0
+rolpie,Roland Pieber,chef,2,1,deutsch,0,1
+Rseoküchenhandwerk,SEO Küchenhandwerk,restaurant,0,1,0,bw,0
+hanhäg,Hans Häge,chef,2,1,deutsch,0,1
+Rgasthofzumbad,Gasthof zum Bad,restaurant,0,1,0,bw,0
+margri,Martin Grimmer,chef,2,1,deutsch,0,1
+Rkeidenzellerhof,Keidenzeller Hof,restaurant,0,1,0,by,0
+lisang,Lisa Angermann,chef,1,1,deutsch,0,1
+andrei,Andreas Reinke,chef,2,1,deutsch,0,1
+Rfrieda,Frieda,restaurant,0,1,0,sn,0
+detsch,Detlef Schlegel,chef,2,1,deutsch,0,1
+Rstadtpfeiffer,Stadtpfeiffer,restaurant,0,1,0,sn,0
+alehoh,Alexander Hohlwein,chef,2,1,deutsch,0,1
+R360°,360°,restaurant,0,1,0,he,0
+tonneu,Toni Neumann,chef,2,1,deutsch,0,1
+Rvillino,Villino,restaurant,0,1,0,by,0
+roypet,Roy Petermann,chef,2,1,deutsch,0,1
+Rwullenwever,Wullenwever,restaurant,0,1,0,sh,0
+tobsch,Tobias Schmitt,chef,2,1,deutsch,0,1
+Rfavoriterestaurant,FAVORITE restaurant,restaurant,0,1,0,rp,0
+phiste,Philipp Stein,chef,2,1,deutsch,0,1
+Rsteinstraube,Steins Traube,restaurant,0,1,0,rp,0
+erischu,Eric Schumacher,chef,2,1,deutsch,0,1
+Rdoblers,Dobler's,restaurant,0,1,0,bw,0
+antsar,Anthony Sarpong,chef,2,1,gha0isch,0,1
+Ranthonyskitchen,Anthony's Kitchen,restaurant,0,1,0,nw,0
+marphi,Markus Philippi,chef,2,1,deutsch,0,1
+Rcasala,Casala,restaurant,0,1,0,bw,0
+andhil,Andreas Hillejan,chef,2,1,deutsch,0,1
+Rdasmarktrestaurant,Das Marktrestaurant,restaurant,0,1,0,by,0
+margam,Mario Gamba,chef,2,1,italienisch,0,1
+Racquarello,Acquarello,restaurant,0,1,0,by,0
+flober,Florian Berger,chef,2,1,österreichisch,0,1
+Rgabelspiel,Gabelspiel,restaurant,0,1,0,by,0
+natleb,Nathalie Leblond,chef,1,1,deutsch,0,1
+Rlesdeux,Les Deux,restaurant,0,1,0,by,0
+martau,Marcel Tauschek,chef,2,1,deutsch,0,1
+Rmountainhubgourmet,Mountain Hub Gourmet,restaurant,0,1,0,by,0
+joslei,Joshua Leise,chef,2,1,deutsch,0,1
+Rmural,Mural,restaurant,0,1,0,by,0
+domkäp,Dominik Käppeler,chef,2,1,deutsch,0,1
+tobbac,Tobias Bacher,chef,2,1,deutsch,0,1
+Rshowroom,Showroom,restaurant,0,1,0,by,0
+jürwol,Jürgen Wolfsgruber,chef,2,1,österreichisch,0,1
+Rsparklingbistro,Sparkling Bistro,restaurant,0,1,0,by,0
+Rtantrisdna,Tantris DNA,restaurant,0,1,0,by,0
+sigsch,Sigrid Schelling,chef,1,1,österreichisch,0,1
+Rwerneckhofsigischelling,Werneckhof Sigi Schelling,restaurant,0,1,0,by,0
+harrüs,Harald Rüssel,chef,2,1,deutsch,0,1
+Rrüsselslandhaus,Rüssel's Landhaus,restaurant,0,1,0,rp,0
+claurr,Claudio Urru,chef,2,1,deutsch,0,1
+Raltebaiz,Alte Baiz,restaurant,0,1,0,bw,0
+chrdet,Christiane Detemple-Schäfer,chef,1,1,deutsch,0,1
+olisch,Oliver Schäfer,chef,2,1,deutsch,0,1
+Rletemple,Le temple,restaurant,0,1,0,rp,0
+tobschl,Tobias Schlimbach,chef,2,1,deutsch,0,1
+herbro,Herbert Brockel,chef,2,1,deutsch,0,1
+Rburgnideggenbrockelschlimbach,Burg Nideggen - Brockel Schlimbach,restaurant,0,1,0,nw,0
+thogil,Thomas Gilles,chef,2,1,deutsch,0,1
+Rclostermannslegourmet,Clostermanns Le Gourmet,restaurant,0,1,0,nw,0
+matach,Mathias Achatz,chef,2,1,deutsch,0,1
+Rbuchnerwelchenberg1658,Buchner Welchenberg 1658,restaurant,0,1,0,by,0
+markeb,Markus Kebschull,chef,2,1,deutsch,0,1
+Rseesteg,Seesteg,restaurant,0,1,0,ni,0
+joakai,Joachim Kaiser,chef,2,1,deutsch,0,1
+Rwirtshausmeyerskeller,Wirtshaus Meyers Keller,restaurant,0,1,0,by,0
+fabden,Fabian Denninger,chef,2,1,deutsch,0,1
+Rentenstuben,Entenstuben,restaurant,0,1,0,by,0
+felbru,Felix Bruegel,chef,2,1,deutsch,0,1
+Rkochundkellner,Koch und Kellner,restaurant,0,1,0,by,0
+vadkar,Vadim Karasev,chef,2,1,deutsch,0,1
+Rveles,Veles,restaurant,0,1,0,by,0
+valrot,Valentin Rottner,chef,2,1,deutsch,0,1
+Rwaidwerk,Waidwerk,restaurant,0,1,0,by,0
+stemei,Stefan Meier,chef,2,1,deutsch,0,1
+Rzweisinnmeiersfinedining,ZweiSinn Meiers | Fine Dining,restaurant,0,1,0,by,0
+petstr,Peter A. Strauss,chef,2,1,deutsch,0,1
+Ressatelierstrauss,Ess Atelier Strauss,restaurant,0,1,0,by,0
+chrwil,Christopher Wilbrand,chef,2,1,deutsch,0,1
+alewil,Alejandro Wilbrand,chef,2,1,deutsch,0,1
+Rzurpost,Zur Post,restaurant,0,1,0,nw,0
+flowag,Florian Wagenbach,chef,2,1,deutsch,0,1
+Rsilberdistel,Silberdistel,restaurant,0,1,0,by,0
+johwuh,Johannes Wuhrer,chef,2,1,deutsch,0,1
+larkei,Lars Keiling,chef,2,1,deutsch,0,1
+Rfriedrich,Friedrich,restaurant,0,1,0,ni,0
+ranjon,Randy de Jong,chef,2,1,niederländisch,0,1
+Rkesselhaus,Kesselhaus,restaurant,0,1,0,ni,0
+elmsim,Elmar Simon,chef,2,1,deutsch,0,1
+Rbalthasar,Balthasar,restaurant,0,1,0,nw,0
+micamm,Michael Ammon,chef,2,1,deutsch,0,1
+Rgasthausjakob,Gasthaus Jakob,restaurant,0,1,0,by,0
+simsch,Simon Schlachter,chef,2,1,deutsch,0,1
+Rpavoimburghotelfalkenstein,PAVO im Burghotel Falkenstein,restaurant,0,1,0,by,0
+vjepav,Vjekoslav Pavic,chef,2,1,kroatisch,0,1
+Rdiebrasserie,Die Brasserie,restaurant,0,1,0,rp,0
+alehub,Alexander Huber,chef,2,1,deutsch,0,1
+Rhuberwirt,Huberwirt,restaurant,0,1,0,by,0
+davsch,David Schubert,chef,2,1,deutsch,0,1
+Rkochzimmerindergaststättezurratswaage,kochZIMMER in der Gaststätte zur Ratswaage,restaurant,0,1,0,bb,0
+torsch,Torben Schäfer,chef,2,1,deutsch,0,1
+Rnagaya,Nagaya,restaurant,0,1,0,nw,0
+Rgutlärchenhof,Gut Lärchenhof,restaurant,0,1,0,nw,0
+holber,Holger Berens,chef,2,1,deutsch,0,1
+Rateliersanssouci,Atelier Sanssouci,restaurant,0,1,0,sn,0
+marlan,Marcus Langer,chef,2,1,deutsch,0,1
+steher,Stefan Hermann,chef,2,1,deutsch,0,1
+Rlandhausfeckl,Landhaus Feckl,restaurant,0,1,0,bw,0
+antsch,Anton Schmaus,chef,2,2,deutsch,0,1
+atssug,Atsushi Sugimoto,chef,2,1,japanisch,0,1
+Rstorstad,Storstad,restaurant,0,1,0,by,0
+Rroterhahn,Roter Hahn,restaurant,0,1,0,by,0
+maxsch,Maximilian Schmidt,chef,2,1,deutsch,0,1
+joswei,Josef Weig,chef,2,1,deutsch,0,1
+Rreuter,Reuter,restaurant,0,1,0,nw,0
+iribet,Iris Bettinger,chef,1,1,deutsch,0,1
+Rgourmetrestaurantderbutt,Gourmet-Restaurant Der Butt,restaurant,0,1,0,mv,0
+thohei,Thomas Heimann,chef,2,1,deutsch,0,1
+Rgutshausstolpe,Gutshaus Stolpe,restaurant,0,1,0,nw,0
+holstr,Holger Stromberg,chef,2,1,deutsch,0,1
+Rhaubentaucher,Haubentaucher,restaurant,0,1,0,by,0
+aloneu,Alois Neuschmid,chef,2,2,österreichisch,0,1
+Rfreustil,freustil,restaurant,0,1,0,mv,0
+ralhau,Ralf Haug,chef,2,2,deutsch,0,1
+Rgenussapotheke,Genuss-Apotheke,restaurant,0,1,0,bw,0
+raipil,Raimar Pilz,chef,2,1,deutsch,0,1
+Rgourmetrestaurantfinediningrs,"Gourmetrestaurant ""fine dining RS""",restaurant,0,1,0,bw,0
+marwai,Markus Waibel,chef,2,1,deutsch,0,1
+rolstr,Rolf Straubinger,chef,2,1,deutsch,0,1
+Rkunzgourmet,Kunz Gourmet,restaurant,0,1,0,sl,0
+alekun,Alexander Kunz,chef,2,1,deutsch,0,1
+patjen,Patrick Jenal,chef,2,1,deutsch,0,1
+Rdiva,DiVa,restaurant,0,1,0,sh,0
+gunehi,Gunter Ehinger,chef,2,2,deutsch,0,1
+Rschwarzerhahn,Schwarzer Hahn,restaurant,0,1,0,rp,0
+hanste,Hans-Paul Steiner,chef,2,2,deutsch,0,1
+Rcarrousel,Carrousel,restaurant,0,1,0,sn,0
+Roberländerweinstube,Oberländer Weinstube,restaurant,0,1,0,bw,0
+robhau,Robert Hauptvogel,chef,2,1,deutsch,0,1
+Rjuwel,JUWEL,restaurant,0,1,0,sn,0
+Rhofstube,Hofstube,restaurant,0,1,0,nw,0
+felweb,Felix Weber,chef,2,3,deutsch,0,1
+Rgourmetrestaurantnicoburkhardt,Gourmetrestaurant Nico Burkhardt,restaurant,0,1,0,bw,0
+nicbur,Nico Burkhardt,chef,2,2,deutsch,0,1
+karhau,Karlheinz Hauser,chef,2,1,deutsch,0,1
+joswol,Josef Wolf,chef,2,1,deutsch,0,1
+Reisenbahn,Eisenbahn,restaurant,0,1,0,bw,0
+Rreberspflug,Rebers Pflug,restaurant,0,1,0,bw,0
+vinkli,Vincent Klink,chef,2,1,deutsch,0,1
+hanreb,Hans-Harald Reber,chef,2,1,deutsch,0,1
+berdie,Bernhard Diers,chef,2,1,deutsch,0,1
+sebkau,Sebastian Kauper,chef,2,1,deutsch,0,1
+Rkaupersrestaurantimkapellenhof,Kaupers Restaurant im Kapellenhof,restaurant,0,1,0,rp,0
+juaama,Juan Amador,chef,2,3,deutsch,0,1
+Ramador,Amador,restaurant,0,3,0,he,0
+Rjungborn,Jungborn,restaurant,0,1,0,rp,0
+phihel,Philipp Helzle,chef,2,1,deutsch,0,1
+Rphilipp,Philipp,restaurant,0,1,0,by,0
+micphi,Michael Philipp,chef,2,1,deutsch,0,0
+frisch,Fritz Schilling,chef,2,2,deutsch,0,0
+gerwin,Gerd Windhösel,chef,2,2,deutsch,0,1
+Rhirsch,Hirsch,restaurant,0,2,0,bw,0
+Raubergine,Aubergine,restaurant,0,1,0,by,0
+maxmos,Maximilian Moser,chef,2,1,deutsch,0,1
+Rfünf,5 (Fünf),restaurant,0,1,0,bw,0
+aledin,Alexander Dinter,chef,2,1,deutsch,0,1
+Rdelice,Délice,restaurant,0,1,0,bw,0
+andhet,Andreas Hettinger,chef,2,1,deutsch,0,1
+Rderzauberlehrling,Der Zauberlehrling,restaurant,0,1,0,bw,0
+fabhel,Fabian Heldmann,chef,2,1,deutsch,0,1
+michup,Michael Huppert,chef,2,1,deutsch,0,1
+Rhupperts,Hupperts,restaurant,0,1,0,bw,0
+benben,Ben Benasr,chef,2,1,tunesisch,0,1
+Rritzigourmet,Ritzi Gourmet,restaurant,0,1,0,bw,0
+micoet,Michael Oettinger,chef,2,1,deutsch,0,1
+Roettingersrestaurant,Oettinger's Restaurant,restaurant,0,1,0,bw,0
+ralkne,Ralph Knebel,chef,2,1,deutsch,0,1
+Rerbprinz,Erbprinz,restaurant,0,1,0,bw,0
+jörnet,Jörg Neth,chef,2,1,deutsch,0,1
+Rwielandshöhe,Wielandshöhe,restaurant,0,1,0,bw,0
+felgab,Felix Gabel,chef,2,1,deutsch,0,1
+Rkai3,KAI3,restaurant,0,1,0,sh,0
+Rbodendorfs,BODENDORF'S,restaurant,0,1,0,sh,0
+holbod,Holger Bodendorf,chef,2,1,deutsch,0,1
+Rgourmetrestaurantberlinskrone,Gourmetrestaurant Berlins Krone,restaurant,0,1,0,bw,0
+fraber,Franz Berlin,chef,2,1,deutsch,0,1
+Roswaldsgourmetstube,Oswald's Gourmetstube,restaurant,0,1,0,by,0
+thoger,Thomas Gerber,chef,2,1,deutsch,0,1
+denbrü,Denis Brühl,chef,0,1,deutsch,0,1
+Rorangerie,Orangerie,restaurant,0,1,0,sh,0
+lutnie,Lutz Niemann,chef,2,1,deutsch,0,1
+tholem,Thomas Lemke,chef,2,1,0,0,1
+Rbeckers,BECKER'S,restaurant,0,1,0,rp,0
+wolbec,Wolfgang Becker,chef,2,1,deutsch,0,1
+Rweinundtafelhaus,Wein- und Tafelhaus,restaurant,0,1,0,rp,0
+aleoos,Alexander Oos,chef,2,1,deutsch,0,1
+Ranima,Anima,restaurant,0,1,0,bw,0
+heilac,Heiko Lachner,chef,2,1,deutsch,0,1
+Rschlossfilseck,Schloss Filseck,restaurant,0,1,0,bw,0
+dancor,Daniele Corona,chef,2,1,0,0,1
+Rseestern,Seestern,restaurant,0,1,0,bw,0
+klabud,Klaus Buderath,chef,2,1,deutsch,0,1
+benwit,Benedikt Wittek,chef,2,1,deutsch,0,1
+Rsiedepunkt,SIEDEPUNKT,restaurant,0,1,0,bw,0
+henfri,Hendrik Friedrich,chef,2,1,deutsch,0,1
+Rkulmeckbytomwickboldt,Kulmeck by Tom Wickboldt,restaurant,0,1,0,mv,0
+tomwic,Tom Wickboldt,chef,2,1,deutsch,0,1
+Rtheoroom,The O'ROOM,restaurant,0,1,0,mv,0
+andkäh,André Kähler,chef,2,1,deutsch,0,1
+Rlammrosswag,Lamm Rosswag,restaurant,0,1,0,bw,0
+sterug,Steffen Ruggaber,chef,2,1,deutsch,0,1
+Rhausstemberg,Haus Stemberg,restaurant,0,1,0,nw,0
+sasste,Sascha Stemberg,chef,2,1,deutsch,0,1
+Rschwarzeradler,Schwarzer Adler,restaurant,0,1,0,bw,0
+Rweinstock,Weinstock,restaurant,0,1,0,by,0
+corfis,Cornelia Fischer,chef,1,1,deutsch,0,1
+Rbachofer,Bachofer,restaurant,0,1,0,bw,0
+berbac,Bernd Bachofer,chef,2,1,deutsch,0,1
+Rschwitzersgourmetrestaurant,Schwitzer's Gourmet-Restaurant,restaurant,0,1,0,bw,0
+cedsch,Cedric Schwitzer,chef,2,1,0,0,1
+Rgasthofkrone,Gasthof Krone,restaurant,0,1,0,bw,0
+erimet,Erik Metzger,chef,2,1,deutsch,0,1
+Rjohanns,Johanns,restaurant,0,1,0,by,0
+micrei,Michael Simon Reis,chef,2,1,deutsch,0,1
+Rlaurentius,Laurentius,restaurant,0,1,0,bw,0
+jürkoc,Jürgen Koch,chef,2,1,deutsch,0,1
+Rzeitgeist,zeit|geist,restaurant,0,1,0,bw,0
+sebsyr,Sebastian Syrbe,chef,2,1,deutsch,0,1
+holste,Holger Stehr,chef,2,1,deutsch,0,1
+Radmiral,Admiral,restaurant,0,1,0,rp,0
+Ralteüberfahrt,Alte Überfahrt,restaurant,0,1,0,bb,0
+thohüb,Thomas Hübner,chef,2,1,deutsch,0,1
+Rpietsch,Pietsch,restaurant,0,1,0,st,0
+Rzeitwerk,Zeitwerk,restaurant,0,1,0,st,0
+robpie,Robin Pietsch,chef,2,1,deutsch,0,1
+Rente,Ente,restaurant,0,1,0,he,0
+mickam,Michael Kammermeier,chef,2,1,deutsch,0,1
+Rshiraz,Shiraz,restaurant,0,1,0,nw,0
+alehop,Alexander Hoppe,chef,2,1,deutsch,0,1
+Rkuno1408,Kuno 1408,restaurant,0,1,0,by,0
+patgri,Patrick Grieshaber,chef,2,1,deutsch,0,1
+robhof,Robin Hofmann,chef,2,1,deutsch,0,1
+Rlandhausköpp,Landhaus Köpp,restaurant,0,1,0,nw,0
+jürkop,Jürgen Köpp,chef,2,1,deutsch,0,1
+Rapicius,Apicius,restaurant,0,1,0,ni,0
+timext,Tim Extra,chef,2,1,deutsch,0,1
+Raltepfarrey,Alte Pfarrey,restaurant,0,1,0,rp,0
+Rfalco,Falco,restaurant,0,1,0,sn,0
+maigeh,Maik Gehrke,chef,2,1,deutsch,0,1
+petsch,Peter Maria Schnurr,chef,2,1,deutsch,0,1
+Rsäpfle,s'Äpfle,restaurant,0,1,0,bw,0
+aljfüt,Aljoscha Füting,chef,2,1,0,0,1
+Rhirschgasselegourmet,Hirschgasse - Le Gourmet,restaurant,0,1,0,bw,0
+Rschwingshacklesskulturgourmet,Schwingshackl ESSKULTUR Gourmet,restaurant,0,1,0,by,0
+Rsanmartino,San Martino - Gourmet by Jochen Fecht,restaurant,0,1,0,bw,0
+Rmarly,Marly,restaurant,0,1,0,bw,0
+Rrestauranturgestein,Restaurant Urgestein,restaurant,0,1,0,rp,0
+Rdasmaximilians,Das Maximilians,restaurant,0,1,0,by,0
+Rrestaurant1797,Restaurant 1797,restaurant,0,1,0,sh,0
+Raska,Aska,restaurant,0,,0,by,0
+marsau,Mario Sauer,chef,2,1,deutsch,0,1
+erischw,Erich Schwingshackl,chef,2,1,italienisch,0,1
+jocfec,Jochen Fecht,chef,2,1,deutsch,0,1
+grerup,Gregor Ruppenthal,chef,2,1,deutsch,0,1
+hedrin,Hedi Rink,chef,1,1,deutsch,0,1
+guirig,Guiseppe Riggio,chef,2,1,italienisch,0,1
+frafec,Franz Feckl,chef,2,1,deutsch,0,1
