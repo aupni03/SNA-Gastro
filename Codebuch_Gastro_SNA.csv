@@ -1,0 +1,60 @@
+Codebuch,
+,
+Wert,Kommentar
+nodelist,Grundregel: die IDs der Nodelist müssen mit den IDs der Edgelist komplett übereinstimmen
+id,"Eindeutiges Kennzeichen für Köche und Restaurants. Für Köche werden die ersten drei Buchstaben des Vor- und Nachnamens verwendet, z. B. ""pauboc"" für Paul Bocuse. Für Restaurants wird ""r"" und dann der Name aus dem Michelin Guide in Kleinbuchstaben, zusammengeschrieben und ohne Apostrophe verwendet, z. B. ""rvendome"" für das Restaurant ""Vendôme""."
+name,"Vollständiger Name oder Künstlername des Kochs, der Köchin oder des Restaurants."
+type,"Art des Knotens. ""chef"" für Koch/Köchin und ""restaurant"" für Restaurant."
+sex,"Geschlecht des Kochs, der Köchin: 1 für weiblich, 2 für männlich, 3 für divers. (Nur bei Koch/Köchin)"
+michelin_rating,"Anzahl der Sterne des Restaurants oder des Kochs/der Köchin im Michelin Guide: 1, 2 oder 3. (Sowohl für Koch/Köchin als auch für Restaurant)"
+nationality,"Nationalität des Kochs oder der Köchin. (Nur bei Koch/Köchin). Klein und ausgeschrieben z.B, ""deutsch"", ""italienisch"""
+county,"Bundesland, in dem sich das Restaurant befindet. (Nur bei Restaurant) Offizielle Abkürzungen: bw = Baden-Württemberg;
+by = Bayern;
+be = Berlin;
+bb = Brandenburg;
+hb = Bremen;
+hh = Hamburg;
+he = Hessen;
+mv = Mecklenburg-Vorpommern;
+ni = Niedersachsen;
+nw = Nordrhein-Westfalen;
+rp = Rheinland-Pfalz;
+sl = Saarland;
+sn = Sachsen;
+st = Sachsen-Anhalt;
+sh = Schleswig-Holstein;
+th = Thüringen."
+alive,"Zustand des Kochs/der Köchin: 1 für lebendig, 2 für tot. (Nur bei Koch/Köchin)"
+edgelist,Grundregel: Die Edgelist darf pro Spalte immer nur einen Wert enthalten.
+from,Ausbilder oder vorheriges Restaurant (für Beziehungen zwischen Köchen und Restaurants)
+to,Lehrling oder aktuelles Restaurant (für Beziehungen zwischen Köchen und Restaurants)
+relationship,"Art der Beziehung: ""trainer"" für Ausbilder, ""Vorgesetzter"" für direkten Vorgesetzten, ""küchenchef"" für Koch/Köchin, ""Ausbildungsbetrieb"" für Ausbildungsstätte, ""Besitzer"" für Restaurantbesitzer, ""hat da gekocht"" für frühere Anstellung in einem Restaurant."
+time,"Jahr, in dem die Beziehung begonnen hat. Bei fehlenden Werten 99 codieren"
+end,"Jahr, in dem die Beziehung geendet hat. Bei aktuell laufenden Beziehungen und fehlenden Werten wird 99 eingetragen."
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,Die Aufgaben lassen sich online mithilfe der Auf- bzw. Abwärtspfeile neben der Überschrift sortieren.
