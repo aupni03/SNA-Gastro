@@ -1,0 +1,853 @@
+---
+title: "226305 Forschungsbericht"
+author: "Niels Aupperle, Laurin Flender, Katharina Riener. Rosalie Etienne, Pia Hartmann"
+date: "Sommersemester 2024"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+  html_notebook: 
+    code_folding: hide
+subtitle: "Analyse des Beziehungs- und Ausbildungsnetzwerkes der deutschen Sterneköchinnen
+  und Sterneköche 2023"
+---
+
+# Abstract
+
+Gegenstand dieser Forschungsarbeit sind die Beziehungen zwischen den 2023 im Michelin Guide in Deutschland gelisteten und mit mindestens einem Stern bewerteten Köchinnen und Köche. Dafür wurden in einem ungewichteten Two-Mode-Netzwerk 709 Knoten erfasst, darunter 373 Personen und 336 Restaurants. Die Beziehungen zwischen diesen Knoten können unterschiedlicher Art sein. So kommen im Netzwerk beispielsweise Zusammenarbeitsbeziehungen vor, Ausbildungsbeziehungen, Besitzverhältnisse zwischen Koch und Restaurant sowie den Posten als Küchenchef in einem Restaurant. Im Lauf der Untersuchung wurden zudem die Unterschiede zwischen Köchinnen und Köchen mit ein, zwei und drei Sternen unterschieden, genauso zwischen Männern und Frauen im Netzwerk. Dabei stellte sich heraus, dass mit einer stärkeren Vernetzung in der Regel eine bessere Bewertung einhergeht. Des weiteren konnten Köche bestimmt werden, die besonders viel Einfluss auf die Branche hatten, darunter Prominente Namen wie Eckart Witzigmann und Harald Wohlfahrt.
+
+Keywords: **Sterneküche, Netzwerkanalyse, Netzwerk, Gastronomie, Spitzengastronomie, Sternekoch, Sterneköchin, Michelin Guide, Michelinsterne**
+
+# 1. Einleitung
+Sterne fallen nicht vom Himmel, auch wenn die deutsche Spitzengastronomie in den letzten Jahren nur nach oben griff. Allein zwischen 2005 und 2020 hat sich die Zahl der 1- und 2-Sterne-Restaurants im Durchschnitt verdreifacht und die der 3-Sterne-Restaurants sogar verdoppelt (Wilkesmann & Wilkesmann, 2020). 
+Seit Ende der 1960er Jahre vergibt der Guide Michelin Sterne für die besten Restaurants in Deutschland (ebd., S.20). Von zunächst noch sehr klassischen, wenig innovativen Gerichten, die dort serviert wurden wandelte sich die Spitzengastronomie schnell zu einer von individualistischen Künstlern geprägten Branche (Braun & Müller-Seitz, 2017, S.5).
+
+In den Küchen der Michelin-Restaurants werden seit jeher nicht nur die Gerichte auf dem Teller, sondern auch Karrieren geprägt.
+
+Vor diesem Hintergrund wird die Bedeutung der Beziehungen zwischen den im Guide Michelin mit mindestens einem Stern ausgezeichneten Restaurants und ihren Köchinnen und Köchen in Deutschland deutlich. Diese Beziehungen bieten nicht nur Einblicke in die kulinarische Entwicklung einzelner Persönlichkeiten, sondern offenbaren auch die Dynamiken von Einfluss und Inspiration innerhalb der Gastronomiebranche.
+
+
+#  2. Vorarbeiten und vergleichbare Studien
+## Forschungsstand
+
+Im Feld der Spitzengastronomie in Deutschland gibt es eine Studie, die sich intensiv mit der Analyse der Netzwerke von mit Michelin-Sternen ausgezeichneten Köchinnen und Köche in Deutschland beschäftigt. Die Studie Creative Hot Spots: A Network Analysis of German Michelin-Starred Chefs von Florian Aubke, wurde 2014 veröffentlicht und untersucht die Karrierewege von 262 Michelin-Sterneköch*innen. 
+Ähnlich wie unsere Erhebung untersucht Aubke, wie die Sterneköche in Deutschland miteinander vernetzt sind. Im Unterschied zu unserer Erhebung liegt das Forschungsinteresse dieser Studie jedoch darin, kreative Hotspots innerhalb der deutschen Spitzengastronomie zu identifizieren und herauszufinden, welche Rolle ihr Netzwerk für ihre individuelle kreative Produktivität spielt.
+Um diese Fragen zu beantworten, bedient sich die Studie wie wir der Methode der Sozialen Netzwerkanalyse. Dazu wurden die Karrierewege von 262 Michelin-Sterneköchinnen und -köche zu untersucht und die Beziehungen der Köchinnen und Köche untereinander sowie ihre individuelle Bedeutung im Netzwerk analysiert. Darüber hinaus wird untersucht, wie sich die Sternebewertungen der Köchinnen und Köche auf ihr Netzwerk auswirken und ob es Unterschiede im Austausch von Wissen und Ideen zwischen Köch*innen mit unterschiedlichen Sternebewertungen gibt.
+Die Studie zeigt, dass Michelin-Sterne als prestigeträchtigste Auszeichnung in der Gastronomie einen signifikanten Einfluss auf die berufliche Anerkennung von Köchinnen und -köche haben. Die Karrierewege der Köch*innen, die mit Michelin-Sternen ausgezeichnet wurden, spielen eine entscheidende Rolle bei ihrer Wahrnehmung und ihrem Ruf in der kulinarischen Welt. Das belegt, dass wir uns bei unserer Datenerhebung mit den Sterneköchen auf die richtige Gruppe konzentriert haben.
+Außerdem kam die Studie zu der Erkenntnis, dass es innerhalb der deutschen Spitzengastronomie einen dichten Kern gibt, in dem viele Köch*innen miteinander verbunden sind und eng miteinander interagieren. Allerdings gibt es auch einige herausragende Köche, die am Rand oder sogar isoliert innerhalb dieses Netzwerks zu finden sind, was darauf hinweist, dass kreative Exzellenz nicht zwangsläufig mit einer hohen Netzwerkzentralität einhergeht.
+Die Studie ergab, dass die individuelle Bedeutung eines Kochs oder einer Köchin im Netzwerk – ausgedrückt durch die Zentralität – unabhängig von der Anzahl seiner Michelin-Sterne ist. Das bedeutet, dass es Köche gibt, die trotz weniger Sterne eine hohe Bedeutung im Netzwerk haben können, und umgekehrt. Ebenfalls wurde festgestellt, dass Verbindungen zwischen Köchen mit unterschiedlichen Sternebewertungen häufiger vorkommen als zwischen Köchen mit ähnlichen Bewertungen. 
+
+# 3. Forschungsfrage
+
+Auf Grundlage der zuvor genannten Strukturen in der deutschen Spitzengastronomie und der Geschichte des Guide Michelin als Bewertungseinheit in der Gastronomiebranche ergibt sich die folgende Fragestellung, die die vorliegende Arbeit tiefgehend beantworten soll: Welche Ausbildungs- und Beziehungsstrukturen lassen sich in der deutschen Sternegastronomie finden und inwiefern stehen diese in Verbindung mit besonderem Erfolg in der kulinarischen Welt? Wieviel Einfluss der Lehrmeister auf ihre Schüler lässt sich dabei feststellen und können Küchenchefinnen und Küchenchefs auch ohne Karrierestationen in der Sterneküche den Weg zum eigenen Stern schaffen? Über den relationalen Ansatz gemäß Malang (2023, S.3) soll ermittelt werden, inwiefern den Beziehungen im Netzwerk effektive Funktionen zugeschrieben werden können.
+
+## Arbeitshypothesen
+Natürlich ergeben sich bei nährer Betrachtung dieser Frage, beziehungsweise der Auseinandersetzung mit dieser und beim methodischen Untersuchungsprozess zahlreiche weitere, kleinere Fragen zum Thema. Diese sollen in folgenden Arbeitshypothesen zum Ausdruck kommen, von denen wir in der vorliegenden Arbeit ausgehen:
+
+**Je länger der Werdegang, desto erfolgreicher der Koch**
+a) Es wird davon ausgegangen, dass die besonders erfolgreichen Küchenchefs, also die mit zwei oder drei Sternen, ein besonderes Aufgebot an kulinarischem Wissen und handwerklichem Können angesammelt haben und deshalb besonders viele Stationen auf ihrem Karriereweg besucht haben müssen. Dementsprechend müssten ihre indegree-Werte besonders hoch sein.
+
+**Bessere Lehrmeister vermitteln "besseres" Wissen und versprechen eigenen Erfolg**
+b) Zudem gehen wir davon aus, dass die Köche mit den meisten Sternen untereinander besonders dicht vernetzt sind, da die besten wiederum von den besten gelernt haben müssen oder mit anderen Köchen auf ihrem Niveau eher zusammenarbeiten.
+
+**Je mehr Sternerestaurants es gibt, desto mehr Nachwuchs in der Spitzengastronomie**
+c) Wir gehen von einem exponentiellen Wachstum der Beziehungen im Lauf der Zeit aus. Denn wenn es mehr renommierte Restaurants gibt, in denen Sterneköchinnen oder Sterneköche den Nachwuchs ausbilden, können abermals mehr neue Restaurants entstehen. Dieser Hypothese liegt weiterhin die Annahme zugrunde, dass ein Sternekoch mehr als nur einen nachfolgenden Sternekoch auf seinem Weg begleitet.
+
+**Paul Bocuse als Ursprung der Nouvelle Cuisine in Deutschland**
+d) Paul Bocuse, der als Mitbegründer und wichtigster Botschafter der Nouvelle Cuisine, also der ursprünglichen Form der innovativen, künstlerischen Küche gilt, müsste über mehrere Generationen betrachtet großen Einfluss auf die deutsche Gastronomielandschaft gehabt haben. Bei einem Ego-Netzwerk zweiten oder dritten Grades müssten sich also relativ viele Beziehungen auf ihn zurückführen lassen.
+
+**Frauen bilden eine klare Minderheit**
+e) Auf Grundlage von beispielsweise ihrer schwachen Präsenz in den Medien, wie etwa in TV-Sendungen, gehen wir davon aus, dass es erkennbar weniger weibliche als männliche gastronomische Größen in Deutschland gibt.
+
+
+Die genannten Arbeitshypothesen werden bei der Interpretation der in der vorliegenden Arbeit dargestellten Daten und Erkenntnisse bedacht und sollen ebenfalls Gegenstand der Diskussion der Ergebnisse sein.
+
+# 4. Datenerhebung: Zugang, Bereinigung und Codebuch
+
+## 4.1 Zugang
+
+Alle verwendeten Daten stammen aus öffentlich zugänglichen Quellen.
+
+Grundlage der Datenerhebung war der Michelin Guide Deutschland 2023. Sämtliche dort mit einem, zwei, oder drei Sternen ausgezeichneten Restaurants wurden in den Datensatz aufgenommen, ebenso alle aktuellen Küchenchefs und Küchenchefinnen dieser Restaurants. Der Datensatz war von vornherein definiert begrenzt auf diese Liste an Personen und Restaurants, als einzige Ausnahme wurden zusätzlich Paul Bocuse, ein zentraler Akteur der Geschichte der Sternegastronomie, und dessen drei deutschen Schüler Eckart Witzigmann, Franz Keller und Heinz Winkler in das Sample aufgenommen.
+
+Die Daten zu diesen Restaurants und Küchenchefs entstammen öffentlich zugänglichen Lebensläufen.
+Konnten nicht alle Daten über die Website des jeweiligen Restaurants, die im [Michelin Guide](https://guide.michelin.com/de/de) erwähnt war, gefunden werden, wurden zusätzlich Online-Lexika wie [Restaurant-Ranglisten](https://www.restaurant-ranglisten.de) oder [rolling pin](https://www.rollingpin.de/) herangezogen.
+
+Aufgrund der großen Datenmenge wurde die Datenerhebung gleichmäßig auf alle fünf Teammitglieder verteilt. Zur Sammlung der Daten wurde eine Tabelle über Google Drive erstellt, sodass die Daten bereits zum Zeitpunkt der Sammlung im zur Weiterverarbeitung geeigneten .csv-Format vorlagen.
+
+## 4.2 Bereinigung des Datensatzes
+
+Die große Datenmenge brachte außerdem eine hohe Fehleranfälligkeit und das Risiko der Dopplung mancher Beziehungen mit sich, sodass identische Zeilen durch farbliche Hervorhebung ausfindig gemacht und gelöscht werden mussten. Eine weitere Herausforderung ergab sich dadurch, dass in manchen Fällen ein Teammitglied für die Erhebung eines bestimmten Kochs zuständig war, und diesen in die Nodelist eintragen musste, dieser jedoch auch in den von einem anderen Teammitglied festgestellten Beziehungen auftauchte. Zum einen musste im Voraus exakt festgelegt werden, wie die IDs der Knoten codiert werden, damit das Zusammenführen aller Knoten und Kanten der unterschiedlichen Teammitglieder funktionieren würde. Zum anderen war es notwendig, sicherzustellen, dass alle in der edgelist vorkommenden IDs auch in der Nodelist eingetragen waren. Hierzu erwies sich die Formel (=SVERWEIS) in einem separaten Reiter der Tabelle, um beide Tabellenblätter auf Übereinstimmungen zu prüfen. Nach letztem händischen Aussortieren von Schreibfehlern und dem Löschen der Leerzeichen konnte der Datensatz vorerst verwendet werden. Während des Codings stellte sich dann jedoch heraus, dass ein Konflikt zwischen numerischen Daten und als "NA" eingetragenen fehlenden Daten entstanden war. Um mit allen Daten rechnen zu können, wurden die NAs, je Fall mit "0", "99", oder "9999" ersetzt. Welcher Wert gewählt wurde, hing davon ab, welche die Berechnungen mit den entsprechenden Attributen nicht verfälschen würden.
+
+Der vollständig bereinigte Datensatz ist unter [Github](https://github.com/aupni03/SNA-Gastro/tree/main) verfügbar.
+
+## 4.3 Codebuch
+Das [Codebuch](https://github.com/aupni03/SNA-Gastro/blob/main/Codebuch_Gastro_SNA.csv) beschreibt die Variablen und Relationen des Netzwerks und ist ebenfalls auf Github hinterlegt.
+
+# 5. Analyse und Interpretation
+
+## 5.1 Das Gesamtnetzwerk
+
+Das Gesamtnetzwerk umfasst 709 Knoten und 935 Beziehungen (siehe igraph-Objekt). Der Umfang (diameter) des Netzwerks liegt bei zwölf Knoten. Es handelt sich um ein gerichtetes, aber ungewichtetes two-Mode-Netzwerk. Bei den Knoten wird zwischen Köchinnen beziehungsweise Köchen, also Personen, und Restaurants, in diesem Fall vor allem in ihrer Funktion als Ausbildungs- und Arbeitsplatz, unterschieden. Netzwerke sind mehr oder weniger permanente Strukturen, die sich mit der Zeit verändern können (Barnes, 1969, S.221), in unserem Fall handelt es sich lediglich um den Zustand im Jahr 2023, da nur Restaurants aus dem Guide Michelin dieses Jahres vorkommen. Köchinnen und Köche sind als goldene Kreise dargestellt, Restaurants als dunkelrote Quadrate.
+
+```{r Gesamnetzwerk erstellen, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+
+# Laden der notwenidgen Bibliotheken
+library(igraph)
+library(tidyverse)
+library(igraphdata)
+library(knitr)
+library(dplyr)
+
+# Zunächst soll das Gesamtnetzwerk der 2023 gelisteten Sterneköch*innen und Restaurants erstellt werden 
+# Einlesen der Edgelist aus unserem Github-Verzeichnis
+el <- read.csv("https://raw.githubusercontent.com/aupni03/SNA-Gastro/main/Gastro_edges_numeric.csv", header=T, as.is=T, sep = ",")
+
+#es wird sichergestellt, dass alle Werte zum Startzeitpunkt der Beziehungen als numerische Werte vorliegen
+el$time <- as.numeric(el$time)
+
+# Einlesen der Nodelist aus unserem Github-Verzeichnis
+nodes <- read.csv("https://raw.githubusercontent.com/aupni03/SNA-Gastro/main/no%20NA.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt g
+g <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+g
+
+# zur Übersicht für das weitere Arbeiten werden die Attribute der Edge- und Nodelist aufgezählt
+list.edge.attributes(g)
+list.vertex.attributes(g)
+```
+
+```{r Beschreibung des Netzwerks, include=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+# Parameter zu Beschreibung des Netzwerks
+
+## besteht das Netzwerk aus Komponenten?
+## wenn ja, wie vielen?
+is.connected(g)
+components(g) # gibt eine Übersicht über die Komponenten aus
+components(g)$no # zählt die Gesamtkomponenten
+components(g)$csize # zeigt an, wie groß die jeweiligen Komponenten sind
+
+## Dichte des Netzwerks
+edge_density(g, loops=FALSE)
+
+## Umfang des Netzwerks
+diameter(g)
+
+## Pfaddistanzen (Distance)
+farthest_vertices(g)
+```
+
+```{r Erste Visualisierung des Gesamtnetzwerks, fig.height=10, fig.width=14, message=FALSE, warning=FALSE, paged.print=TRUE, echo=FALSE}
+
+# Sterneköche
+
+# zunächst werden die Grundlagen für alle folgenden Visualisierungen festgelegt
+
+#Festegelegte Farben und Formen
+V(g)[V(g)$type == "restaurant"]$shape="square"
+V(g)[V(g)$type == "chef"]$shape="circle"
+V(g)[V(g)$type == "chef"]$color="gold" #alle chefs werden als goldene Kreise dargestellt
+V(g)[V(g)$type == "restaurant"]$color="darkred" #alle restaurants werden als dunkelrote Quadrate dargestellt
+
+# Die Farbe aller Kanten wird festgelegt
+E(g)$color="grey14"
+
+
+# Nun wird das Gesamtnetzwerk visualisiert
+plot(g,
+     layout=layout_with_kk,
+     asp=0,#der ganze Platz auf der Leinwand soll genutzt werden
+     vertex.size=degree(g)/2, #die Knoten werden größer dargestellt, desto mehr Beziehungen sie aufweisen
+     edge.arrow.size=.4,
+     vertex.label=NA, # Die Namen der Knoten werden ausgeblendet
+     main="Visualisierung des Gesamtnetzwerks",
+     sub="Sternerestaurants aus dem Michelin Guide 2023")
+
+
+```
+**Geschlechterverteilung**
+
+Das Gesamtnetzwerk, ungeachtet der Restaurants, setzt sich aus 360 Männern und lediglich 13 Frauen zusammen. Es fällt eine erhebliche Geschlechterungleichheit auf, nur rund 3,5 Prozent der Sterneköch*innen waren im Jahr 2023 weiblich. Diese Erkenntnis soll später noch Gegenstand der genaueren Analyse werden. Besondere Beachtung soll die Vernetzung innerhalb der Branche bekommen, da ebenfalls auffällt, dass keine der Frauen 2023 mit der Höchstwertung von drei Michelinsternen ausgezeichnet war und sich somit die Frage stellt, ob diese gewisse Wettbewerbsnachteile in der Sterneküche haben.
+
+```{r Geschlechterverteilung im Gesamtnetzwerk, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+# Wir wollen herausfinden, wie das Verhältnis zwischen Männern und Frauen im Gesamtnetzwerk aussieht
+g_sex <- delete.vertices(g, V(g)[type == "restaurant"]) #löscht alle Restaurants
+
+g_female <- delete.vertices(g, V(g)[sex != 1]) # alle Restaurants und Männer werden gelöscht
+g_female_3 <- delete.vertices(g_female, V(g_female)[michelin_rating != 3]) # Alle Frauen mit weniger als drei Sternen werden gelöscht. Keine von ihnen bleibt übrig.
+
+
+
+g_fem_r <- delete.vertices(g, V(g)[sex == 2]) # ein Netzwerk mit Frauen und deren Restaurants, aber ohne Männer, wird erstellt
+
+V(g_fem_r)$degree_f <- degree(g_fem_r, mode = "all") #Der Degree-Wert der Frauen wird als neues Vertex-Attribut definiert
+list.vertex.attributes(g_fem_r)
+vertex.attributes(g_fem_r)$degree_f
+g_fem_clean <- delete.vertices(g_fem_r, V(g_fem_r)[degree_f == 0]) #löscht alle Isolates, sodass nur Frauen und die von ihnen geleiteten Restaurants übrigbleiben
+
+plot(g_fem_clean, # Visualisierung des Frauennetzwerks
+     layout=layout_with_kk,
+     asp=0,
+     vertex.size=degree(g)/2,
+     edge.arrow.size=.4,
+     vertex.label=NA,
+     vertex.label.color="grey20",
+     main="Frauen in der Sterneküche",
+     sub="Alle weiblichen Küchenchefs")
+
+components(g_fem_clean) #aus wie vielen Komponenten besteht das Netzwerk?
+
+```
+
+
+### 5.1.1 Kern des Gesamtnetzwerks
+
+Die Fragestellung dieser Arbeit beruht auf der Annahme, dass die Mehrheit der Sterneköchinnen und Sterneköche zuvor bei anderen solchen gearbeitet hat, und dass eine Auswahl an Restaurants gibt, die fast alle dieser Köchinnen und Köche miteinander verknüpft. Betrachtet man jedoch das Gesamtnetzwerk und dessen Einzelteile, fällt auf dass es aus 122 einzelnen Komponenten besteht, also Teilnetzwerken, die zueinander in keiner Beziehung stehen (Jünger & Gärtner, 2023, S.395). Untersucht man dann aber deren Größe, fällt sofort auf, dass eine der Komponenten aus 431 Knoten besteht, die anderen befinden sich im einstelligen Bereich. Von diesen wiederum können alle, die sich aus zwei Knoten zusammensetzen, als "Isolates" behandelt werden. Isolates sind normalerweise solche Knoten, die gar keine Beziehungen eingehen, also einen Degree-Wert von Null haben. Im vorliegenden Netzwerk muss allerdings beachtet werden, dass es immer mindestens die Beziehung zwischen einem Koch und seinem Restaurant gibt. Hat ein Koch außer der Beziehung zu seinem Restaurant keine weiteren Beziehungen, ist er trotzdem vom Netzwerk isoliert und hat keinen Zugang zum Wissen oder Stil anderer Köche. Deshalb werden nun zunächst alle Komponenten, die aus zwei Knoten bestehen, gelöscht und das Netzwerk neu betrachtet.
+```{r Komponenten des Gesamtnetzwerks, include=FALSE}
+edge_density(g)
+
+
+is_connected(g)# Besteht das Netzwerk aus Komponenten?
+
+components(g) # gibt eine Übersicht über die Komponenten aus
+components(g)$no # zählt die Gesamtkomponenten
+components(g)$csize # zeigt an, wie groß die jeweiligen Komponenten sind
+
+V(g)$degree_gesamt <- degree(g, mode = "all") # Der degree-Wert der Knoten wird als neues Vertex-Attribut angelegt
+list.vertex.attributes(g)
+V(g)$degree_gesamt # zeigt den degree der Knoten an
+
+components <- components(g)
+g_core <- largest_component(g)  # Ein neues Teilnetzwerk wird erstellt, das nur aus der Kernkomponente besteht
+
+is_connected(g_core) # Prüft, ob dieses Netzwerk nun tatsächlich nur noch aus einer Komponente besteht
+edge_density(g_core)
+```
+
+```{r Gesamtnetzwerk ohne Isolates, echo=FALSE, warning=FALSE}
+
+core_chefs <- delete.vertices(g_core, V(g_core)[type == "restaurant"]) # zählt nur die Köche im Kernnetzwerk
+
+
+plot(g_core,
+     layout=layout_with_kk,
+     asp=0,#der ganze Platz auf der Leinwand soll genutzt werden
+     vertex.size=degree(g)/2, #die Knoten werden größer dargestellt, desto mehr Beziehungen sie aufweisen
+     edge.arrow.size=.1,
+     vertex.label=NA, # Die Namen der Knoten werden ausgeblendet
+     main="Visualisierung des Kernnetzwerks",
+     sub="Alle verbundenen Restaurants und Köche ohne Isolates")
+
+```
+
+Das Gesamtnetzwerk hat eine Vergleichbar geringe Dichte von 0,0019. Die Dichte gibt Auskunft darüber, wie viele der theoretisch möglichen Beziehungen im Netzwerk auch tatsächlich vorhanden sind (Jünger & Gärtner, 2023, S.395) und ist somit ein Indikator für eine starke Verwobenheit des Netzerks. In diesem Fall wurden also 0,19 Prozent aller möglichen Verbindungen realisiert, was der Hypothese eher widerspricht. Bei der Berechnung der Dichte gilt es allerdings zum einen zu beachten, dass die Dichte von Netzwerken mit zunehmender Größe gewöhnlicherweise gegen Null strebt (Lerner, 2023, S.5), zum anderen, dass diese im vorliegenden Netzewrk eher gering ausfallen **muss**, da etwa die Hälfte der Knoten, die Restaurants, gar keine Beziehung zueinander eingehen können. Doch auch wenn die Dichte keine eindeutige Angabe ist, bleibt sie innerhalb des Netzwerks vergleichbar. Betrachtet man nämlich nur die größte Komponente, sozusagen als Kern des Netzwerks, hat diese eine etwa doppelt so hohe Dichte, hier sind 0,39 Prozent aller möglichen Beziehungen realisiert. Diese Erkenntnis, wie auch die Anzahl der verschiedenen Komponenten, die wesentlich kleiner sind als die Hauptkomponente, führen zu dem Schluss, dass die deutschen Sterneköche nicht alle über Arbeitsverhältnisse miteinander vernetzt sind, dafür aber ein stark vernetzter Kern besteht, auf den die ursprüngliche Annahme zutrifft. Es gibt also sozusagen zwei Lager: Die Kerngruppe, deren Mitglieder viele verschiedene Stationen auf ihrem Karriereweg gemacht haben, und eine Gruppe von Einzelgängern, die sich den Stern offenbar aus Eigeninitiative beziehungsweise ohne das Wissen eines anderen Sternekochs erkocht haben. Die Mehrheit von 228 Köchinnen und Köchen gehört zu der vernetzten Gruppe, 145 haben entweder keine Verbindung zu anderen Köch*innen, oder waren nur in wenigen Restaurants tätig, die widerum keine Verbindung zur Hauptgruppe haben. Da dies erst eine Tendenz, jedoch noch keine allzu genauen Informationen über das Netzwerk liefert, werden im folgenden Teilnetzwerke, vor allem nach Vertex-Attributen, untersucht.
+
+
+## 5.2 Analyse der Teilnetzwerke 
+
+Um bestimmte Zusammenhänge anhand verschiedener Vertex-Attribute und Edge-Attribute festzustellen, selektieren wir im folgenden bestimmte Teile des Netzwerks und betrachten deren innere Struktur genauer.
+
+### 5.2.1 Entwicklung des Netzwerks seit Wirkungsbeginn des Michelin Guide in Deutschland 
+
+Zunächst werfen wir einen Blick auf die Entwicklung der am Netzwerk beteiligten Beziehungen von Beginn bis zum aktuellen Stand. Dafür werden Teilnetzwerke nach Dekaden erstellt, die alle bis zum Ende des jeweiligen Jahrzehnts begonnenen Beziehungen enthalten. Darüber soll herausgefunden werden, wie weit sich die Bekanntschaften der Köch*innen im Netzwerk zurückverfolgen lassen. Dies könnte Aussagen darüber ermöglichen, ob sich die Zahl der Ausbildungen und Kooperationen von heutigen Sterneköchen mit der Zeit angehäuft haben oder nicht. Wichtig ist dabei zu verstehen, was diese Teilnetzwerke aussagen, um Verwirrungen und falsche Schlüsse zu vermeiden. Die Netzwerke stellen nicht das Netzwerk der Sterneköche des jeweiligen Jahrzehnts dar, sondern sie sagen aus, wo die aktuellen Sterneköche damals standen und wann wie viele Beziehungen eingegangen wurden. Dies erlaubt nichts desto trotz eine Aussage darüber, wann wie viele neue Knoten dazugekommen sind, die ihren Weg durch die Sternegastronomie begonnen haben. Die Analyse startet in den 1970er Jahren, wo einige wichtige Veränderungen und Meilensteine für die Spitzengastronomie, vor allem in Deutschland, stattfinden.
+
+```{r Gesamtnetzwerk zur Vorbereitung erneut einlesen, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+
+# Einlesen der benötigten Bibliotheken
+library(igraph)
+library(tidyverse)
+library(igraphdata)
+library(knitr)
+library(dplyr)
+
+# Einlesen der Edgelist aus unserem Github-Verzeichnis
+el <- read.csv("https://raw.githubusercontent.com/aupni03/SNA-Gastro/main/Gastro_edges_numeric.csv", header=T, as.is=T, sep = ",")
+#es wird sichergestellt, dass alle Werte zum Startzeitpunkt der Beziehungen als numerische Werte vorliegen
+el$time <- as.numeric(el$time)
+# Einlesen der Nodelist aus unserem Github-Verzeichnis
+nodes <- read.csv("https://raw.githubusercontent.com/aupni03/SNA-Gastro/main/no%20NA.csv", header=T, as.is=T, sep = ",")
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt g
+g <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+g
+V(g)$degree_gesamt <- degree(g, mode = "all") # Der degree-Wert der Knoten wird als neues Vertex-Attribut angelegt
+list.vertex.attributes(g)
+# zur Übersicht für das weitere Arbeiten werden die Attribute der Edge- und Nodelist aufgezählt
+list.edge.attributes(g)
+list.vertex.attributes(g)
+
+# Damit ein ungefähres Zeitnetzwerk erstellt werden kann, müssen zunächst alle fehlenden Werte zum Zeitpunkt der Beziehung gelöscht werden und die restlichen als numerische Werte vorliegen
+list.edge.attributes(g)
+E(g)$time <- as.numeric(E(g)$time)
+E(g)$time
+
+g_clean <- subgraph.edges(g, E(g)[time != 99])
+
+#Festegelegte Farben und Formen
+V(g)[V(g)$type == "restaurant"]$shape="square"
+V(g)[V(g)$type == "chef"]$shape="circle"
+V(g)[V(g)$type == "chef"]$color="gold" #alle chefs werden als goldene Kreise dargestellt
+V(g)[V(g)$type == "restaurant"]$color="darkred" #alle restaurants werden als dunkelrote Quadrate dargestellt
+
+# Die Farbe aller Kanten wird festgelegt
+E(g)$color="grey14"
+
+```
+
+```{r Zeitnetzwerk der Siebzigerjahre, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+# Teilnetzwerk mit Beziehungen der Siebzigerjahre
+g_70s <- subgraph.edges(g_clean, E(g_clean)[time < 1980])
+
+E(g_70s)$time
+vcount(g_70s)# wie viele Beziehungen haben in den Siebzigern stattgefunden?
+g_70s
+edge_density(g_70s)
+```
+
+Gegen Ende der Sechziger-, Anfang der Siebzigerjahre startet für die Sterneküche in Deutschland eine wichtige Epoche. Im Jahr 1966 zeichnete der Guide Michelin erstmals deutsche Restaurants mit einem Stern aus (Wilkesmann & Wilkesmann, 2020, S.20), 1974 gab es die ersten Zwei-Sterne-Restaurants (ebd.). Außerdem hatte sich bis etwa 1970 kaum etwas an den Gerichten und Menüs der Spitzenküche geändert, sie war stark von französischen Klassikern geprägt (Braun & Müller-Seitz, 2017, S.5). Doch nun verspürten die Spitzenköche einen neuartigen Innovationsdruck, für den Braun und Müller-Seitz zum einen die voranschreitende Internationalisierung und die bessere Vergleichbarkeit wegen der Weiterentwicklung der Medien zu dieser Zeit verantwortlich machen, die sogenannte "Nouvelle cuisine", eine neuartige Kochphilosophie erhält Einzug (ebd.). Auch für das Sternenetzwerk von heute wird der Grundstein gelegt: Eckart Witzigmann, ein Schüler von Paul Bocuse, der wiederum wichtiger Botschafter der Nouvelle Cuisine war (Wilkesmann & Wilkesmann, 2020, S.14f.), wird Küchenchef im Münchner "Tantris", welches später viele der im Netzwerk vertretenen Köche prägen wird. Dort wird ab 1977 zudem Harald Wohlfahrt unter Eckhart Witzigmann ausgebildet, auch er wird in einem späteren Kapitel dieser Arbeit eine wichtige Rolle einnehmen.
+```{r Zeitnetzwerk der Achtzigerjahre, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+# Teilnetzwerk mit Beziehungen bis zu den Achtzigerjahren
+g_80s <- subgraph.edges(g_clean, E(g_clean)[time < 1990])
+
+E(g_80s)$time 
+vcount(g_80s)# wie viele Beziehungen haben bis Ende der Achtziger stattgefunden?
+g_80s
+edge_density(g_80s) # Dichte des Netzwerks
+```
+In den Achtzigerjahren nimmt die gehobene Küche in Deutschland weiter Fahrt auf und der Guide Michelin vergibt 1982 erstmalig drei Sterne an deutsche Restaurants (Wilkesmann & Wilkesmann, 2020, S.20). Zudem wird Harald Wohlfahrt 1980 Küchenchef in der Schwarzwaldstube im Hotel Traube Tonbach, ein weiteres Restaurant, dessen hohe Relevanz später deutlich wird. Zudem tauchen nun erstmals Prominente Namen wie Johannes King und Claus-Peter Lumpp auf, sowie dessen Restaurant "Bareiss".
+```{r Zeitnetzwerk der Neunzigerjahre, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+# Teilnetzwerk mit Beziehungen bis zu den Neunzigerjahren
+g_90s <- subgraph.edges(g_clean, E(g_clean)[time < 2000])
+
+E(g_90s)$time 
+vcount(g_90s)# wie viele Beziehungen haben bis Ende der Neunziger stattgefunden?
+
+edge_density(g_90s)# Dichte des Netzwerks
+```
+
+Zu Beginn der Neunziger hat sich das System der Michelinsterne in Deutschland noch fester etabliert, und das Netzwerk weißt zum ersten Mal eine dreistellige Anzahl an Knoten auf, mit 128 Knoten sind es 89 mehr als noch im vorherigen Jahrzehnt. Auch etabliert sich in diesem Jahrzehnt die bis heute gängigste Struktur der Menüs in Sternerestaurants, sogenannte "Verkostungsmenüs" mit zahlreichen, kleinen Gängen (Wilkesmann & Wilkesmann, 2020, S.15).Eckart Witzigmann bekommt mit Christian Jürgens einen weiteren Schüler im "Tantris", der in seiner zukünfitgen Karriere selbst Sterne erkochen wird. Auch Christian Bau, einer von nur wenigen Drei-Sterne-Köchen im heutigen Netzwerk beginnt seine Karriere unter Harald Wohlfahrt. Die Geschichte eines weiteren aktuellen Drei-Sterne-Kochs beginnt gegen Ende des Jahrzehnts, 1998, als Sven Elverfeld Küchenchef im "Aqua" wird.
+```{r Zeitnetzwerk der Zweitausender, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+# Teilnetzwerk mit Beziehungen bis zu den Zweitausendern
+g_00s <- subgraph.edges(g_clean, E(g_clean)[time < 2010])
+
+E(g_00s)$time 
+vcount(g_00s)# wie viele Beziehungen haben bis Ende der Zweitausender stattgefunden?
+
+edge_density(g_00s)# Dichte des Netzwerks
+```
+
+In den Zweitausendern hat sich die in den Neunzigern entstandene Kultur der Verkostungsmenüs etabliert und Wilkesmann und Wilkesmann (2020, S.15f.) beobachten keine grundlegenden Veränderungen mehr in der Praxis der Spitzengastronomie. Das Netzwerk vergrößert sich auf 242 Knoten und zahlreiche weitere berühmte Persönlichkeiten werden Küchenchefs eines Restaurants, so zum Beispiel Christian Jürgens in der "Überfahrt", Christoph Rüffer im "haerlin" oder Tohru Nakamura im "Vendome".
+```{r Zeitnetzwerk der Beziehungen bis heute, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+# Teilnetzwerk mit Beziehungen bis heute
+g_current <- subgraph.edges(g_clean, E(g_clean)[time <= 2024])
+
+E(g_current)$time 
+vcount(g_current)# wie viele Beziehungen haben bis heute stattgefunden (Kontrolle, müsste gleich sein mit g_clean)
+g_clean
+g_current
+
+edge_density(g_current) # Dichte des Netzwerks
+```
+
+Vergleicht man nun alle entstandenen Dekadennetzwerke nacheinander, fallen im wesentlichen zwei Dinge auf. 
+
+Erstens werden die beteiligten Knoten nicht nur pro Jahrzehnt mehr, sondern sie vermehren sich jedes Jahrzehnt um ein Vielfaches des bisherigen Bestandes, es ist also ein annähernd exponentielles Wachstum festzustellen. Besteht das Netzwerk in den 1970er Jahren noch aus lediglich 13 Knoten, sind es im folgenden Jahrzehnt bereits 40, eine Vermehrung um den Faktor 3,25 hat stattgefunden. Von den Achtzigern in die Neunziger steigt die Anzahl der Knoten erneut um mehr als das Dreifache, genauer um den Faktor 3,28 von 40 auf 129 Knoten. Mit der Jahrtausendwende beginnt der Trend leicht abzuflachen, auch wenn die Knoten noch immer ein Vielfaches derer aus dem vorangegangenen Jahrzehnt sind, nämlich 243 und damit 1,93-mal so viele. Vom Jahr 2010 bis zum Stand der Datenerhebung vermehren sich die Knoten dann noch einmal um den Faktor 2,47. Dies bestätigt die These, dass mehr Sternerestaurants entstehen können, umso mehr es bereits gibt und liefert somit einen Grund zur Annahme, dass die Ausbildung beziehungsweise Arbeit in einem Sternerestaurant die Wahrscheinlichkeit für den entsprechenden Koch oder die Köchin erhöht, später selbst Sterne zu erhalten.
+
+Wie aber auch schon erwähnt wurde, geht zumindest der Wachstumsfaktor selbst ab der Jahrtausendwende leicht zurück. Der soeben beschriebene Effekt ist weiter vorhanden, verliert aber etwas an Wirkung. Eine zweite Erkenntnis ergibt sich, wenn man diese Tatsache mit der Dichte der jeweiligen Dekadennetzwerke in Verbindung bringt. Denn diese reduziert sich von Jahrzehnt zu Jahrzehnt deutlich. In den Siebzigern beträgt die Netzwerkdichte noch rund 0,08 in den Achtzigern hat sie sich mehr als gedrittelt und beträgt nur noch rund 0,025. Im Folgejahrzehnt reduziert sie sich dann auf 0,0087 zum neuen Jahrtausend nochmal auf 0,0047. Beim aktuellen Netzwerk aller Beziehungen, deren Startzeitpunkt bekannt ist, liegt die Dichte schließlich nur noch bei 0,0019. Das bedeutet, dass unter den neu hinzugekommenen Restaurants und Küchenchefs immer mehr vorkommen, die in der Vergangenheit keine Beziehung zu anderen hatten. In anderen Worten: Unter die gut vernetzten Knoten mischen sich zunehmend auch solche, die es allein zu einem oder mehreren Sternen geschafft haben. Der Weg durch eine fremde Sterneküche bleibt zwar nach wie vor von Bedeutung, wird allerdings nicht mehr ganz so häufig gegangen wie offenbar noch vor fünfzig bis siebzig Jahren. Dies bestätigt auch Bahl (2017, S.34). Demnach ist die Gastronomiebranche wie viele andere Handwerksberufe erheblich vom Fachkräftemangel betroffen. Daher werde es üblicher, dass herkömmliche Ausbildungsbetriebe ihre Lehrlinge gleich übernehmen (ebd.), sodass diese sich dann intern zur Position des Chefkochs hocharbeiten und Einfluss auf den Erfolg des Restaurants nehmen.
+
+### 5.2.2 Erfolgschancen in der Sternegastronomie nach Sozialkapital
+
+Beziehungen können oft Investitionen sein. Nach der Theorie des Sozialkapitals "investieren" Akteure in eine hohe Anzahl oder auch eine ausgeprägte Stärke unserer sozialen Beziehungen, um sich den Zugang zu Informationen und Wissen zu verschaffen oder bestimmte Ziele zu verwirklichen (Fuhse, 2020, S.180). Besondere Relevanz hat das im Kontext des beruflichen Aufstiegs (ebd.) Aus diesem Grund kann die Theorie des Sozialkapitals sehr treffend auf die vorliegende Forschungsfrage angewendet werden. Da Individuen gemäß Fuhse (2020, S.180) mit ihren Handlungen bezogen auf Bekanntschaften und Bindungen in der Regel danach streben, ihr Sozialkapital zu erhöhen. Es lässt sich somit weiter überprüfen, ob Köch*innen mit besonders guter Sternebewertung entweder auch bei besonders erflogreichen Kolleginnen und Kollegen gearbeitet haben, oder aber, ob diese in besonders vielen Restaurants gearbeitet haben.
+
+```{r Teilnetzwerke nach Anzahl Sterne, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+### 3 Sterne
+list.vertex.attributes(g) # zählt die Vertex-Attribute auf
+vertex.attributes(g)$michelin_rating # zeigt die Bewertung im Michelin Guide der einzelnen Knoten nach Sternen an
+threestars <- delete.vertices(g, V(g)[michelin_rating != 3]) # Erstellt ein Netzwerk nur mit drei-Sterne-Knoten
+
+which.max(degree(threestars))
+mean(degree(threestars))
+edge_density(threestars)
+
+### 2 Sterne
+list.vertex.attributes(g) # zählt die Vertex-Attribute auf
+vertex.attributes(g)$michelin_rating # zeigt die Bewertung im Michelin Guide der einzelnen Knoten nach Sternen an
+twostars <- delete.vertices(g, V(g)[michelin_rating != 2]) # Erstellt ein Netzwerk nur mit zwei-Sterne-Knoten
+
+
+which.max(degree(twostars))
+mean(degree(twostars))
+edge_density(twostars)
+
+### 1 Stern
+list.vertex.attributes(g) # zählt die Vertex-Attribute auf
+vertex.attributes(g)$michelin_rating # zeigt die Bewertung im Michelin Guide der einzelnen Knoten nach Sternen an
+onestar <- delete.vertices(g, V(g)[michelin_rating != 1]) # Erstellt ein Netzwerk nur mit ein-Sterne-Knoten
+
+
+which.max(degree(onestar))
+mean(degree(onestar))
+edge_density(onestar)
+```
+Betrachtet man dafür zunächst die Dichte von Teilnetzwerken, in denen nur Köchinnen und Köche mit der jeweils gleichen Bewertung vorkommen, lässt sich zum einen erkennen, dass das Netzwerk der Drei-Sterne-Köche mit 0,045 beziehungsweise 4,5 Prozent von allen Netzwerken mit am dichtesten ist. Sowohl unter den Zwei- als auch den Drei-Sterne-Köchen ist die Dichte eher gering. Beim Netzwerk der zwei Michelinsterne sind etwa 0,83 Prozent der möglichen Beziehungen realisiert, beim Ein-Sterne-Netzwerk nur 0,16%. Somit haben die Köche, die mit drei Sternen ausgezeichnet sind, tendenziell auch zuvor in einem Drei-Sterne-Restaurant gearbeitet.
+
+```{r Zentralität nach Sternen, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+chefs <- delete.vertices(g, V(g)[type == "restaurant"]) # alle Restaurants werden aus dem Netzwerk gelöscht
+
+mean(degree(chefs, V(chefs)[michelin_rating == 3])) # wie viele Beziehungen haben die 3-Sterne-Köche?
+mean(degree(chefs, mode = "out", V(chefs)[michelin_rating == 3]))# wie viele Beziehungen von sich weg haben die 3-Sterne-Köche?
+mean(degree(chefs, mode = "in", V(chefs)[michelin_rating == 3]))# wie viele Beziehungen zu sich hin haben die 3-Sterne-Köche?
+
+mean(degree(chefs, V(chefs)[michelin_rating == 2]))  # wie viele Beziehungen haben die 2-Sterne-Köche?
+mean(degree(chefs, mode = "out", V(chefs)[michelin_rating == 2]))# wie viele Beziehungen von sich weg haben die 2-Sterne-Köche?
+mean(degree(chefs, mode = "in", V(chefs)[michelin_rating == 2]))# wie viele Beziehungen zu sich hin haben die 2-Sterne-Köche?
+
+mean(degree(chefs, V(chefs)[michelin_rating == 1])) #  wie viele Beziehungen haben die 1-Sterne-Köche?
+mean(degree(chefs, mode = "out", V(chefs)[michelin_rating == 1]))# wie viele Beziehungen von sich weg haben die 1-Sterne-Köche?
+mean(degree(chefs, mode = "in", V(chefs)[michelin_rating == 1]))# wie viele Beziehungen zu sich hin haben die 1-Sterne-Köche?
+
+```
+Allerdings lässt dies noch keine konkrete Aussage darüber zu, ob auch die weniger erfolgreichen Sterneköche bei den besonders erfolgreichen gearbeitet haben. Um dies zu prüfen, wird der degree-Wert der Köche nach Sternen gruppiert im Gesamtnetzwerk ermittelt. Hierzu werden allerdings die Restaurants gelöscht, da diese untereinander keine Beziehungen eingehen können und die durchschnittliche Anzahl an Beziehungen somit verfälschen wurden. Für die Frage, ob Drei-Sterne-Köche mehr Etappen in ihrer Karriere bestritten haben als andere, sind sie außerdem nicht relevant, denn eine Arbeitsbeziehung zu einem Koch bedeutet automatisch auch eine Beschäftigung in dessen Restaurant, die Beziehung zum Restaurant ist somit selbstverständlich und muss nicht zusätzlich geprüft werden.
+Beim einem Blick auf die Gradwerte der Knoten bestätigt sich, die Vermutung, dass die Köchinnen und Köche umso erfolgreicher sind, desto mehr Beziehungen sie hatten. Der durchschnittliche degree-Wert im Netzwerk aller Knoten vom type "chef" ist bei den Drei-Sterne-Köchen mit rund 4,88 am höchsten. Die Zwei-Sterne-Köche liegen mit 1,53 deutlich darunter, genauso die Ein-Sterne-Köche mit rund 0,58. 
+
+Möglich ist zudem, dass ein Koch eine Anstellung in einem Drei-Sterne-Restaurant überhaupt erst dadurch bekommt, dass er zuvor in vielen anderen Restaurants gearbeitet hat und dort Erfahrung sammeln konnte. Denn die Wanderschaft durch verschiedene Küchen und das sammeln von Erfahrungen in unterschiedlichen Bereichen der Gastronomie gehört in der Branche zum guten Ton und Erhöhen die Chance, von einem renommierten Arbeitgeber angestellt zu werden (Bahl, 2017, S.32).
+
+Als letztes und wohl stärkstes Indiz für dieses Verhältnis soll angemerkt werden, dass die Köche mit drei Sternen als einzige Gruppe wesentlich mehr ausgehende als eingehende Beziehungen aufweisen. Ihr durchschnittlicher out-degree-Wert liegt bei gerundet 3,88, der in-degree-Wert bei 1. Sowohl bei den Köchen mit zwei Sternen (durchschnittlicher out-degree von 0,7, durchschnittlicher in-degree von 0,82), als auch bei denen mit einem Stern (durchschnittlicher out-degree von 0,2, durchschnittlicher in-degree von 0,35) liegen mehr eingehende als ausgehende Beziehungen vor, auch wenn die Werte bei den zwei Sternen nahezu ausgeglichen sind. Es ergibt sich, dass erfolgreichere Köche mehr Schülerinnen und Schüler hatten als weniger erfolgreiche.
+
+
+
+
+### 5.2.3 Selbstständigkeit in der Sternegastronomie
+
+Koch beziehungsweise Köchin ist in Deutschland ein Ausbildungsberuf, der allerdings als Berufsbegriff nicht geschützt ist (Wilkesmann & Wilkesmann, 2020, S.125). Wer in den Beruf einsteigt, beginnt in den meisten Fällen nicht in einem Sternerestaurant (ebd., S.126) und auch nicht in der Position des Küchenchefs oder der Küchenchefin, sondern muss sich in einem hierarchischen System verschiedener Posten hocharbeiten (Bahl, 2017, S.32). Nur in der Position des Chef de cuisine werden die Sterne des Restaurants auch dem Koch oder der Köchin zugeschrieben (De Rooij, 2017, S.31). Eröffnen Köche jedoch ihr eigenes Restaurant, können sie sich dort selbst den Posten des Küchenchefs zuteilen. Im folgenden soll ein kurzer Blick darauf geworfen werden, wie viele der deutschen Sterneköch*innen im Besitz des Restaurants sind, in dem sie kochen und so herausgefunden werden, ob das Eröffnen eines eigenen Restaurants mit besonderem Erfolg und somit, gemäß der Erkenntnisse aus 4.2.2, indirekt mit einem hohen Grad an beruflichen Beziehungen zu tun hat.
+
+```{r Teilnetzwerk nur mit selbstständigen Köch*innen, include=FALSE}
+list.edge.attributes(g) # zählt die Kantenattribute des Gesamtnetzwerks auf
+E(g)$relationship <- as.numeric(E(g)$relationship) # definiert die Beziehungswerte als numerische Werte
+E(g)$relationship
+
+ownership <- subgraph.edges(g, E(g)[relationship==5]) # Ein Teilnetzwerk nur mit der Beziehungsart "Besitzverhältnis" wird erstellt
+
+owners <- delete.vertices(ownership, V(ownership)[type == "restaurant"]) # Aus dem Besitznetzwerk werden die Restaurants gelöscht
+vcount(chefs) # zählt die Knoten, die Köche sind
+vcount(owners) # zählt die Köche, die gleichzeitig Restaurantbesitzer sind
+
+sum(V(chefs)$michelin_rating == 3) # zählt die Köche mit drei Sternen
+sum(V(owners)$michelin_rating == 3) # zählt die Köche mit drei Sternen, die auch Restaurantbesitzer sind
+
+sum(V(chefs)$michelin_rating == 2) # zählt die Köche mit zwei Sternen
+sum(V(owners)$michelin_rating == 2)# zählt die Köche mit zwei Sternen, die auch Restaurantbesitzer sind
+
+sum(V(chefs)$michelin_rating == 1) # zählt die Köche mit einem Stern
+sum(V(owners)$michelin_rating == 1)# zählt die Köche mit einem Stern, die auch Restaurantbesitzer sind
+
+
+```
+
+Um dieser Frage nachzugehen, wurde ein Teilnetzwerk erstellt, welches nur noch Besitzbeziehungen beinhaltet. Dieses ist kaum noch verflochten, da ein Koch keinen anderen Koch besitzen kann, ein Restaurant kein Restaurant, das ist in diesem Fall allerdings kein Hindernis, da das Teilnetzwerk nur als Zwischenschritt zur Berechnung von Verhältnissen dienen soll. Daraus wurde ein weiteres Teilnetzwerk erstellt, in dem nur noch Knoten vom type "chef" vorkommen. Somit kann der Anteil der Köchinnen und Küche berechnet werden, die Besitzer*in ihres Restaurants sind. In der Gesamtmenge von 373 Küchenchefs befinden sich 121 Selbstständige, das entspricht 33,44 Prozent, also gut einem Drittel. Demnach hat die Mehrheit kein eigenes Restaurant eröffnet, was auch darauf schließen lässt, dass die Mehrheit den klassischen Weg des Aufstiegs in der Karriere gegangen ist. Dies deckt sich wiederum mit der Feststellung aus 4.1.1, dass es eine kleinere, unabhängige Masse an Köchen im Netzwerk gibt, sowie einen größeren, verflochtenen Kern, dessen beteiligte Knoten zusammen gearbeitet oder voneinander gelernt haben.
+Anschließend werden nun noch die Selbständigkeitsanteile nach Michelin-Bewertung verglichen.
+Unter den Drei-Sterne-Köchen, von denen es insgesamt 17 gibt, haben lediglich fünf ein eigenes Restaurant, also 29,41 Prozent. Der Anteil ähnelt somit dem der Gesamtmenge. Etwas mehr sind es bei den Zwei-Sterne-Köchen, 25 von 64 oder 39 Prozent betreiben ihr eigenes Restaurant. Von den 292 Ein-Sterne-Köchen sind 91 selbstständig, das entspricht 31,16 Prozent.
+Die Werte schwanken bei allen drei Klassen mehr oder weniger um ein Drittel und passen somit ins Bild des Gesamtnetzwerks. Es kann somit kein Zusammenhang zwischen Selbstständigkeit und Erfolg im Sinne der Michelin-Bewertung der Köch*innen festgestellt werden.
+
+### 5.2.4 Die Position der weiblichen Küchenchefs in der deutschen Spitzenküche
+
+Wie bereits in 4.1 erwähnt ist eine der auffälligsten Eigenschaften des Gesamtnetzwerks die extrem ungleiche Geschlechterverteilung. In der Literatur finden sich Anzeichen, dass dieser Zustand nicht neu und zum Teil durch historische Missstände bedingt ist. Verglichen mit anderen gesellschaftlichen Bereichen ist die Emanzipation in Deutschland in der Gastronomie noch nicht weit fortgeschritten (De Rooij, 2017, S.4). Allerdings nimmt die Zahl an Sterneköchinnen mittlerweile leicht zu. Im Jahr 2017 gab es erst fünf Köchinnen mit einem Stern (ebd., S.15), 2023 sind es 13, zwei davon tragen zwei Michelinsterne. De Rooij (2017, S.13) sieht die Wurzeln dieser Ungleichheit bereits im Mittelalter, wo noch ein Berufsverbot für Frauen in der Küche herrschte. Dazu kommt, dass Frauen erst ab 1970 ohne die Erlaubnis ihres Mannes frei einen Beruf ausüben durften und erst zu diesem Zeitpunkt Frauen merkbar Einzug in Handwerksberufe fanden (ebd., S.23). Dadurch, dass der Michelin Guide etwa zur gleichen Zeit begann, in Deutschland Sterne zu verteilen (Wilkesmann & Wilkesmann, 2020, S.20), hatten Männer sozusagen einen Vorsprung, da von ihnen damals deutlich mehr schon länger den Beruf ausübten. Dies liefert eine mögliche Erklärung für das verzögerte Aufstreben von Frauen in der Spitzengastronomie.
+
+```{r Teilnetzwerk Frauen, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+g_female <- delete.vertices(g, V(g)[sex != 1]) # alle Restaurants und Männer werden gelöscht
+g_female_3 <- delete.vertices(g_female, V(g_female)[michelin_rating != 3]) # Alle Frauen mit weniger als drei Sternen werden gelöscht. Keine von ihnen bleibt übrig.
+
+
+
+g_fem_r <- delete.vertices(g, V(g)[sex == 2]) # ein Netzwerk mit Frauen und deren Restaurants, aber ohne Männer, wird erstellt
+
+V(g_fem_r)$degree_f <- degree(g_fem_r, mode = "all") #Der Degree-Wert der Frauen wird als neues Vertex-Attribut definiert
+list.vertex.attributes(g_fem_r)
+vertex.attributes(g_fem_r)$degree_f
+g_fem_clean <- delete.vertices(g_fem_r, V(g_fem_r)[degree_f == 0]) #löscht alle Isolates, sodass nur Frauen und die von ihnen geleiteten Restaurants übrigbleiben
+
+plot(g_fem_clean,
+     layout=layout_with_kk,
+     asp=0,
+     vertex.size=degree(g)/2,
+     edge.arrow.size=.4,
+     vertex.label=NA,
+     vertex.label.color="grey20",
+     main="Frauen in der Sterneküche",
+     sub="Alle weiblichen Küchenchefs")
+
+components(g_fem_clean) #aus wie vielen Komponenten besteht das Netzwerk?
+
+sum(V(twostars)$sex == 1) #es gibt zwei Köchinnen mit zwei Sternen (der Rest hat einen)
+```
+
+Isoliert man ein Teilnetzwerk vom Gesamtnetzwerk, in dem nur Frauen sowie ihre Verbindungen zu Restaurants vorkommen, fällt auf, dass nur noch Verbindungen zwischen Personen und Restaurants bestehen, allerdings keinerlei Beziehungen von Köchin zu Köchin. Das Frauennetzwerk besteht aus 13 Komponenten, also einer Komponente pro Köchin. Für das Ausbildungsnetzwerk bedeutet das, dass keiner der Frauen wiederum von einer Frau das Handwerk der Sterneküche beigebracht wurde.
+
+```{r Netzwerkmaße Frauen, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+mean(degree(chefs, V(chefs)[sex == 2])) # wie viele Beziehungen haben die Männer?
+mean(degree(chefs, V(chefs)[sex == 1])) # wie viele Beziehungen haben die Frauen?
+
+mean(degree(chefs, mode = "out", V(chefs)[sex == 1]))# wie viele Beziehungen von sich weg haben die Frauen?
+
+mean(degree(chefs, mode = "in", V(chefs)[sex == 1]))# wie viele Beziehungen zu sich hin haben die Frauen?
+```
+
+Untersucht man den durchschnittlichen Grad der Vernetzung von sowohl Männern als auch Frauen im Netzwerk ohne Restaurants, stellt man fest, dass Männer mit einem durchschnittlichen degree-Wert von
+etwa 0,96 mehr als dreimal so viele Beziehungen aufweisen wie Frauen mit einem durchschnittlichen degree-Wert von rund 0,31. Es gibt überdies keine Frau, die eine Vorgesetztenbeziehung zu einer anderen Person im Netzwerk hat. Das bedeutet, dass nicht nur jede Frau bei einem männlichen Koch gearbeitet und gelernt hat, sondern das allgemein so keine Person aus dem Netzwerk bei einer der Köchinnen angestellt war und bei ihr gelernt hat.
+Zwei Ergebnisse einer qualitativen Untersuchung von De Rooij (2017, S.28-31) waren, dass Frauen in der Gastronomie zum einen das Gefühl haben, nach wie vor mehr leisten zu müssen als Männer, um die gleiche Anerkennung zu bekommen. Und dass Frauen zum anderen häufig weniger Führungskompetenz zugeschrieben wird, was dazu führen könnte, dass sie, selbst wenn sie in einem Restaurant arbeiten, nicht an die Position des Chef de cuisine gelangen. Das erklärt sowohl die geringe Präsenz von Frauen im Netzwerk allgemein, und, warum die Frauen der aktuellen Generation von Sterneköch*innen noch keine neuen Sterneköche hervorbringen konnten. In Verbindung mit den genannten historisch geprägten Hürden kann durchaus von einem erschwerten Wettbewerb für Frauen in der Gastronomie gesprochen werden.
+
+
+## 5.3 Zentralitätsmaße
+
+Mithilfe der Zentralitätsmaße sollen im folgen wichtige Akteure und Restaurants für das Netzwerk ermittelt werden. Auf Grundlage dessen können im Folgekapitel Ego-Netzwerke erstellt werden, um diese Knoten genauer auf ihre Funktion im Netzwerk zu untersuchen und zu beschreiben. Hierbei betrachten wir jeweils parallel das Gesamtnetzwerk und das in 4.1.1 erstellte Kernnetzwerk.
+
+### 5.3.1 Degree
+
+Der degree-Wert gibt auf Knotenebene an, wie viele Beziehungen ein Knoten hat. Ein Knoten mit hohem degree kann als besonders populär oder prestigeträchtig interpretiert werden und spielt vermutlich eine wichtige Rolle im Netzwerk (Jünger & Gärtner, 2023, S.396).
+```{r Degree-Werte für Gesamtnetzwerk und Kerngruppe, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+degree(g) # gibt zu jedem Knoten den individuellen Grad aus
+mean(degree(g)) # Durchschnittlicher Grad des Gesamtnetzwerkes (2,63)
+which.max(degree(g)) # Welcher Knoten hat die meisten Beziehungen?
+max_degree_g <- which(V(g)$name == "Schwarzwaldstube") #Wert für grad der Schwarzwaldstube wird erstellt
+degree(g, v = max_degree_g)# wie viele Beziehungen hat dieser Knoten?
+
+mean(degree(g_core)) # Durchschnittlicher Grad des Kernnetzwerkes (3,36)
+which.max((degree(g_core))) # Die Schwarzwaldstube ist Teil des Kerns und hat somit auch hier die meisten Beziehungen
+
+mean(degree(chefs)) # Durchschnittlicher Grad des Personennetzwerkes (0,94)
+which.max(degree(chefs)) # Welcher Koch hat die meisten Beziehungen?
+max_degree_chefs <- which(V(g)$name == "Harald Wohlfahrt") # Wert für Grad von Wohlfahrt wird erstellt
+degree(g, v = max_degree_chefs) # Harald Wohlfahrt hat 17 Beziehungen
+
+bonus_michel <- which(V(g)$name == "Torsten Michel") # zusätzlich Grad des Neuen Besitzers der Schwarzwaldstube berechnen
+degree(g, v = bonus_michel) # dieser liegt bei 6
+```
+Der durchschnittliche Grad des Gesamtnetzwerkes liegt bei 2,63, dementsprechend hat ein durchschnittlicher Knoten zwei bis drei Beziehungen. Beachtet werden muss hierbei nach wie vor, dass durch die Bindung an ein Restaurant eine Beziehung immer garantiert ist, und dass die Köche, die nicht zum vernetzten Kern gehören, meist nicht mehr als diese eine Beziehung haben. Deshalb wird auch das Kernnetzwerk auf dessen Grad der Beziehungen untersucht, der im Schnitt bei 3,36 liegt. Es bestätigt sich abermals, dass die Kerngruppe des Netzwerks relativ stark vernetzt ist und sich von den eigenständigeren Köchen abgrenzt. Der Knoten, der sowohl im Gesamtnetzwerk als sinnvollerweise auch in der Kerngruppe die meisten Beziehungen hat, ist die Schwarzwaldstube. Das Drei-Sterne-Restaurant scheint die größte Talentschmiede zu sein, da dort 26 Köchinnen und Köche des Netzwerks gearbeitet haben oder noch arbeiten. Wenig verwunderlich ist deshalb, dass Harald Wohlfahrt, der bis 2017 Chefkoch in der Schwarzwaldstube war, die meisten Beziehungen zu anderen Knoten mit dem type "chef" hat, nämlich insgesamt 17. Er ist eine Art "Lehrmeister" der deutschen Spitzenküche. Da er im Jahr 2017 den Chefposten an Torsten Michel abgegeben hat, wird auch dessen Grad der Vernetzung betrachtet. Michel kommt auf immerhin sechs Beziehungen, was immer noch deutlich über dem Durchschnitt des Gesamtnetzwerks liegt.
+
+### 5.3.2 Betweenness und Broker
+
+Während der Grad die Knoten kenntlich macht, die besonders viele Beziehungen haben, lassen sich über die Betweenness solche Knoten ausfindig machen, die eine zentrale Rolle spielen, weil viele Wege zwischen Knoten über ihn laufen (Jünger & Gärtner, 2023, S.396). Er nimmt eine verbindende Rolle ein und überbrückt Lücken im Netzwerk. Je häufiger ein Knoten als Schnittstelle zwischen anderen Anteilen des Netzwerks wirkt, desto zentraler ist er (Mutschke, 2023, S.8).
+```{r Betweenness für Gesamtnetzwerk und Kerngruppe, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+betweenness(g) # gibt die betweenness-Werte aller Knoten im Netzwerk aus
+mean(betweenness(g))# Durchschnittliche Betweenness des Gesamtnetzwerkes (46,97)
+which.max(betweenness(g)) # welcher Knoten hat die höchste Betweenness?
+
+max_betweenness <- which(V(g)$name == "Tantris") # Wert für Betweenness des Tantris wird erstellt
+betweenness(g, v = max_betweenness) # dieser beträgt 3795,6
+
+which.max(betweenness(g_core)) # Überprüfen, ob sich daran im Kernnetzwerk etwas ändert
+
+mean(betweenness(chefs)) # Durchschnittliche Betweenness des Personennetzwerkes (1,27)
+which.max(betweenness(chefs)) # # Welcher Koch ist die größte Schnittstelle?
+
+degree(g, mode = "in", v = max_betweenness) # hat das Tantris oft den Koch gewechselt?
+
+
+```
+Im Gesamtnetzwerk so wie auch logischerweise im Kernnetzwerk nimmt das Münchner Zwei-Sterne-Restaurant "Tantris" die Rolle des wichtigsten Brokers ein. Der Koch, der im Köchenetzwerk die größte Überbrückungsfunktion erfüllt, ist allerdings nicht der 2023 zuständige Küchenchef des Tantris, Benjamin Chmura, sondern der Drei-Sterne-Koch Claus-Peter Lumpp. Die Erklärung, warum der Chef des Tantris keine ähnliche Betweenness aufweist wie das Restaurant, ergibt sich bei einem Blick auf die eingehenden Beziehungen des Tantris. Der in-degree-Wert liegt bei 17, was bedeutet, dass im Tantris ganz besonders häufige Wechsel des Küchenchefs oder Besitzers stattgefunden haben müssen. Gerade dieser häufige Köchewechsel erklärt die Betweenness-Funktion, da über die zeit hinweg Köche aus verschiedenen Gruppierungen und mit verschiedenen Beziehungen im Tantris gearbeitet haben könnten, wodurch das Tantris diese Gruppen verbindet.
+
+### 5.3.3 Closeness
+
+Ebenfalls zentral im Netzwerk positioniert sind solche Knoten, die im Durchschnitt schnell, also über die Beziehung zu nur möglichst wenigen weiteren Knoten, andere Knoten im Netzwerk erreichen (Jünger & Gärtner 2023, S.396). Ein solcher Knoten ist aufgrund seiner Zentralität nicht so sehr auf die Vermittlung über zusätzliche Knoten angewiesen, wie andere (Mutschke, 2023, S.5), was im Kontext des Gastronomienetzwerkes zum Beispiel bedeutet, dass ein Koch leichter an für ihn interessante Informationen wie Techniken, Lieferanten hochwertiger Zutaten, Kontaktdaten von Restaurantkritikern, die bereits das Restaurant eines Kollegen rezensiert haben, und ähnliches kommt, und gegebenenfalls auch, dass ihm Vorteile in der Karriere zukommen, weil ihn ein Koch aus seinem Umfeld relativ direkt an einen anderen vermitteln kann. Für die Berechnung der Closeness beachten wir nur die Köche, da ein Restaurant in der Praxis keine nennenswerten Vorteile aus einer hohen Closeness ziehen würde.
+```{r Closeness für Gesamtnetzwerk und Kerngruppe, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+closeness(chefs) # Gibt die Closeness von jedem Koch aus
+which.max(closeness (chefs)) # Welcher Koch hat die größte Closeness
+
+max_closeness <- which(V(chefs)$name == "Kevin Fehling")
+closeness(chefs, v = max_closeness)
+```
+Der Koch, der aufgrund seiner Closeness von der größten Unabhängigkeit und einer privilegierten Position im Netzwerk profitiert, ist Kevin Fehling, Chef de cuisine im Drei-Sterne-Restaurant "The Table by Kevin Fehling" in Hamburg.
+
+### 5.3.4 Zentralitätsmaße im Vergleich
+
+Vergleicht man nun die Knoten mit besonders hoher Zentralität sowohl im Gesamtnetzwerk als auch im Personennetzwerk fallen vor allem zwei Dinge auf. Die Knoten, die den jeweils höchsten Wert eines Zentralitätsmaßes einnehmen und sich jeweils deutlich vom Durchscnitt des Netzwerks abheben, sind alle, wenig überraschender Weise Teil des Kernnetzwerks. Zudem handelt es sich bei allen Knoten, egal ob Restaurant oder Koch, um besonders erfolgreiche, sie sind mindestens mit zwei, in den meisten Fällen sogar mit drei Sternen ausgezeichnet. Ein-Sterne-Restaurants und -Köche spielen für die Zentralitätmaße keine Rolle, sie scheinen relativ dezentral zu sein. Dies kann als weiterer, starker Indikator für einenen Zusammenhang zwischen starker Vernetzung beziehungsweise hohem Sozialkapital gemäß Fuhse (2020, S.180) und Erfolg beziehungsweise Wertschätzung in der kulinarischen Szene betrachtet werden.
+
+## 5.4 Teilnetzwerke: Ego-Netzwerke
+
+Im vorausgegangenen Kapitel konnten über die Zentralitätsmaße Personen und Restaurants ausgemacht werden, die für das Netzwerk eine besondere Funktion erfüllen. Diese werden nun mithilfe von Ego-Netzwerken separat voneinander genauer betrachtet. Als Ego-Netzwerk gilt hierbei das Netz von Verbindungen eines zentralen Knotens und dessen Alteri, also Knoten, mit denen er in direkter Beziehung steht (Wolf & Lebke, 2023, S.2), sowie die Beziehungen zwischen den Alteri. Die Untersuchung ego-zentrierter Netzwerke gibt Auskunft über die individuelle Einbettung eines Knotens in persönliche Beziehungen, die wieder Zusammenhänge mit anderen Attributen des Knotens, in unserem Fall zum Beispiel der Sterne-Bewertung oder des Geschlechts sichtbar machen kann (Fuhse, 2020, S.113).
+
+### 5.4.1 Egonetzwerke der stärksten Verbindungen (Degree)
+
+Als erstes betrachten wir das Ego-Netzwerk der Knoten mit dem höchsten Degree. Dies waren die Schwarzwaldstube als Restaurant, beziehungsweise deren langjähriger Küchenchef Harald Wohlfahrt. Diese haben wir anhand der Anzahl ihrer Verbindungen als wichtigste Ausbildungsinstanz interpretiert. Mit dem Ego-Netzwerk der Schwarzwaldstube, das über zwei Grade, also inklusiver der Alteri der Alteri angelegt wird, soll sowohl die Beziehungen der Schwarzwaldstube als somit auch von Harald Wohlfahrt und Torsten Michel zeigen, sowie die Restaurants der Alteri.
+
+```{r Ego-Netzwerk Schwarzwaldstube, echo=FALSE, fig.height=10, fig.width=15, message=FALSE, warning=FALSE, paged.print=FALSE}
+Schwarzwaldstube1 <- make_ego_graph(g, order = 2 ,nodes=V(g)$name=="Schwarzwaldstube", mode = "all") # Zwischenobjekt für das Ego-Netzwerk erstellen
+Schwarzwaldstube <- Schwarzwaldstube1[[1]] # Ego-Netzwerk fertigstellen
+
+
+
+plot(Schwarzwaldstube, # Visualisierung des Ego-Netzwerks
+     layout=layout_with_kk,
+     asp=0,
+     vertex.size=V(g)$michelin_rating,
+     edge.arrow.size=.4,
+     main="Ego-Netzwerk Schwarzwaldstube",
+     sub="Die Talentschmiede der deutschen Sternegastronomie"
+     )
+
+```
+
+```{r Sterneverteilung des Schwarzwaldstube-Netzwerks, include=FALSE}
+Schwarzwaldstube # Das Ego-Netzwerk enthält 95 Knoten
+sum(V(Schwarzwaldstube)$michelin_rating == 3)# Davon haben 17 drei Sterne (drei davon sind Wohlfahrt, Michel, Schwarzwaldstube)
+sum(V(g)$michelin_rating == 3) # insgesamt haben 28 KNoten drei Sterne
+sum(V(Schwarzwaldstube)$michelin_rating == 2) #29 weitere Knoten haben zwei Sterne
+sum(V(g)$michelin_rating == 2) # davon gibt es insgesamt 115
+
+edge_density(Schwarzwaldstube) # Dichte des Ego-Netzwerks
+```
+
+Das Netzwerk aller Beziehungen der Schwarzwaldstube sowie derer Beziehungen, in den meisten Fällen die Restaurants der Köche, die einmal dort waren, enthält insgesamt 95 Knoten. Abzüglich der drei Knoten Schwarzwaldstube, Harald Wohlfahrt und Torsten Michel sind in dem Netzwerk 14 von 25 der anderen Drei-Sterne-Knoten vertreten, also 56 Prozent. Demnach hatte oder hat die Schwarzwaldstube direkten Einfluss auf mehr als die Hälfte der aktuellen Drei-Sterne-Restaurants in Deutschland, was ihre Rolle als "Talentschmiede" bestätigt. Zählt man zu diesen 14 nun noch die 29 Knoten mit zwei Michelinsternen hinzu, ergibt sich, dass 43 der 92 Knoten, die nicht selbst zum Schwarzwaldstube-Komplex gehören, mehr als einen Stern haben, das sind mit 46,74 Prozent nicht ganz die Hälfte. Eine berufliche Etappe in der Schwarzwaldstube zu verbringen, garantiert zwar keinen herausragenden Erfolg, doch eine nennenswerte Zahl von Wohlfahrts und Michels Schüler*innen haben es nach ihrer Zeit in der Schwarzwaldstube zu kulinarischer Größe geschafft. Auch dieses Netzwerk, das wie soeben beschrieben viele besonders hoch bewertete Knoten enthält, hat eine vergleichsweise hohe Dichte, die mit 2,18 Prozent aller möglichen Beziehungen sogar weit über der Dichte des Kernnetzwerks mit 0,39 Prozent liegt. Die Gruppierung um die Schwarzwaldstube ist somit sogar innerhalb des Netzwerkkerns eine besonders stark vernetzte Gruppe.
+
+### 5.4.2 Egonetzwerke der Broker (betweenness)
+
+Obwohl das "Tantris" nicht ganz so viele neue Sternerestaurants hervorgebracht hat wie die Schwarzwaldstube, hat es die Gastro-Szene sehr geprägt und dient wegen der vielen verschiedenen Köche, die bereits dort tätig waren, als Schnittstelle zwischen Gruppierungen im Netzwerk. So könnten Techniken, Tricks oder auch ganze Rezepte von dort tätigen Sterneköchen an deren Nachfolger übertragen worden sein, zum Beispiel über weiteres dort beschäftigtes Küchenpersonal, das mit mehreren der Küchenchefs zusammengearbeitet hat.
+
+```{r Ego-Netzwerk Tantris, echo=FALSE, message=FALSE, warning=FALSE,  echo=FALSE, paged.print=FALSE}
+Tantris1 <- make_ego_graph(g, order = 1 ,nodes=V(g)$name=="Tantris", mode = "all") # Zwischenobjekt für Tantris
+Tantris <- Tantris1[[1]] # Erstellt das Ego-Netzwerk des "Tantris"
+
+plot(Tantris, # Visualisierung des Ego-Netzwerks
+     layout=layout_with_kk,
+     asp=0,
+     vertex.size=V(g)$michelin_rating,
+     vertex.label.color="darkgreen",
+     edge.arrow.size=.4,
+     main="Ego-Netzwerk Tantris",
+     sub="Das Broker-Restaurant"
+     )
+```
+
+```{r Sterneverteilung und Netzwerkmaße Tantris, include=FALSE}
+sum(V(Tantris)$michelin_rating == 3) # Wie viele Drei-Sterne-Köche waren im Tantris?
+sum(V(Tantris)$sex == 1) # waren dort Frauen?
+
+V(Tantris)$degree_Tantris <- degree(Tantris) # Grad im Tantris-Netzwerk als neues Vertex-Attribut
+list.vertex.attributes(Tantris) # Welche Vertex-Attribute gibt es im Tantris-Netzwerk
+V(Tantris)$degree_Tantris
+
+```
+
+Das Ego-Netzwerk des "Tantris" zeigt, dass an dessen kulinarischer Geschichte bis zum Stand der Datenerhebung 19 Köch*innen beteiligt waren, mehr als ein Viertel davon, nämlich fünf, haben drei Sterne. Eine historisch besonders wichtige Person unter ihnen ist Eckart Witzigmann, ein Schüler des bereits erwähnten "Küchenpapstes" Paul Bocuse (Wilkesmann & Wilkesmann, 2020, S.14), der 1971 Küchenchef in dem Münchner Restaurant wurde.
+Untereinander sin die beteiligten Knoten allerdings nur zum Teil etwas stärker Vernetzt, die meisten Knoten haben innerhalb des Netzwerks nur wenige Beziehungen. Von 19 Alteri haben acht lediglich die Beziehung zum "Tantris", fünf weitere haben diese und eine zusätzliche. Da aber auch das Tantris-Egonetzwerk innerhalb des Kernnetzwerks liegt, werden diese Knoten wiederum mit anderen Köchinnen und Köchen in Beziehung stehen, die sich außerhalbs dieses Ego-Netzwerks befinden, was den Status des Restaurants als Broker, sozusagen als Sammelstelle für kulinarisches Wissen, erklärt.
+
+Auch eine erwähnenswerte Broker-Funktion wird gemäß 4.3.2 Claus-Peter Lumpp zuteil.
+``` {r Ego-Netzwerk Claus-Peter Lumpp, fig.height=10, fig.width=15, message=FALSE, warning=FALSE, echo=FALSE, paged.print=FALSE}
+Lumpp1 <- make_ego_graph(g, order = 1 ,nodes=V(g)$name=="Claus-Peter Lumpp", mode = "all") # Zwischenobjekt wird erstellt
+Lumpp <- Lumpp1[[1]] # Ego-Netzwerk wird erstellt
+
+plot(Lumpp, # Visualisierung des Ego-Netzwerks
+     layout=layout_with_kk,
+     asp=0,
+     vertex.size=V(g)$michelin_rating,
+     vertex.label.color="darkgreen",
+     edge.arrow.size=.4,
+     main="Ego-Netzwerk Claus-Peter Lumpp",
+     sub="Der Broker unter den Köchen"
+     )
+```
+An dessen Ego-Netzwerk sind immerhin noch zwölf Knoten beteiligt. Es fällt auf, dass sich auch darunter das "Tantris" befindet. Dort hat Lumpp 1987 unter Heinz Winkler eine Ausbildung absolviert, welcher wiederum ein Schüler von Paul Bocuse war. Es wird zunehmend deutlich, dass das Tantris, von dem aus sich viel kulinarisches Know-How und Inspiration in die deutsche Sterneküche ausgebreitet hat, maßgeblich von dem französischen Drei-Sterne-Koch des zwanzigsten Jahrhunderts beeinflusst war.
+
+Aus diesem Grund wird abschließend auch auf sein Ego-Netzwerk noch ein Blick geworfen.
+
+### 5.4.3 Ego-Netzwerk Paul Bocuse
+
+```{r Ego-Netzwerk Paul Bocuse, fig.height=10, fig.width=15, message=FALSE, warning=FALSE, echo=FALSE, paged.print=FALSE}
+Bocuse1 <- make_ego_graph(g, order = 1 ,nodes=V(g)$name=="Paul Bocuse", mode = "all") #Zwischenobjekt wird erstellt
+Bocuse_1 <- Bocuse1[[1]] # Ego-Netzwerk wird erstellt
+
+plot(Bocuse_1, # Visualisierung des Ego-Netzwerks
+     layout=layout_with_kk,
+     asp=0,
+     vertex.size=V(g)$michelin_rating,
+     vertex.label.color="darkgreen",
+     edge.arrow.size=.4,
+     main="Ego-Netzwerk Paul Bocuse, erster Grad",
+     sub="Der wohl wichtigste Mitbegründer der Nouvelle Cuisine"
+     )
+
+
+
+Bocuse2 <- make_ego_graph(g, order = 2 ,nodes=V(g)$name=="Paul Bocuse", mode = "all") #Zwischenobjekt wird erstellt
+Bocuse_2 <- Bocuse2[[1]] # Ego-Netzwerk wird erstellt
+
+plot(Bocuse_2, # Visualisierung des Ego-Netzwerks
+     layout=layout_with_kk,
+     asp=0,
+     vertex.size=V(g)$michelin_rating,
+     vertex.label.color="darkgreen",
+     edge.arrow.size=.4,
+     main="Ego-Netzwerk Paul Bocuse, zweiter Grad",
+     sub="Der wohl wichtigste Mitbegründer der Nouvelle Cuisine"
+     )
+
+
+Bocuse3 <- make_ego_graph(g, order = 3 ,nodes=V(g)$name=="Paul Bocuse", mode = "all") #Zwischenobjekt wird erstellt
+Bocuse_3 <- Bocuse3[[1]] # Ego-Netzwerk wird erstellt
+
+plot(Bocuse_3, # Visualisierung des Ego-Netzwerks
+     layout=layout_with_kk,
+     asp=0,
+     vertex.size=V(g)$michelin_rating,
+     edge.arrow.size=.4,
+     vertex.label=NA,
+     main="Ego-Netzwerk Paul Bocuse, dritter Grad",
+     sub="Der wohl wichtigste Mitbegründer der Nouvelle Cuisine"
+     )
+
+```
+
+```{r Drei-Sterne-Köche im Bocuse-Netzwerk, include=FALSE}
+sum(V(Bocuse_2)$michelin_rating == 3) # Wie viele 3-Sterne-Köche sind hinzugekommen?
+sum(V(Bocuse_3)$michelin_rating == 3) # Wie viele 3-Sterne-Köche sind hinzugekommen?
+
+```
+
+Das klassische Ego-Netzwerk von Bocuse, also das mit ausschließlich Alteri erster Ordnung, ist noch sehr klein. Da diese Arbeit der Spitzengastronomie in Deutschland zugewandt ist, wurden lediglich die drei deutschen Schüler von Bocuse erhoben. Zu der Zeit, als die Nouvelle Cuisine Einzug in Deutschland findet, gibt es noch nicht sonderlich viele Sterneköche im Land (vgl. Braun & Müller-Seitz, 2017, S.5; Wilkesmann & Wilkesmann, 2020, S.20). Sollte Bocuse aber tatsächlich solch großen Einfluss auf die heutige Sterneküche gehabt haben, müssten zumindest seine Schüler Witzigmann, Winkler und Keller wiederum viele Schüler gehabt haben. Betrachtet man das Ego-Netzwerk zweiter Ordnung, enthält dieses immerhin schon 17 Knoten. Außerdem sind zu den vier Drei-Sterne-Köchen aus dem ursprünglichen Netzwerk noch zwei weitere hinzugekommen. Geht man noch einen Beziehungsschritt weiter, enthält das Netzwerk 78 Knoten und es sind nochmal neun Knoten mit drei Michelinsternen hinzugekommen. Da die Beziehung zu Bocuse irrelevanter wird, je mehr schritte über weitere Knoten gegangen werden, weiten wir das Ego-Netzwerk nicht weiter aus. Anhand der ersten drei Ego-Netzwerke zeigt sich, dass sich durchaus einige Knoten des Netzwerks, darunter auch mehrere Drei-Sterne-Knoten, auf Bocuse zurückverfolgen lassen. Ohne allerdings allzu viele Schritte über dazwischenliegende Knoten zu gehen, erreicht Paul Bocuse bei weitem nicht die Mehrheit des Netzwerks. Es zeigt sich, dass Bocuse zweifellos eine gewisse Relevanz für die deutsche Sterneküche hatte, und insbesondere die älteste Generation deutscher Spitzenköche geprägt hat, doch die Vermutung, er habe noch heute massiven Einfluss auf die gesamte Spitzengastronomie in Deutschland, bewahrheitet sich nicht.
+
+# 6. Diskussion und Ausblick
+
+## 6.1 Fazit zu Arbeitshypothesen
+
+Bevor ein endgültiges Fazit zur Forschungsfrage gezogen werden kann, betrachten und diskutieren wir abschließend die anfangs gestellten Hypothesen.
+
+a) *Besonders erfolgreiche Köche haben viele Stationen in ihrer Karriere gemacht und weisen besonders viele Beziehungen auf*
+
+Diese Hypothese wurde in der Analyse des Netzwerkes klar bestätigt. Köche mit höherer Bewertung im Guide Michelin haben mit einer höheren Wahrscheinlichkeit eindeutig höhere degree-Werte als Köche mit weniger Sternen. In anderen Worten haben die Drei-Sterne-Köche durchschnittlich klar die meisten Beziehungen, am zweitmeisten haben die Zwei-Sterne-Köche, die Ein-Sterne-Köche haben deutlich erkennbar die wenigsten Beziehungen und sind mit höherer Wahrscheinlichkeit vom Kernnetzwerk isoliert. Zudem haben die Köche mit drei Sternen untereinander stärkere Beziehungen als die mit zwei oder drei, sie sind sowohl erfolgreicher als auch dichter vernetzt als der Rest der Branche.
+
+b) *Bessere Lehrmeister vermitteln "besseres" Wissen und versprechen eigenen Erfolg*
+
+Die zweite Hypothese lässt sich nicht ganz so eindeutig beurteilen, doch es zeigt sich, dass sie jedenfalls in manchen Fällen zutrifft. Die Drei-Sterne-Köche haben durchschnittlich viel mehr ausgehende als eingehende Beziehungen und darüber hinaus wesentlich mehr ausgehende Beziehungen als Zwei- und Ein-Sterne-Köche. Bei letzteren liegen die Werte nicht sehr weit auseinander und in beiden Fällen durchschnittlich unter Eins. Langfristig suchen demnach wesentlich mehr Köch*innen Arbeit oder Ausbildung in tendenziell besseren Restaurants, darunter auch viele derer, die mittlerweile selbst drei Sterne haben (gegenseitige Beziehungen von Drei-Sterne-Köchen). Ein guter "Lehrmeister" garantiert somit noch keinen Erfolg, ist aber der Weg, den viele der jetzt besonders erfolgreichen Chefköche gegangen sind. Wichtiger für den persönlichen Erfolg ist aber das Sozialkapital allgemein.
+
+c) *Je mehr Sternerestaurants es gibt, desto mehr Nachwuchs in der Spitzengastronomie*
+
+Auch diese Hypothese wurde bei einem Blick auf die zeitliche Entwicklung des Netzwerks bestätigt. Die Beziehungen häufen sich von Jahrzehnt zu Jahrzehnt annähernd exponentiell. Je mehr Beziehungen stattgefunden haben, desto mehr kommen auch hinzu, der Faktor, um den sich die Knoten von Dekade zu Dekade vermehren, bleibt ähnlich, wenn auch mit leicht absteigender Tendenz. Bisher trifft die Hypothese zu, doch es muss beobachtet werden, wie die Entwicklung in Zukunft verläuft und ob der Trend eher zu beziehungsarmen Karriereentwicklungen übergeht.
+
+d) *Paul Bocuse hat als Ursprung der Nouvelle Cuisine in Deutschland die spitzengastronomie geprägt*
+
+Hierzu wurde festgestellt, dass Bocuse in jedem Fall Beziehungen zu Köchen hatte, die abermals viele Beziehungen eingegangen sind und in wichtigen Restaurants tätig waren. Er hat die Nouvelle Cuisine sicherlich ein Stück weit in den deutschen Küchen etabliert, doch sein nachhaltiger Einfluss hält sich in Grenzen und lässt sich nur über viele Alteri hinweg in die Tiefe des Netzwerks nachverfolgen, wo die Verbindung zu Bocuse auf Grund der großen Distanz mehr und mehr verwässern dürfte.
+
+e) *Frauen bilden eine klare Minderheit*
+
+Die letzte Hypothese wiederum lässt sich mit absoluter Eindeutigkeit bestätigen. Nicht nur befinden sich unter 373 Personen im Netzwerk gerade einmal 13 Frauen, auch sind diese schlechter an das Netzwerk angeschlossen. Außerdem hat keine von ihnen bisher andere Sterneköch*innen ausbilden können, was damit zu tun haben könnte, dass ihnen weniger zugetraut wird, beziehungsweise noch nicht sehr lange Köchinnen zur Branche der Sterneküche dazugehören. Die Minderheit, die Frauen ausmachen, scheint mit diversen Wettbewerbsnachteilen im Berufsfeld zusammenhängen, die sich zwar langsam lichten, aber noch längst nicht ausgeräumt sind.
+
+## 6.2 Fazit zur Forschungsfrage
+
+Führt man die Erkenntnisse zu den Arbeitshypothesen zusammen, welche sich mit gewissen Einschränkungen und Ausnahmen bestätigt haben, kommt man zu folgendem Fazit zur Frage, welche Ausbildungs- und Beziehungsstrukturen sich in der deutschen Sternegastronomie finden lassen und inwiefern diese in Verbindung mit besonderem Erfolg in der kulinarischen Welt stehen:
+
+Die vorliegende Netzwerkanalyse hat ergeben, dass sicherlich nicht alle Köchinnen und Köche miteinander über Ausbildungs- und Mitarbeitsverhältnisse miteinander in Beziehung stehen, dazu allerdings eine starke Tendenz in der Branche herrscht. Die überwiegende Mehrheit ist stark vernetzt, dabei ist der Kern des Netzwerks tendenziell erfolgreicher gemäß den Bewertungskriterien des Guide Michelin. Die von dieser Gruppe isolierten Köchinnen und Köche sind tendenziell weniger gut bewertet, in der Gastronomiebranche scheinen viele Karrierestationen und viele Beziehungen höchst profitabel zu sein.
+
+## 6.3 Limitationen
+
+In unserem Forschungsbericht haben wir ein umfassendes Bild der deutschen Spitzengastronomie und ihrer Akteur*innen präsentiert. Dennoch mussten wir feststellen, dass wie jede Datenerhebung auch unsere Erhebung ihre Limitationen aufweist und kein vollständiges Bild über alle relevanten Bereiche zeichnen kann und bei einigen unserer Erkenntnisse Ungenauigkeiten auftreten können.
+
+Eine der bedeutendsten Ungenauigkeiten liegt darin, dass manche renommierte Talentschmieden nicht in unseren Daten vertreten sind. Wir haben uns bei der Datenerhebung ausschließlich auf Restaurants beschränkt, die in Deutschland liegen und aktuell mindestens einen Michelin-Stern halten. Restaurants aus dem Ausland, Restaurants ohne Stern oder mittlerweile geschlossene Betriebe haben wir nicht erfasst. Das liegt zum einen daran, dass die ohnehin schon große Datenmenge noch um einiges größer geworden wäre, zum anderen aber auch an der Übersichtlichkeit unseres Gesamtnetzwerks, das dann zu einem noch größeren Teil mit alleinstehenden und für unsere Forschungsfrage nicht relevanten Restaurants gefüllt wäre. Ein prominentes Beispiel dafür, dass uns dennoch interessante Daten fehlen, ist das Restaurant Residenz Heinz Winkler. Das Restaurant war eine bedeutende Ausbildungsstätte für viele heutige Sterneköch*innen, jedoch zum Zeitpunkt unserer Datenerhebung geschlossen und daher in unserem Datensatz nicht vorhanden, allerdings der Koch Heinz Winkler selbst.
+
+Folglich können wir auch Verbindungen zwischen Köch*innen, die im Ausland, was in der Praxis vorkommen kann (Bahl, 2017, S.32), bei geschlossenen oder nicht mit Sternen ausgezeichneten Restaurants entstanden sind, nicht nachweisen. In Bezug auf diesen Teildatensatz kann von einer gewissen Unvollständigkeit ausgegangen werden.
+
+Ein weiteres Problem ergab sich aus der unvollständigen Erfassung der genauen Beschäftigungsdaten der Köchinnen und Köchen in den verschiedenen Restaurants. Zwar war es bei fast allen Köchen möglich, Lebensläufe mit allen vorherigen Stationen zu finden, oft fehlten jedoch die exakten Zeiträume, in denen sie in den jeweiligen Restaurants tätig waren. Das hat zur Folge, dass insbesondere in den Zeit-Teilnetzwerken in manchen Fällen keine Aussagen darüber getroffen werden können, ob und in welchem Umfang Verbindungen zwischen Köch*innen bestehen, die in den gleichen Restaurants tätig waren.
+
+Aufgrund der aufgeführten Ungenauigkeiten könnten einige Konstellationen in der Realität anders aussehen, als in unserer Forschungsarbeit festgestellt. Als ein Beispiel kann die Erkenntnis angeführt werden, dass Köchinnen und Köchen  mit zwei oder drei Sternen untereinander deutlich stärker vernetzt sind als Köche mit einem Stern. Der festgestellte signifikante Unterschied könnte in der Realität geringer sein als in unseren Daten angenommen, da Köchinnen und Köche mit einem Stern häufig mehr vorherige Stationen ohne Stern aufzuweisen haben als solche mit mehr Sternen. Auch die online verfügbaren Lebensläufe waren bei den weniger prominenten 1-Sterne-Köche*innen bezüglich der genauen Jahreszahlen häufig nicht so exakt wie bei den Stars der Szene, sodass sich auch in dieser Hinsicht weniger Verbindungen im zeitlichen Kontext nachweisen lassen können.
+
+Letztlich sprechen wir in der Arbeit häufiger von "Erfolg", messen diesen aber an einer objektiven Bewertung des Guide Michelin, mit dem sich Alternative Restaurantkritiker wie Gault&Millau nicht immer einig sind (Braun & Müller-Seitz, 2017, S.1). Allerdings gilt der Guide Michelin gemeinhin als wichtigste und meist anerkannte Bewertungsinstanz für Restaurants (ebd.).
+
+Es lässt sich also feststellen, dass unsere Datenerhebung an einigen Stellen an ihre Grenzen stößt und manche Teildatensätze Unvollständigkeiten und Ungenauigkeiten aufweisen. Zwar stellt nichts davon unsere Erkenntnisse grundsätzlich infrage, dennoch ist es wichtig, unsere Ergebnisse mit angemessener Berücksichtigung ihrer Limitationen zu interpretieren.
+
+## 6.4 Ausblick
+
+Bei der Analyse des Gesamtnetzwerkes fielen verschiedene Tendenzen auf, die es sich weiterhin zu beobachten lohnen könnte. Zum einen konnte festgestellt werden, dass die Zunahme der Beziehungen über die Jahrzehnte leicht abgeflacht ist. Sollte dies weiterhin so bleiben, könnte dies mittel- bis langfristig eine Veränderung des Karrieremodells in der Gastronomie weg von der Pilgerschaft durch verschiedene Küchen hin zum selbstsändigen Aufstieg bedeuten. Im Zusammenhang mit dem Fachkräftemangel im Gastronomiegewerbe prognostiziert auch Bahl (2017, S.34), dass Betriebe ihre Auszubildenden künftig häufiger direkt übernehmen könnten, sodass diese dann innerhalb der hierarchischen Struktur eines einzelnen Restaurants aufsteigen, anstatt sich an verschiedenen Arbeitsplätzen von Posten zu Posten zu arbeiten. Generell könnte sich eine Wiederholung der vorliegenden Analyse in einigen Jahren lohnen, um zu überprüfen, ob es sich bei dem erkannten Phänomen nicht etwa nur um eine Momentaufnahme der aktuellen Generation von Sterneköch*innen handelt.
+
+Ebenfalls stellt sich die Frage, ob das Verhältnis der Restaurants mit unterschiedlich vielen Sternen gleich bleibt, oder, ob durch das Vorhandensein von mehr Drei-Sterne-Restaurants, also potenziellen Karrieresprungbrettern für Köch*innen, zukünftig mehr und mehr Köche mit einer höheren Bewertung ausgezeichnet werden, oder aber, dass es schwieriger wird, eine gute Bewertung im Michelin Guide zu erhalten beziehungsweise zu bewahren, weil es durch mehr Sternerestaurants etwa auch mehr Redundanz gibt und es schwieriger wird, aus der Masse herauszustechen.
+
+Letztlich sollte zukünftig unbedingt weiterhin im Blick behalten werden, wie sich die Situation der Frauen in der Branche entwickelt. Die Untersuchung des Netzwerks konnte nachweisen, dass Frauen in der Gastronomie stark unterrepäsentiert sind. Verglichen mit den lediglich fünf weiblichen Küchenchefs, die es noch 2017 in Deutschland gab, nimmt der Anteil an Frauen aktuell zumindest leicht zu (De Rooij, 2017, S.15). Es wäre interessant zu untersuchen ob damit der Beginn einer neuen Epoche mit einer zunehmenden Geschlechtergleicheit bezogen auf das Feld der Kulinarik angebrochen ist. Dies könnte weiterhin nicht nur anhand der Sternegastronomie untersucht werden, sondern auch an Zahlen zu begonnenen Ausbildungen zur Köchin, Repräsentation von Frauen in Kochshows, und ähnlichem.
+
+# Anlage
+## Literatur
+
+Aubke, F. (2013). Creative Hot Spots: A Network Analysis of German Michelin-Starred Chefs. Creativity And Innovation Management, 23(1), 3–14. https://doi.org/10.1111/caim.12044 
+
+Bahl, A., Ebbinghaus, M. & Gruber, T. (2017). Halten oder ziehen lassen? Veränderungen im traditionellen Karrieremodell der Gastronomie am Beispiel der Restaurantfachleute. BWP Berufsbildung in Wissenschaft und Praxis, 5, 32–35. https://www.bwp-zeitschrift.de/dienst/publikationen/de/download/8444 
+
+Barnes, J. A. (1969). Graph Theory and Social Networks: A Technical Comment on Connectedness and Connectivity. Sociology, 3(2), 215–232. https://doi.org/10.1177/003803856900300205 
+
+Braun, A. & Müller‐Seitz, G. (2017). Innovationsmanagement in der Spitzengastronomie: Ein Überblick über die Sterneküche aus managementorientierter Sicht. Springer Gabler. https://doi.org/10.1007/978-3-658-18298-4
+
+Fuhse, J. A. (2018). Soziale Netzwerke: Konzepte und Forschungsmethoden (2. Aufl.). UVK Verlag. https://doi.org/10.36198/9783838549811
+
+Jünger, J. & Gärtner, C. (2023). Computational Methods für die Sozial- und Geisteswissenschaften. Springer. https://doi.org/10.1007/978-3-658-37747-2
+
+Lerner, J. (2023). Beziehungsmatrix. In C. Stegbauer & R. Häußling (Hrsg.), Handbuch Netzwerkforschung (S. 355-364). Springer. https://doi.org/10.1007/978-3-658-37507-2_32-1
+
+Malang, T. (2023). Beziehungen und Kanten. In C. Stegbauer & R. Häußling (Hrsg.), Handbuch Netzwerkforschung. Springer. https://doi.org/10.1007/978-3-658-37507-2_7-1 
+
+Mutschke, P. (2023). Zentralitäts- und Prestigemaße. In C. Stegbauer & R. Häußling (Hrsg.), Handbuch Netzwerkforschung (S. 365-378). Springer. https://doi.org/10.1007/978-3-658-37507-2_33-1 
+
+De Rooij, R. (2017). Sterneköchinnen in Deutschland: Wo sind sie? [Bachelorarbeit, Radboud-Universität Nijmegen]. https://theses.ubn.ru.nl/bitstreams/26ec9978-cf85-4793-a7b5-ff730f50377d/download 
+
+Wilkesmann, M. & Wilkesmann, U. (2020). Nicht nur eine Frage des guten Geschmacks!: Die Organisation der Spitzengastronomie. Springer. https://doi.org/10.1007/978-3-658-30545-1 
+
+Wolf, C. & Repke, L. (2023). Egozentrierte Netzwerke: Datenerhebung und Datenanalyse. In C. Stegbauer & R. Häußling (Hrsg.), Handbuch Netzwerkforschung (S. 471-483). Springer. https://doi.org/10.1007/978-3-658-37507-2_41-1 
+
+## Codebuch
+
+Das Netzwerk hat nach dem [Codebuch](https://github.com/aupni03/SNA-Gastro/blob/main/Codebuch_Gastro_SNA.csv) folgende Attribute:
+
+*Vertex-Attribute*
+- id: Kürzel des Knotens zur eindeutigen Zuordnung
+- name: Vollständiger Name des Knotens
+- type: Handelt es sich um eine Person ("chef") oder ein Restaurant ("restaurant")?
+- sex: Geschlecht 1 weiblich, 2 männlich, 0 ohne Geschlecht (bei Restaurants)
+- michelin_rating: Aktuelle Bewertung im Guide Michelin nach Anzahl Sternen (1,2 oder 3)
+- nationality: Herkunftsland eines Kochs oder einer Köchin
+- county: Bundesland, in dem sich das Restaurant befindet
+- alive: Noch am Leben 1, nicht mehr am Leben 2
+
+Wichtig ist hierbei anzumerken, dass nicht alle Vertex-Attribute im vorliegenden two-Mode-Netzwerk auf alle Knoten anzuwenden sind. So sind die Attribute "nationality" und "alive" exklusiv für Köche, das Attribut "county" wurde nur bei Restaurants erhoben.
+
+*Edge-Attribute*
+- relationship: Welche Art von Beziehung besteht zwischen den Knoten? Lehrmeister 1, Vorgesetzter 2, Küchenchef 3, Ausbildungsort 4, Restaurantbesitz 5, Angestellt bei einem Küchenchef 6
+- time: Wann hat die Beziehung begonnen? (Codiert als Jahreszahlen, z.B. 2004)
+- end: Wann hat die Beziehung geendet? (Codiert als Jahreszahlen, "9999" bei noch nicht beendeten Beziehungen)
+
+## Datenmaterial und Skript
+
+[Edgelist](https://github.com/aupni03/SNA-Gastro/blob/main/Gastro_edges_numeric.csv)
+
+[Nodelist](https://github.com/aupni03/SNA-Gastro/blob/main/no%20NA.csv)
+
+## Team, Arbeitsaufwand und Lessons Learned
+
+**Teammitglieder**
+
+Katharina Riener, Laurin Flender, Niels Aupperle, Rosalie Etienne, Pia Hartmann
+
+**Arbeitsaufwand / Aufgabenverteilung**
+ 
+ - Katharina Riener: Datenerhebung, Datenbereinigung, Literaturrecherche, Forschungsbericht; mind. 90 Stunden
+ 
+ - Laurin Flender: Datenerhebung, Datenbereinigung, Literaturrecherche, Forschungsbericht; mind. 90 Stunden
+ 
+ - Niels Aupperle: Datenerhebung, Coding, Literaturrecherche, Forschungsbericht; mind. 90 Stunden
+ 
+ - Rosalie Etienne: Datenerhebung, Literaturrecherche, Forschungsbericht; mind. 90 Stunden
+ 
+ - Pia Hartmann: Datenerhebung, Literaturrecherche, Forschungsbericht; mind. 90 Stunden
+ 
+ **MVP**
+ 
+ MVP: Niels Aupperle
+ 
+ **Lessons Learned**
+ 
+ Während dem Prozess unserer Netzwerkanalyse haben wir einige Erkenntnisse über das Vorgehen der Datenerhebung und -analyse mit RStudio und Markdown gesammelt. Außerdem haben wir vieles aus der Zusammenarbeit als Team an einer sozialen Netzwerkanalyse gelernt. Diese Erkenntnisse, die wir hier unter dem Begriff "Lessons Learned" zusammenfassen, reflektieren unsere Herausforderungen und Erfahrungen, die unser Verständnis und unsere Fähigkeiten erweitert haben.
+Was eins unserer größten Probleme war, waren fehlende numerische Daten während der Datenanalyse. Die Lösung dafür war, fehlende Werte mit „99“ zu codieren, anstatt sie einfach als „NA" zu belassen. Diese Strategie erwies sich als sehr sinnvoll, da sie nicht nur die Datenintegrität bewahrte, sondern auch die konsistente Analyse erleichterte. 
+Ein weiterer wichtiger Aspekt, den wir noch davor bemerkt haben, war die Bedeutung eines klaren Leitfadens für die Datenerhebung. Indem wir die Methoden und Verfahren im Voraus festgelegt haben, haben wir potenzielle Missverständnisse minimiert und sichergestellt, dass unser Datensatz von Anfang an konsistent und aussagekräftig war.
+Darüber hinaus haben wir festgestellt, wie wichtig eine effektive Aufgabenverteilung innerhalb des Teams ist. Anstatt zu erwarten, dass jedes Teammitglied alle Tools beherrscht, haben wir den Wert der Spezialisierung erkannt. Indem wir Aufgaben entsprechend den individuellen Fähigkeiten verteilt haben, konnten wir nicht nur effizienter arbeiten, sondern auch die Stärken jedes Einzelnen optimal nutzen.
+Da die Datenbereinigung ein wichtiger und aufwendiger Teil des Projektes war, sind uns auch hier einige Hürden begegnet. Hierbei haben wir Funktionen wie die Leerzeichenentfernung genutzt, um Datenkonsistenz zu gewährleisten und potenzielle Fehlerquellen zu minimieren. Besonders wichtig war natürlich auch der Abgleich der Datensätze von Edgelist und Nodelist, um sicherzustellen, dass unsere Analysen auf genauen und vollständigen Daten beruhen. Als gute Technik erwies sich dabei diese in einem separaten Reiter mit der Formel (=SVERWEIS) auf Übereinstimmungen zu überprüfen.
+Diese Erkenntnisse und Lektionen aus unserem Forschungsprojekt sind nicht nur für uns von Bedeutung, sondern können auch als wertvolle Grundlage für zukünftige Forschungen im Bereich der Netzwerkanalyse und Datenwissenschaft dienen. Unsere Erfahrungen haben nicht nur unser Verständnis von RStudio und Markdown vertieft, sondern auch unsere Fähigkeiten als Teammitglieder innerhalb eines Forschungsprojekts gestärkt. Durch die Reflexion über unsere Fehler und Erfolge während dieses Projekts sind wir gut gerüstet, um künftigen Herausforderungen mit Kompetenz zu begegnen.
